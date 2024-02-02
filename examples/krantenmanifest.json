@@ -88,6 +88,20 @@
           "p1"
         ]
       },
+      "thumbnail": [
+        {
+          "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
       "items": [
         {
           "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation-page/2c53858f-a752-4c99-92c4-fb59b0a88a9c",
@@ -142,9 +156,23 @@
       "width": 2904,
       "label": {
         "en": [
-          "La Libre Belgique 12-11-1918 p2"
+          "p2"
         ]
       },
+      "thumbnail": [
+        {
+          "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
       "items": [
         {
           "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8",
@@ -153,155 +181,17 @@
             {
               "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8/annotation/f02b2d2b-d902-463b-a6c5-4eba4b2485a3",
               "type": "Annotation",
-              "thumbnail": [
-                {
-                  "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002/full/max/0/default.jpg",
-                  "type": "Image",
-                  "format": "image/jpeg",
-                  "height": 3576,
-                  "width": 2904,
-                  "service": [
-                    {
-                      "@context": "http://iiif.io/api/image/2/context.json",
-                      "@id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002",
-                      "protocol": "http://iiif.io/api/image",
-                      "width": 2904,
-                      "height": 3576,
-                      "sizes": [
-                        {
-                          "width": 181,
-                          "height": 223
-                        },
-                        {
-                          "width": 363,
-                          "height": 447
-                        },
-                        {
-                          "width": 726,
-                          "height": 894
-                        },
-                        {
-                          "width": 1452,
-                          "height": 1788
-                        }
-                      ],
-                      "tiles": [
-                        {
-                          "width": 256,
-                          "height": 256,
-                          "scaleFactors": [
-                            1,
-                            2,
-                            4,
-                            8,
-                            16
-                          ]
-                        }
-                      ],
-                      "profile": [
-                        "http://iiif.io/api/image/2/level1.json",
-                        {
-                          "formats": [
-                            "jpg"
-                          ],
-                          "qualities": [
-                            "native",
-                            "color",
-                            "gray",
-                            "bitonal"
-                          ],
-                          "supports": [
-                            "regionByPct",
-                            "regionSquare",
-                            "sizeByForcedWh",
-                            "sizeByWh",
-                            "sizeAboveFull",
-                            "rotationBy90s",
-                            "mirroring"
-                          ],
-                          "maxWidth": 5000,
-                          "maxHeight": 5000
-                        }
-                      ],
-                      "rights": "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden",
-                      "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002"
-                    }
-                  ]
-                }
-              ],
               "motivation": "painting",
               "target": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147",
               "body": {
                 "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 3576,
-                "width": 2904,
                 "service": [
                   {
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002",
-                    "protocol": "http://iiif.io/api/image",
-                    "width": 2904,
-                    "height": 3576,
-                    "sizes": [
-                      {
-                        "width": 181,
-                        "height": 223
-                      },
-                      {
-                        "width": 363,
-                        "height": 447
-                      },
-                      {
-                        "width": 726,
-                        "height": 894
-                      },
-                      {
-                        "width": 1452,
-                        "height": 1788
-                      }
-                    ],
-                    "tiles": [
-                      {
-                        "width": 256,
-                        "height": 256,
-                        "scaleFactors": [
-                          1,
-                          2,
-                          4,
-                          8,
-                          16
-                        ]
-                      }
-                    ],
-                    "profile": [
-                      "http://iiif.io/api/image/2/level1.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "native",
-                          "color",
-                          "gray",
-                          "bitonal"
-                        ],
-                        "supports": [
-                          "regionByPct",
-                          "regionSquare",
-                          "sizeByForcedWh",
-                          "sizeByWh",
-                          "sizeAboveFull",
-                          "rotationBy90s",
-                          "mirroring"
-                        ],
-                        "maxWidth": 5000,
-                        "maxHeight": 5000
-                      }
-                    ],
-                    "rights": "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden",
-                    "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002"
+                    "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002",
+                    "type": "ImageService2",
+                    "profile": "level1"
                   }
                 ]
               }
