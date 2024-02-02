@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "/config/manifest-templates/newspaper.json",
+  "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json",
   "type": "Manifest",
   "behavior": [
     "individuals",
@@ -75,41 +75,9 @@
     }
   },
   "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
-  "provider": [
-    {
-      "id": "https://example.org/about",
-      "type": "Agent",
-      "label": { "en": [ "meemoo" ] },
-      "homepage": [
-        {
-          "id": "https://meemoo.be/",
-          "type": "Text",
-          "label": { "en": [ "Example Organization Homepage" ] },
-          "format": "text/html"
-        }
-      ],
-      "logo": [
-        {
-          "id": "https://example.org/images/logo.png",
-          "type": "Image",
-          "format": "image/png",
-          "height": 100,
-          "width": 120
-        }
-      ],
-      "seeAlso": [
-        {
-          "id": "https://data.example.org/about/us.jsonld",
-          "type": "Dataset",
-          "format": "application/ld+json",
-          "profile": "https://schema.org/"
-        }
-      ]
-    }
-  ],
   "items": [
     {
-      "id": "/config/manifest-templates/blank.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
+      "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
       "type": "Canvas",
       "height": 3567,
       "width": 2658,
@@ -117,42 +85,10 @@
         "paged"
       ],
       "label": {
-        "en": [
+        "none": [
           "La Libre Belgique 12-11-1918 p1"
         ]
       },
-      "summary": {
-        "none": [
-          "\"LA LIBRE BELGIQUE\\nJ'-v,foi dans nos destinÃ©es;\\\" tm Pays qui se dÃ©tend s'Impose au Envers les'per6onnes qui dominent par la force militaire notre respect de tous ce pays ne pÃ©rit pas! Dieu sera avec nous DAMnco pays, ayons les Ã©gards que commande l'intÃ©rÃªt gÃ©nÃ©rai Res- dans celte cause juste. FONDtE psetons les rÃ¨glements qu'elles nous imposent aussi longtemps ALBERT, Roi ofs Bel,oes (4 aoÃ»t 1914). pÃ©xroipd 101^ qu'ils ne-portent atteinte ni Ã  la liberte de nos consciences Acceptons provisoirement les sacrifices qui nous sont imposÃ©?... ^ rbVKltK 1915 -chrÃ©tiennes ni Ã  notrfe DignitÃ© Patriotique. et attendons patiemment l'heure de la rÃ©paration A. MAX* Mgr MERCIER-\\nBULLETIN DE PROPAGANDE PATRIOTIQUE - RÃ‰GULIÃˆREMENT IRREGULIER NE SE SOUMETTANT A AUCUNE CENSURE\\na ADRESSE TÃ‰LÃ‰GRAPHIQUE KOMMANDANTUR - BRUXELLES\\nBUREAUX ET ADMINISTRATION ne pouvant Ãªtre un emplacement de tout repos, ils sont installÃ©s dans une cavÃ¨ automobile\\nAINNUNLtib Les altaires Ã©tant m. sous la domination allemande,â€žnous av. supprimÃ© la page d'annonces et conseillons Ã  nos clients de rÃ©server k ' argent pour des temps meilleurs.\\nNÂ° 171 et dernier NUMERO 10 CENTIMES 12 Novembre 1918\\nPRiX DU NUA1ERO â€” L'astique, ae zÃ©ro a l'infini (priÃ¨re aux revendeurs de ne pas dÃ©passer cette Ihiiltej\""
-        ]
-      },
-      "rendering": [
-        {
-            "id": "https://iiif.io/api/cookbook/recipe/0068-newspaper/newspaper_issue_1-alto_p1.xml",
-            "type": "Text",
-            "format": "application/xml",
-            "profile": "http://www.loc.gov/standards/alto/",
-            "label": {
-                "en": [
-                    "ALTO XML"
-                ]
-            }
-        }
-    ],
-      "requiredStatement": {
-        "label": {
-          "en": [
-            "Rights statement"
-          ]
-        },
-        "value": {
-          "en": [
-            "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden"
-          ]
-        }
-      },
-      "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "navDate": "1918-11-12T00:00:00.000Z",
       "thumbnail": [
         {
           "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001/full/480,/0/default.jpg",
@@ -169,14 +105,14 @@
       ],
       "items": [
         {
-          "id": "/config/manifest-templates/blank.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation-page/2c53858f-a752-4c99-92c4-fb59b0a88a9c",
+          "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation-page/2c53858f-a752-4c99-92c4-fb59b0a88a9c",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "/config/manifest-templates/blank.json/annotation/26e0e91e-53b4-45cd-9781-ed1486b13e3d",
+              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/annotation/26e0e91e-53b4-45cd-9781-ed1486b13e3d",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "/config/manifest-templates/blank.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
+              "target": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
               "body": {
                 "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001/full/max/0/default.jpg",
                 "type": "Image",
@@ -195,7 +131,7 @@
       ]
     },
     {
-      "id": "/config/manifest-templates/blank.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147",
+      "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147",
       "type": "Canvas",
       "height": 3576,
       "width": 2904,
@@ -204,18 +140,13 @@
           "La Libre Belgique 12-11-1918 p2"
         ]
       },
-      "summary": {
-        "en": [
-          "NOTRE DERNIER NUMÃ‰RO.\\nQÃ¹e dÃ¨ fois pendant les quatre annÃ©es d'une existence aussi incertaine que mouvementÃ©e avons nous songÃ© Ã  ce dernier numÃ©ro de. 1^ Â« Libre Belgique Â»! Le voici donc enfin .. Notre mission accomplie, nous pouvons mourir. Nous avions jurÃ© que l'Allemand nous trouverait en face de lui jusqu'au dernier jour, il en coÃ»terait ce qg'il devrait en coÃ»ter, nous avons fidÃ¨lement rempli notre promesse. Ce fut dur, trÃ¨s dur parfois, mais ce n'aura pas Ã©tÃ© sans gloire ! Notre Å“uvre figurera dignement dans l'histoire d'une occupation fertile pourtant en traits hÃ©roÃ¯ques. Au dÃ©but de 1915,'aprÃ¨s que la victoire de la Marne eut dÃ©roulÃ© toutes ses consÃ©quences, on prÃ©voyait que la guerre serait longue, trÃ¨s longue. Le facteur moral allait prendre une importance Ã©norme _Les Allemands essaieraient tout pour nous dÃ©primer. IsolÃ©es du reste du monde, soumises Ã  l'action dÃ©moralisatrice d'une presse vendue, les masses n'allaient-elles pas Ã  la longue perdre ce bel entrain et ce vibrant enthousiasme qui les soulevÃ¨rent pendant les premiers temps de la guerre ? SpontanÃ©ment, car le Belge est homme d'initiative, la Â« Libre Betgr\\\"-que Â» naquit. Elle dirait â€” elle â€” la VÃ©ritÃ© toujours et quand mÃªme. Elle soutiendrait les courages. Elle dÃ©noncerait les crimes. Elle harcellerait l'ennemi sans relÃ¢che, dÃ©masquant ses plans, mettant Ã  nu ses intentions perverses. Elle serait un drapeau. Elle donnerait le mot d'ordre. Il fallut quelque temps au Boche pour comprendre. N'a pas l'esprit vif qui veut. Mais quand il eut compris, quelle explosion de rage ! Notre chÃ©re-petite feuille fut traquÃ©e jour et nuit. On avait cru d'abord Ã©touffer aisÃ©ment cette voix importune. N'avait-on pas la force ? Que pourraient quelques pauvres francs-tireurs contre un pouvoir disposant de tous les moyens et ne craignant pas de recourir aux pires ? Les premiÃ¨res rafles eurent lieu. La Â« Libre Belgique Â» avait tout de suite joui d'un grand succÃ¨s. La persÃ©cution dÃ©cupla son influence. Pas de meilleure rÃ©clame que l'importance que lui reconnaissaient ceux qui s'acharnaient contre elle. Rapidement elle devint l'Ã¢me d'une rÃ©sistance qui restera dans nos annales comme le digne pendant des faits d'armes de notre hÃ©roÃ¯que armÃ©e. On a bien voulu dire que nous avions rÃ©ussi Ã  crÃ©er une vÃ©ritable mentalitÃ©. Pas un procÃ¨s de la Â« Libre Â» sans quelle rÃ©quisitoire ne formulÃ¢t ce Â« grief Â». Il est exagÃ©rÃ©. Qu'il nous suffise d'avoir maintenu et alimentÃ© jusqu'au bout le patriotisme de nos chers compatriotes. TrÃ¨s vite en effet la Â« Libre Â» rayonna dans le pays entretenant partout le feu sacrÃ©. Par elle, le Belge connut ce que le Teuton voulait cacher. Echo fidÃ¨le des grandes voix qui ne cessÃ¨rent de s'Ã©lever en pays â–  occupÃ© contre la tyrannie, elle fut Ã©galement le rayon desoleilqui parvint Ã  dissiper quelque peu les tÃ©nÃ¨bres dans lesquelles on nous tenait plongÃ©s. Ce que l'Ã©tranger pensait de notre pays, l'admiration et le culte d'un monde Ã©tonnÃ© de tant de grandeur d'Ã me et d'un si bel hÃ©roÃ¯sme, les hommages des hommes d'Etats alliÃ©s, leurs serments solennels de nous assister jusqu'au bout, .tout cela rÃ©conforta la Belgique occupÃ©e. Nous y aurons Ã©tÃ© pour quelque chose. Mais notre grand crime â€” paraÃ®t-il â€” fÃ»t d'avoir Ã©tÃ© un csntre de ralliement et un drapeau. Dans la question des rÃ©quisitions iniques, lors des dÃ©portations barbares, au moment de l'infÃ¢me essai de sÃ©paration administrative, le mot d'ordre fut donnÃ© par la Â« Libre Belgique Â». Les Belges, en masse, le suivirent. De lÃ  ces diatribes enflammÃ©s et ces rÃ©quisitoires passionnÃ©s, de lÃ  ces peines terribles, de lÃ  toute cette fureur teutonne qui quatre annÃ©es durant nous poursuivit sans relÃ¢che et ne rÃ©ussit qu'Ã  aurÃ©oler noire Å“uvre Rageimpuissante d'ailleurs, et qÃ¹e son impuissance mÃªme devait faire croÃ®tre sans cesse. Nos nombreux amis qui, par centaines, tombÃ¨rent victimes d'une tÃ¢che librement assumÃ©e, d'un patriotisme avide de faire plus que son devoir, peuvent en tÃ©moigner. Qui dÃ©crira jamais ce que ces officiers et ces soldats d'une armÃ©e Â« intÃ©rieure Â» dont les combats auront assurÃ© toute son efficacitÃ© Ã  celle qui lutte lÃ -bas aux cÃ´tÃ©s de nos grands alliÃ©s, souffrirent pour la Â« Libre Belgique ? Qui dÃ©crira ce qu'un ennemi aux abois inventa pour saisir l'insaisissable? Parfois, tout semblait perdu Ils tenaient tgut : rÃ©dacteurs, imprimeur, dÃ©pÃ´ts, distributeurs. DÃ©jÃ  la rue de Berlaymont entonnait des chants dÃ¨ triomphe ! Dans les interrogatoires on proclamait la fin de l'horrible cauchemar. Tel auditeur militaire s'Ã©criait lyriquement en pleine sÃ©ance de tribunal : Â« Cette fois, c'est bien fini, nous l'avons enfin ! Le lendemain elle paraissait quand mÃªme !.... Â« C'est magnifique ! La Â« Libre Â» est vraiment comme un drapeau ! Â« DÃ©chiquetÃ©, trouÃ© par les balles,\\\" noirci par la poudre, il flotte tou- Â» jours ! Lambeau glorieux qu'on se passe comme une relique, emblÃ¨- Â» me superbe d'une rÃ©sistance hÃ©roÃ¯que, toujours des dÃ©vouements nou* Â» veaux se seront trouvÃ©s pour le maintenir quand mÃªme jusqu'au Â«bout!....Â» - v Est-ce assez vrai ? Aussi, que rÃ©pondre Ã  la question : Â« la Â« Libre Â» qui est-ce donc ? Â» La Â« Libre Belgique Â» est une lignÃ©e, une tradition, dont la beautÃ© et la noblesse rachÃ¨tent le peu de durÃ©e. Depuis prÃ¨s dedeux ans les mÃªmes mains serrent le drapeau. Toutefois, celui auquel Ã©chut l'homneur de ramasser le glorieux Ã©tendart en fÃ©vrier 1917, et qui parvint Ã  maintenir, dressÃ© jusqu'au bout, le symbole de la rÃ©sistance, en est encore Ã  ignorer les noms et les prouesses de ceux qui, avant lui, ont commandÃ© la manÅ“uvre et menÃ© le combat.\\nIl ne connaÃ®t pas plus d'ailleurs les noms de la plupart de ces collaborateurs fidÃ¨les qui mirent leur plume au service du Droit, ni surtout de ces innombrables propagandistes, hÃ©ros ignorÃ©s, dans les rangs desquels l'ennemi fit les plus grands ravages. Et toujours les volontaires affluÃ¨rent trop nombreux Les conditions mÃªmes dans lesquelles le Â« bureau spÃ©cial Â» affectÃ© Ã  notre poursuite nous forÃ§ait Ã  travailler ont donnÃ© Ã  notre Å“uvre ce caractÃ¨re d'anonymat donj nous sommes fi\\\"rs-car il est le friÃ®ifd'un dÃ©sintÃ©ressement si sincÃ¨re et d'un chevaleresque si noble qu'il idÃ©alise Ã  jamais un effort sublime : faire briller la VÃ©ritÃ© dans le plus noir des cachots I Que d'incroyables aventures en quatre ans ! Il y en eut de terribles, de sanglantes mÃªme. Il y en eut surtout de grotesques Beaucoup d'anecdotes et de pÃ©ripÃ©ties seront connues, mais une histoire de la Â« Libre Belgique Â» n'est pas possible. Å’uvre de francs-tireurs oÃ¹ toutes les bonnes^ volontÃ©s trouvÃ¨rent leur emploi, mieux vaut la laisser nimbÃ©e de ce mystÃ¨re qui fit une grande 'partie de sa. puissance. Deux choses pourtant doivent Ãªtre dites aujourd'hui La Â« Libre Belgique Â» ne fut l'Å“uvre ni d'un parti, ni d'une coterie. TÃ§utefois, et les listes des condamnations sont lÃ  pour en tÃ©moigner, ce fut une Å“uvre essentiellement catholique. C'est dans l'intensitÃ© de leur vie religieuse, que la majoritÃ©, pour jie Â£as dire la presque totalitÃ©, de ceux qui se dÃ©vouÃ¨rent pour elle, puisÃ¨rent l'esprit de sacrifice qu'il fallait. Les juges, si on peut appeler\\\" juges les ignobles personnages chargÃ©s de conduire les instructions, le savaient bien. Â« Catholique sans doute ?Â» Ã©tait depuis longtemps une remarque usuelle. Mais si noussommesd'ardeÂ»tscroyants,onreconnaitraquÃ ' la Â«LibreÂ» nous fÃ»mes bons patriotes. Notre journal est restÃ© l'organe national que les circonstances exigeaient. Tenus Ã©crasÃ©s sous la botte de l'oppresseur, nous n'avions qu'un devoir : kÃ©sister La lutte Confessionnelle et la lutte politique reprendraient plus tard. Tant que durerait l'occupation, l'union de tous contre l'ennemi ^commandait une neutralitÃ© de bon aloi, une trÃªve aux dissensions intestines. La Â« Libre Belgique peut-se rendre le tÃ©moignage d'avoir Ã©tÃ© toujours fidÃ¨le Ã  ce programme, D'autre part, jamais une idÃ©e d'intÃ©rÃªt ou Â« d'aprÃ¨s guerre Â» ne vint Ã  l'esprit de ceux qui pendant ces annÃ©es se dÃ©pensÃ¨rent corps et Ã¢me au, seryiee d'une entreprise qu'ils croyaient utile Ã  leur chÃ¨re Patrie. Journalistes.de fortune, francs-tireurs de la presse, nous nous sommes toujours promis de cesser le'feu, le jour oÃ¹ le journalisme ne serait plus une guerre de guÃ©rilla et oÃ¹ les troupes rÃ©guliÃ¨res rentreraient dans la bataille. â€ž â€ž La fin de l'occupation rend la libertÃ© Ã  la presse. Nous disparaissons. A tous nos collaborateurs, merci !... La Patrie saura reconnaÃ®tre notre Å“uvre. Merci Ã  tous ceux qui n'ont pas hÃ©sitÃ© Ã  s'exposer et Ã  exposer les leurs. Merci Ã  nos nombreux imprimeurs. Leur dÃ©sintÃ©ressement fut souvent Ã  la.hauteur de leur courage. Merci Ã  nos dÃ©positaires, merci Ã  nos porteurs, merci Ã  nos lecteurs, car lire la Â« Libre Â» n'Ã©tait pas toujours sans danger... -Merci Ã  ceux qui nous soutinrent de leurs oboles, Ã  ceux qui ne pouvant nous aider matÃ©riellement, furent nos coopÃ©rateurs spirituels. Que d'Ã¢mes d'Ã©lite qui Â« mÃ©ritÃ¨rent Â» pour nous ! Que de priÃ¨res, de bonnes Å“uvres, d'e sacrifices offerts Ã  notre intention ! Le secret de cette invulnÃ©rabilitÃ© extraordinaire e*t lÃ  Nos plus Â« puissants Â» collaborateurs Ã©taient imrrenables. HÃ©raut de la VÃ©ritÃ©, la Â« Libre Â» rie pouvait disparaÃ®tre sans rendre hommage Ã  cette vÃ©rite-lÃ . Non, notre histoire ne s'e< rira jamais ! Que nous rÃ©serve l'avenir .' Nous l'ignorons. Mais le mot d'ordre qui nous soutint toujours dans la rude bataille d'hier vaudra encore pour les I ittes de demain, livrÃ©es au grand soleil de la libertÃ© : Faire son devoir chaque jour, quand mÃªme, advienne que pourra! La Libre Belgique.\\nAu rendez-vous.\\nIl en coÃ»tera, ce qu'il doit en coÃ»ter, mais, nous en faisons le serment, Votre MajestÃ© trouvera pour l'acclamer lors de son entrÃ©e triomphale dans sa'chÃ¨re capitale, une Ã©dition spÃ©ciale de la - Â« Libre Belgique Â». (Libre Belgique, nÂ° i35, novÂ° 1917). Sire, A l'heure la plus cruelle des premiers temps de l'invasion, quand sur le dernier lambeau du territoire, les dÃ©bris extÃ©nuÃ©s de notre armÃ©e, allaient se retourner pour faire tÃªte aux masses formidables de l'ennemi. Votre majestÃ© affirma de nouveau, Ã  la face du monde, l'indomptable fidÃ©litÃ© du peuple et du Gouvernement belges aux obligations de l'honneur national et leur foi invincible dans la rÃ©surrection de la Patrie. Depuis lors, pendant plus de quatre ans, ces fiÃ¨res paroles n'ont pas cessÃ© de retentir dans nos cÅ“urs avec les Ã©chos du canon de l'Yser. Au milieu de nos Ã©preuves et de nos deuils, elles ont Ã©tÃ© pour nous la rÃ¨gle de-r.os devoirs et le gage d'une impÃ©rissable espÃ©rance. De tous les biens pour la dÃ©fense desquels notre pays s^Ã©tait levÃ©, le plus cher et le plus rsacrÃ© demeurait inviolÃ© 1 nos braves petits soldats avaient sauvÃ© l'antique renom cle nos armes Celui de la Patrie belge avait grandi de toute l'immensitÃ© de nos malheurs. Et si redoutable que fÃ»t la puissance de l'ennemi, nous savions dÃ©jÃ  qu'il n'Ã©tait pas de taille Ã  coucher ou du moins Ã  maintenir dans le tombeau un peu-"
-        ]
-      },
       "items": [
         {
-          "id": "/config/manifest-templates/blank.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8",
+          "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "/config/manifest-templates/blank.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8/annotation/f02b2d2b-d902-463b-a6c5-4eba4b2485a3",
+              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147/annotation-page/8e3f2fb7-9df1-4ed9-8bc0-e90c198c68f8/annotation/f02b2d2b-d902-463b-a6c5-4eba4b2485a3",
               "type": "Annotation",
               "thumbnail": [
                 {
@@ -294,7 +225,7 @@
                 }
               ],
               "motivation": "painting",
-              "target": "/config/manifest-templates/blank.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147",
+              "target": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/5e259317-bc10-4190-b484-cd55e5c26147",
               "body": {
                 "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0002/full/max/0/default.jpg",
                 "type": "Image",
