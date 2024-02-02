@@ -134,7 +134,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation/e58deece-030c-400b-b934-0081cfbbe4f2",
+              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/krantenmanifest.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation/e58deece-030c-400b-b934-0081cfbbe4f2/ocr",
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
