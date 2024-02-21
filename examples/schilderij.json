@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>.json",
+  "id": "https://iiif.meemoo.be/presentation/3/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.json",
   "type": "Manifest",
   "label": {
     "nl": [
@@ -36,7 +36,7 @@
             ]
           },
           "value": [
-            "<schema:name>"
+            "002 voorlopige titel Ensor"
           ]
         },
         {
@@ -49,7 +49,7 @@
             ]
           },
           "value": [
-            "<schema:description>"
+            "null"
           ]
         },
         {
@@ -62,7 +62,7 @@
             ]
           },
           "value": [
-            "<schema:creator>"
+            "James Ensor"
           ]
         },
         {
@@ -75,7 +75,7 @@
             ]
           },
           "value": [
-            "schema:dateCreated^edtf"
+            ""
           ]
         }
       ],
@@ -89,7 +89,7 @@
           ]
         },
         "value": [
-          "korte tekst die moet worden weergegeven o.a. voor auteursrecht, de collectiehouder, fotograaf, ..."
+          "www.artinflanders.be een initiatief van meemoo, Fotograaf Michel Burez"
         ]
       },
       "rights": "CC0",
@@ -107,8 +107,8 @@
                 "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": "<height_in_px>",
-                "width": "<width_in_px>",
+                "height": "1747",
+                "width": "2362",
                 "service": [
                   {
                     "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph",
@@ -125,12 +125,12 @@
   ],
   "thumbnail": [
     {
-      "id": "<link_to_image_api_uri>/full/480,/0/default.jpg",
+      "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph/full/480,/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
         {
-          "id": "<link_to_image_api_uri>",
+          "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph",
           "type": "ImageService3",
           "profile": "level1"
         }
