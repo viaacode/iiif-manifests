@@ -16,7 +16,7 @@
   "items": [
     {
       "id": "https://iiif.meemoo.be/presentation/3/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2/canvas/1",
-      "type": "Canvas"
+      "type": "Canvas",
       "metadata": [
         {
           "label": {
@@ -98,7 +98,7 @@
               "body": {
                 "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph/full/max/0/default.jpg",
                 "type": "Image",
-                "format": "image/jpeg"
+                "format": "image/jpeg",
                 "service": [
                   {
                     "id": "https://images.meemoo.be/iiif/public/OR-x921j0n/9c/9c51e86a03b24b3d87e07b1b7d3b58d2c90efe9e4d9f4de78ce5fc48ce0f972f281631c9693b46b497708474ea0236f2.jph",
