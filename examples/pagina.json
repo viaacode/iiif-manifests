@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/editie.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "La Libre Belgique 12-11-1918 p.1"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Type"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://schema.org/CreativeWorkSeries",
+          "https://schema.org/Periodical"
+        ],
+        "en": [
+          "Newspaper Page"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "nl": [
+          "Taal"
+        ]
+      },
+      "value": {
+        "none": [
+          "fr"
+        ]
+      }
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "navDate": "1918-11-12T00:00:00.000Z",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "nl": [
+        "Attributie"
+      ]
+    },
+    "value": {
+      "none": [
+        "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden"
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
+      "type": "Canvas",
+      "height": 3567,
+      "width": 2658,
+      "behavior": [
+        "paged"
+      ],
+      "label": {
+        "none": [
+          "p1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation-page/2c53858f-a752-4c99-92c4-fb59b0a88a9c",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/annotation/26e0e91e-53b4-45cd-9781-ed1486b13e3d",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c",
+              "body": {
+                "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.meemoo.be/8p5v698x44_19181112_0001",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c/annotation-page/e58deece-030c-400b-b934-0081cfbbe4f2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/annotation/ebbc7a74-32da-401c-ae57-b113440e1712",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "fr",
+                "format": "text/plain",
+                "value": "LA LIBRE BELGIQUE\\nJ'-v,foi dans nos destinées;\\\" tm Pays qui se détend s'Impose au Envers les'per6onnes qui dominent par la force militaire notre respect de tous ce pays ne périt pas! Dieu sera avec nous DAMnco pays, ayons les égards que commande l'intérêt générai Res- dans celte cause juste. FONDtE psetons les règlements qu'elles nous imposent aussi longtemps ALBERT, Roi ofs Bel,oes (4 août 1914). péxroipd 101^ qu'ils ne-portent atteinte ni à la liberte de nos consciences Acceptons provisoirement les sacrifices qui nous sont imposé?... ^ rbVKltK 1915 -chrétiennes ni à notrfe Dignité Patriotique. et attendons patiemment l'heure de la réparation A. MAX* Mgr MERCIER-\\nBULLETIN DE PROPAGANDE PATRIOTIQUE - RÉGULIÈREMENT IRREGULIER NE SE SOUMETTANT A AUCUNE CENSURE\\na ADRESSE TÉLÉGRAPHIQUE KOMMANDANTUR - BRUXELLES\\nBUREAUX ET ADMINISTRATION ne pouvant être un emplacement de tout repos, ils sont installés dans une cavè automobile\\nAINNUNLtib Les altaires étant m. sous la domination allemande,„nous av. supprimé la page d'annonces et conseillons à nos clients de réserver k ' argent pour des temps meilleurs.\\nN° 171 et dernier NUMERO 10 CENTIMES 12 Novembre 1918\\nPRiX DU NUA1ERO — L'astique, ae zéro a l'infini (prière aux revendeurs de ne pas dépasser cette Ihiiltej"
+              },
+              "target": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/pagina.json/canvas/a7ea268b-f054-463c-ad72-56193aef3b1c"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
