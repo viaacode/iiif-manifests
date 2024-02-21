@@ -1,0 +1,165 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>.json",
+  "type": "Manifest",
+  "label": {
+    "nl": [
+      "<schema:name@nl>"
+    ],
+    "en": [
+      "<schema:name@en>"
+    ]
+  },
+  "summary": {
+    "en": [
+      "<schema:description@en>"
+    ],
+    "nl": [
+      "<schema:description@nl>"
+    ]
+  },
+  "navDate": "<schema:dateCreated^datetime>",
+  "items": [
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/canvas/<uuid>",
+      "type": "Canvas",
+      "height": "<height_in_px>",
+      "width": "<width_in_px>",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Title"
+            ],
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": [
+            "<schema:name>"
+          ]
+        },
+        {
+          "label": {
+            "en": [
+              "Description"
+            ],
+            "nl": [
+              "Beschrijving"
+            ]
+          },
+          "value": [
+            "<schema:description>"
+          ]
+        },
+        {
+          "label": {
+            "en": [
+              "Creator"
+            ],
+            "nl": [
+              "Maker"
+            ]
+          },
+          "value": [
+            "<schema:creator>"
+          ]
+        },
+        {
+          "label": {
+            "en": [
+              "Date published"
+            ],
+            "nl": [
+              "Publicatiedatum"
+            ]
+          },
+          "value": [
+            "schema:dateCreated^edtf"
+          ]
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Attributie"
+          ]
+        },
+        "value": [
+          "korte tekst die moet worden weergegeven o.a. voor auteursrecht, de collectiehouder, fotograaf, ..."
+        ]
+      },
+      "rights": "schema:license",
+      "items": [
+        {
+          "id": "<link_to_image_api_uri: https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier>.jp2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/annotation/<uuid>",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/canvas/<uuid>",
+              "body": {
+                "id": "link_to_image_api_uri>/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": "<height_in_px>",
+                "width": "<width_in_px>",
+                "service": [
+                  {
+                    "id": "<link_to_image_api_uri>",
+                    "profile": "level2",
+                    "type": "ImageService3"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "<link_to_image_api_uri>/full/480,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "<link_to_image_api_uri>",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "provider": [
+    {
+      "id": "<org-iri>",
+      "type": "Agent",
+      "label": {
+        "none": [
+          "<org:preflabel>"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "<org-api-cp-website>",
+          "type": "Text",
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "<org-api-logo-url>",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json",
+  "type": "Manifest",
+  "behavior": [
+    "individuals",
+    "paged"
+  ],
+  "label": {
+    "none": [
+      "<schema:name>"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Type"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://schema.org/CreativeWorkSeries",
+          "https://schema.org/Periodical"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "language"
+        ]
+      },
+      "value": [
+          "<schema:inLanguage>"
+        ]
+      }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2/full/480,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2",
+          "protocol": "http://iiif.io/api/image",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "navDate": "<schema:dateCreated^datetime>",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "nl": [
+        "Attributie"
+      ]
+    },
+    "value": {
+      "none": [
+        "<text or link>"
+      ]
+    }
+  },
+  "rights": "<schema:license>",
+  "items": [
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>",
+      "type": "Canvas",
+      "height": 3567,
+      "width": 2658,
+      "behavior": [
+        "paged"
+      ],
+      "label": {
+        "none": [
+          "p1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<1>",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/annotation-page/<1>/annotation/<1>",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>",
+              "body": {
+                "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<2>",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<2>/annotation/<1>",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "<schema:inLanguage>",
+                "format": "text/plain",
+                "value": "<FULL TEXT OCR (schema:description)>"
+              },
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>",
+      "type": "Canvas",
+      "height": 3576,
+      "width": 2904,
+      "label": {
+        "none": [
+          "p2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-2>.jp2/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-2>.jp2",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<1>",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<1>/annotation/<1>",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>",
+              "body": {
+                "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-2>.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-2>.jp2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<2>",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<2>/annotation/<1>",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "<schema:inLanguage>",
+                "format": "text/plain",
+                "value": "<schema:description (FULL TEXT OCR)>"
+              },
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provider": [
+    {
+      "id": "<org-iri>",
+      "type": "Agent",
+      "label": {
+        "none": [
+          "<org:preflabel>"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "<org-api-cp-website>",
+          "type": "Text",
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "<org-api-logo-url>",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ]
+    }
+  ]
+}
