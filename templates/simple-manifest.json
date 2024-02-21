@@ -29,74 +29,60 @@
         {
           "label": {
             "en": [
-              "title"
+              "Title"
+            ],
+            "nl": [
+              "Titel"
             ]
           },
           "value": {
             "en": [
-              "schema:name@en"
-            ]
-          }
-        },
-        {
-          "label": {
-            "nl": [
-              "titel"
-            ]
-          },
-          "value": {
-            "nl": [
-              "schema:name@nl"
+              "schema:name"
             ]
           }
         },
         {
           "label": {
             "en": [
-              "description"
+              "Description"
+            ],
+            "nl": [
+              "Beschrijving"
             ]
           },
           "value": {
             "en": [
-              "schema:description@en"
-            ]
-          }
-        },
-        {
-          "label": {
-            "nl": [
-              "beschrijving"
-            ]
-          },
-          "value": {
-            "nl": [
-              "schema:description@nl"
+              "schema:description"
             ]
           }
         },
         {
           "label": {
             "en": [
-              "creator"
+              "Creator"
+            ],
+            "nl": [
+              "Maker"
             ]
           },
           "value": {
             "en": [
-              "schema:creator@en"
+              "schema:creator"
             ]
           }
         },
         {
           "label": {
+            "en": [
+              "Date published"
+            ],
             "nl": [
-              "maker"
+              "Publicatiedatum"
             ]
           },
-          "value": {
-            "nl": [
-              "schema:creator@nl"
-            ]
-          }
+          "value": [
+            "schema:dateCreated^edtf"
+          ]
         }
       ],
       "requiredStatement": {
@@ -162,7 +148,7 @@
       "type": "Agent",
       "label": {
         "none": [
-          "Example Organization"
+          "<org:preflabel>"
         ]
       },
       "homepage": [
