@@ -4,10 +4,10 @@
   "type": "Manifest",
   "label": {
     "nl": [
-      "schema:name@nl"
+      "schema:name"
     ],
     "en": [
-      "schema:name@en"
+      "schema:name"
     ]
   },
   "summary": {
@@ -88,14 +88,15 @@
       "requiredStatement": {
         "label": {
           "en": [
-            "attribution"
+            "Attribution"
+          ],
+          "nl": [
+            "Attributie"
           ]
         },
-        "value": {
-          "en": [
-            "korte tekst die moet worden weergegeven o.a. voor auteursrecht, de collectiehouder, fotograaf, ..."
-          ]
-        }
+        "value": [
+          "korte tekst die moet worden weergegeven o.a. voor auteursrecht, de collectiehouder, fotograaf, ..."
+        ]
       },
       "rights": "schema:license",
       "items": [
