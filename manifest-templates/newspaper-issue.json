@@ -138,7 +138,7 @@
             {
               "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>/annotation-page/<2>/annotation/<1>",
               "type": "Annotation",
-              "motivation": "commenting",
+              "motivation": "supplementing",
               "body": {
                 "type": "TextualBody",
                 "language": "<schema:inLanguage>",
@@ -209,7 +209,7 @@
             {
               "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>/annotation-page/<2>/annotation/<1>",
               "type": "Annotation",
-              "motivation": "commenting",
+              "motivation": "supplementing",
               "body": {
                 "type": "TextualBody",
                 "language": "<schema:inLanguage>",
