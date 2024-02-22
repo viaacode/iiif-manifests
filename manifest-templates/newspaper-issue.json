@@ -1,7 +1,16 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json",
+  "@context": [
+    "https://data.hetarchief.be/ns/description/NewspaperIssue",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json",
   "type": "Manifest",
+  "partOf": [
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-title>.json",
+      "type": "Collection"
+    }
+  ],
   "behavior": [
     "individuals",
     "paged"
@@ -20,8 +29,7 @@
       },
       "value": {
         "none": [
-          "http://schema.org/CreativeWorkSeries",
-          "https://schema.org/Periodical"
+          "haDes:NewsPaperIssue"
         ]
       }
     },
@@ -32,9 +40,9 @@
         ]
       },
       "value": [
-          "<schema:inLanguage>"
-        ]
-      }
+        "<schema:inLanguage>"
+      ]
+    }
   ],
   "thumbnail": [
     {
@@ -70,7 +78,7 @@
   "rights": "<schema:license>",
   "items": [
     {
-      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>",
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>",
       "type": "Canvas",
       "height": 3567,
       "width": 2658,
@@ -98,14 +106,14 @@
       ],
       "items": [
         {
-          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<1>",
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<haDes:pageNumber>/annotation-page/<1>",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/annotation-page/<1>/annotation/<1>",
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/annotation-page/<1>/annotation/<1>",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>",
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>",
               "body": {
                 "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-1>.jp2/full/max/0/default.jpg",
                 "type": "Image",
@@ -124,11 +132,11 @@
       ],
       "annotations": [
         {
-          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<2>",
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>/annotation-page/<2>",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>/annotation-page/<2>/annotation/<1>",
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>/annotation-page/<2>/annotation/<1>",
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
@@ -137,14 +145,14 @@
                 "format": "text/plain",
                 "value": "<FULL TEXT OCR (schema:description)>"
               },
-              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<1>"
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<1>"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>",
+      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>",
       "type": "Canvas",
       "height": 3576,
       "width": 2904,
@@ -169,14 +177,14 @@
       ],
       "items": [
         {
-          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<1>",
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>/annotation-page/<1>",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<1>/annotation/<1>",
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>/annotation-page/<1>/annotation/<1>",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>",
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>",
               "body": {
                 "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-newspaperpage-2>.jp2/full/max/0/default.jpg",
                 "type": "Image",
@@ -195,11 +203,11 @@
       ],
       "annotations": [
         {
-          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<2>",
+          "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>/annotation-page/<2>",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>/annotation-page/<2>/annotation/<1>",
+              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>/annotation-page/<2>/annotation/<1>",
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
@@ -208,7 +216,7 @@
                 "format": "text/plain",
                 "value": "<schema:description (FULL TEXT OCR)>"
               },
-              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper>.json/canvas/<2>"
+              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie-newspaper-issue>.json/canvas/<2>"
             }
           ]
         }
