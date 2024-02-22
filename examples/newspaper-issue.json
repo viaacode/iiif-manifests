@@ -139,7 +139,7 @@
             {
               "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/main/examples/newspaper-issue.json/canvas/1/annotation-page/2/annotation/ocr",
               "type": "Annotation",
-              "motivation": "commenting",
+              "motivation": "supplementing",
               "body": {
                 "type": "TextualBody",
                 "language": "fr",
