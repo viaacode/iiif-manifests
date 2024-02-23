@@ -225,23 +225,23 @@
   ],
   "provider": [
     {
-      "id": "<org-iri>",
+      "id": "<org:identifier>",
       "type": "Agent",
       "label": {
         "none": [
-          "<org:preflabel>"
+          "<skos:preflabel>"
         ]
       },
       "homepage": [
         {
-          "id": "<org-api-cp-website>",
+          "id": "<foaf:homepage>",
           "type": "Text",
           "format": "text/html"
         }
       ],
       "logo": [
         {
-          "id": "<org-api-logo-url>",
+          "id": "<haOrg:hasLogo>",
           "type": "Image",
           "format": "image/png"
         }
