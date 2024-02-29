@@ -1,8 +1,22 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>.json",
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://iiif.meemoo.be/presentation/3/<ie-identifier>.json",
   "type": "Manifest",
+  "partOf": [
+    {
+      "id": "<schema:isPartOf^iri>??",
+      "type": "Collection"
+    }
+  ],
+  "behavior": [
+    "individuals"
+  ],
   "label": {
+    "none": [
+      "<schema:name>"
+    ],
     "nl": [
       "<schema:name@nl>"
     ],
@@ -11,104 +25,135 @@
     ]
   },
   "summary": {
-    "en": [
-      "<schema:description@en>"
+    "none": [
+      "<schema:description>"
     ],
     "nl": [
       "<schema:description@nl>"
+    ],
+    "en": [
+      "<schema:description@en>"
     ]
   },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Type"
+        ]
+      },
+      "value": {
+        "en": [
+          "<dct:format>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "<schema:datePublished^edtf>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "<schema:identifier^iri>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Other identifiers"
+        ]
+      },
+      "value": {
+        "none": [
+          "<premis:identifier>"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-fragmentid.jp2|h>/full/480,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier-fragmentid.jp2|h>",
+          "protocol": "http://iiif.io/api/image",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right",
   "navDate": "<schema:dateCreated^datetime>",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "nl": [
+        "Attributie"
+      ]
+    },
+    "value": {
+      "none": [
+        "<text or link>"
+      ]
+    }
+  },
+  "rights": "<schema:license>",
   "items": [
     {
-      "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/canvas/<uuid>",
+      "id": "https://iiif.meemoo.be/presentation/3/<ie-identifier>.json/canvas/<1>",
       "type": "Canvas",
-      "height": "<height_in_px>",
-      "width": "<width_in_px>",
-      "metadata": [
+      "label": {
+        "none": [
+          "<schema:name>"
+        ]
+      },
+      "thumbnail": [
         {
-          "label": {
-            "en": [
-              "Title"
-            ],
-            "nl": [
-              "Titel"
-            ]
-          },
-          "value": [
-            "<schema:name>"
-          ]
-        },
-        {
-          "label": {
-            "en": [
-              "Description"
-            ],
-            "nl": [
-              "Beschrijving"
-            ]
-          },
-          "value": [
-            "<schema:description>"
-          ]
-        },
-        {
-          "label": {
-            "en": [
-              "Creator"
-            ],
-            "nl": [
-              "Maker"
-            ]
-          },
-          "value": [
-            "<schema:creator>"
-          ]
-        },
-        {
-          "label": {
-            "en": [
-              "Date published"
-            ],
-            "nl": [
-              "Publicatiedatum"
-            ]
-          },
-          "value": [
-            "schema:dateCreated^edtf"
+          "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-fragmentid.jp2|h>/full/480,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-fragmentid.jp2|h>",
+              "protocol": "http://iiif.io/api/image",
+              "profile": "level1"
+            }
           ]
         }
       ],
-      "requiredStatement": {
-        "label": {
-          "en": [
-            "Attribution"
-          ],
-          "nl": [
-            "Attributie"
-          ]
-        },
-        "value": [
-          "korte tekst die moet worden weergegeven o.a. voor auteursrecht, de collectiehouder, fotograaf, ..."
-        ]
-      },
-      "rights": "schema:license",
       "items": [
         {
-          "id": "<link_to_image_api_uri: https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-identifier>.jp2",
+          "id": "link_to_image_api_uri: https://iiif.meemoo.be/image/3/<public>/<or-id>/<id>/<ie-fragmentid.jp2|h>",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/annotation/<uuid>",
+              "id": "https://iiif.meemoo.be/presentation/3/<ie-identifier>/annotation/<uuid>",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://iiif.meemoo.be/presentation/3/<identifier-ie>/canvas/<uuid>",
+              "target": "https://iiif.meemoo.be/presentation/3/<ie-identifier>/canvas/<uuid>",
               "body": {
                 "id": "link_to_image_api_uri>/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": "<height_in_px>",
-                "width": "<width_in_px>",
                 "service": [
                   {
                     "id": "<link_to_image_api_uri>",
@@ -120,42 +165,48 @@
             }
           ]
         }
-      ]
-    }
-  ],
-  "thumbnail": [
-    {
-      "id": "<link_to_image_api_uri>/full/480,/0/default.jpg",
-      "type": "Image",
-      "format": "image/jpeg",
-      "service": [
+      ],
+      "annotations": [
         {
-          "id": "<link_to_image_api_uri>",
-          "type": "ImageService3",
-          "profile": "level1"
+          "id": "https://iiif.meemoo.be/presentation/3/<ie-identifier>.json/canvas/<1>/annotation-page/<2>",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/<ie-identifier>.json/canvas/<1>/annotation-page/<2>/annotation/<1>",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "TextualBody",
+                "language": "<schema:inLanguage>",
+                "format": "text/plain",
+                "value": "<FULL TEXT OCR (schema:description)>"
+              },
+              "target": "https://iiif.meemoo.be/presentation/3/<ie-identifier>.json/canvas/<1>"
+            }
+          ]
         }
       ]
     }
   ],
   "provider": [
     {
-      "id": "<org-iri>",
+      "id": "<org:identifier>",
       "type": "Agent",
       "label": {
         "none": [
-          "<org:preflabel>"
+          "<skos:preflabel>"
         ]
       },
       "homepage": [
         {
-          "id": "<org-api-cp-website>",
+          "id": "<foaf:homepage>",
           "type": "Text",
           "format": "text/html"
         }
       ],
       "logo": [
         {
-          "id": "<org-api-logo-url>",
+          "id": "<haOrg:hasLogo>",
           "type": "Image",
           "format": "image/png"
         }
