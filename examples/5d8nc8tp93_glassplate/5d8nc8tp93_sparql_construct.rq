@@ -1,0 +1,63 @@
+PREFIX as: <http://www.w3.org/ns/activitystreams#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dctypes: <http://purl.org/dc/dcmitype/>
+PREFIX exif: <http://www.w3.org/2003/12/exif/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX iiif_prezi: <http://iiif.io/api/presentation/3#>
+PREFIX iiif_image: <http://iiif.io/api/image/3#>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX haLic: <https://data.hetarchief.be/id/license/>
+PREFIX mh: <https://data.hetarchief.be/ns/mediahaven/>
+PREFIX haObj: <https://data.hetarchief.be/ns/object/>
+PREFIX rel: <http://id.loc.gov/vocabulary/preservation/relationshipSubType/>
+PREFIX premis: <http://www.loc.gov/premis/rdf/v3/>
+
+CONSTRUCT {
+  ?manifest_iri a iiif_prezi:Manifest ;
+                rdfs:label ?title_nl ;
+                as:items ?canvas_iri .
+  #  ?requiredStatement rdfs:label "Attribution"@en;
+  #                       rdf:value ?copyright_en .
+  ?canvas_iri a iiif_prezi:Canvas ;
+              as:items ?annotation_page_iri .
+  ?annotation_page_iri a iiif_prezi:AnnotationPage ;
+                       as:items ?annotation_iri .
+  ?annotation_iri a iiif_prezi:Annotation ;
+                  iiif_prezi:motivation "painting" ;
+                  oa:hasBody ?body_iri .
+  ?body_iri a dctypes:StillImage ;
+            dct:format "image/jpeg" ;
+            as:service ?service_iri .
+  ?service_iri a iiif_image:ImageService ;
+               dct:conformsTo "level2" .
+}
+WHERE {
+  #  ?metadata_title_nl rdfs:label "titel"@nl;
+  #                  rdf:value ?title_nl .
+  ?s prov:wasDerivedFrom ?mh_record ;
+     schema:license ?license ;
+     schema:name ?title ;
+     haObj:hasIIIFCopy ?iiif_representation ;
+     schema:copyrightNotice ?copyright ;
+     schema:identifier ?pid .
+  ?mh_record mh:fragmentIdentifier ?fragment_id .
+  ?iiif_representation rel:inc ?iiif_file .
+  ?iiif_file premis:storedAt ?iiif_file_location .
+  ?iiif_file_location rdf:value ?iiif_file_url .
+  FILTER (?license IN (haLic:IIIF-PUBLIC))
+  BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/manifest.json")) AS ?manifest_iri)
+  BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1")) AS ?canvas_iri)
+  BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1")) AS ?annotation_page_iri)
+  BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1/annotation/1")) AS ?annotation_iri)
+  BIND (IRI(CONCAT(str(?iiif_file_url), "/full/max/0/default.jpg")) AS ?body_iri)
+  BIND (?iiif_file_url AS ?service_iri)
+  BIND (IF(lang(?title) = "nl", ?title, 1 / 0) AS ?title_nl)
+  BIND (STRLANG(?copyright, "en") AS ?copyright_en)
+  #  IIIF structure IRIs
+  #  Specific values
+}
