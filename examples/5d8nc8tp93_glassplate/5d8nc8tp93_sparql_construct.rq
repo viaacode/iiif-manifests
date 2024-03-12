@@ -29,6 +29,7 @@ CONSTRUCT {
                        as:items ?annotation_iri .
   ?annotation_iri a iiif_prezi:Annotation ;
                   iiif_prezi:motivation "painting" ;
+                  iiif_prezi:target ?canvas_iri ;
                   oa:hasBody ?body_iri .
   ?body_iri a dctypes:StillImage ;
             dct:format "image/jpeg" ;
