@@ -35,10 +35,12 @@ CONSTRUCT {
             as:service ?service_iri .
   ?service_iri a iiif_image:ImageService ;
                dct:conformsTo "level2" .
-}
-WHERE {
+
   #  ?metadata_title_nl rdfs:label "titel"@nl;
   #                  rdf:value ?title_nl .
+}
+WHERE {
+  
   ?s prov:wasDerivedFrom ?mh_record ;
      schema:license ?license ;
      schema:name ?title ;
@@ -50,14 +52,17 @@ WHERE {
   ?iiif_file premis:storedAt ?iiif_file_location .
   ?iiif_file_location rdf:value ?iiif_file_url .
   FILTER (?license IN (haLic:IIIF-PUBLIC))
+
+  #  IIIF structure IRIs
   BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/manifest.json")) AS ?manifest_iri)
   BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1")) AS ?canvas_iri)
   BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1")) AS ?annotation_page_iri)
   BIND (IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1/annotation/1")) AS ?annotation_iri)
   BIND (IRI(CONCAT(str(?iiif_file_url), "/full/max/0/default.jpg")) AS ?body_iri)
   BIND (?iiif_file_url AS ?service_iri)
+
+  #  Specific values
   BIND (IF(lang(?title) = "nl", ?title, 1 / 0) AS ?title_nl)
   BIND (STRLANG(?copyright, "en") AS ?copyright_en)
-  #  IIIF structure IRIs
-  #  Specific values
+  
 }
