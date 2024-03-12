@@ -2,7 +2,7 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json",
+  "id": "https://raw.githubusercontent.com/viaacode/iiif-manifests/IIIF-52-simple-example/examples/glasplaat.json",
   "type": "Manifest",
   "behavior": [
     "individuals"
