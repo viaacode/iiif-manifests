@@ -70,9 +70,21 @@
             "none": "@none"
           }
         },
-        "motivation": "iiif_prezi:motivation"
+        "motivation": "iiif_prezi:motivation",
+        "target": {
+          "@id": "oa:hasTarget",
+          "@type": "@id"
+        },
+        "body": {
+          "@id": "oa:hasBody",
+          "@container": "@set",
+          "@context": {
+            "none": "@none"
+          }
+        }
       }
     },
+    "Image": "dctypes:StillImage",
 
     "label": {
       "@id": "rdfs:label",
@@ -92,6 +104,9 @@
       "@type": "@id",
       "@id": "as:items",
       "@container": "@set"
+    },
+    "format": {
+      "@id": "dc:format"
     }
   }
 }
