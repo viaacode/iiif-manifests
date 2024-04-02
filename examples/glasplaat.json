@@ -82,7 +82,7 @@
       "service": [
         {
           "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph",
-          "protocol": "http://iiif.io/api/image",
+          "type": "ImageService3",
           "profile": "level1"
         }
       ]
