@@ -1,0 +1,334 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "iiif_prezi": "http://iiif.io/api/presentation/3#",
+    "iiif_image": "http://iiif.io/api/image/3#",
+    "exif": "http://www.w3.org/2003/12/exif/ns#",
+    "oa": "http://www.w3.org/ns/oa#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dctypes": "http://purl.org/dc/dcmitype/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "as": "http://www.w3.org/ns/activitystreams#",
+    "ebu": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+    "schema": "https://schema.org/",
+    "id": "@id",
+    "type": "@type",
+    "Collection": {
+      "@id": "iiif_prezi:Collection",
+      "@context": {
+        "partOf": {
+          "@id": "dcterms:partOf",
+          "@type": "@id",
+          "@container": "@set"
+        }
+      }
+    },
+    "Manifest": {
+      "@id": "iiif_prezi:Manifest",
+      "@context": {
+        "partOf": {
+          "@id": "dcterms:partOf",
+          "@type": "@id",
+          "@container": "@set"
+        }
+      }
+    },
+    "Canvas": {
+      "@id": "iiif_prezi:Canvas",
+      "@context": {
+        "partOf": {
+          "@id": "dcterms:partOf",
+          "@type": "@id",
+          "@container": "@set"
+        },
+        "thumbnail": {
+          "@id": "iiif_prezi:thumbnail",
+          "@container": "@set"
+        }
+      }
+    },
+    "AnnotationPage": {
+      "@id": "as:OrderedCollectionPage",
+      "@context": {
+        "label": {
+          "@id": "rdfs:label",
+          "@container": [
+            "@language",
+            "@set"
+          ],
+          "@context": {
+            "none": "@none"
+          }
+        }
+      }
+    },
+    "Annotation": {
+      "@id": "oa:Annotation",
+      "@context": {
+        "label": {
+          "@id": "rdfs:label",
+          "@container": [
+            "@language",
+            "@set"
+          ],
+          "@context": {
+            "none": "@none"
+          }
+        },
+        "motivation": "iiif_prezi:motivation",
+        "target": {
+          "@id": "oa:hasTarget",
+          "@type": "@id"
+        },
+        "body": {
+          "@id": "oa:hasBody",
+          "@container": "@set",
+          "@context": {
+            "service": {
+              "@type": "@id",
+              "@id": "schema:potentialAction",
+              "@container": "@set"
+            }
+          }
+        },
+        "service": {
+          "@type": "@id",
+          "@id": "schema:potentialAction",
+          "@container": "@set"
+        }
+      }
+    },
+    "Image": "dctypes:StillImage",
+    "label": {
+      "@id": "rdfs:label",
+      "@container": [
+        "@language",
+        "@set"
+      ],
+      "@context": {
+        "none": "@none"
+      }
+    },
+    "value": {
+      "@id": "rdf:value",
+      "@container": [
+        "@language",
+        "@set"
+      ],
+      "@context": {
+        "none": "@none"
+      }
+    },
+    "items": {
+      "@type": "@id",
+      "@id": "as:items",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "dc:format"
+    },
+    "behavior": {
+      "@id": "iiif_prezi:behavior",
+      "@type": "@vocab",
+      "@container": "@set",
+      "@context": {
+        "auto-advance": "iiif_prezi:autoAdvanceHint",
+        "no-auto-advance": "iiif_prezi:noAutoAdvanceHint",
+        "repeat": "iiif_prezi:repeatHint",
+        "no-repeat": "iiif_prezi:noRepeatHint",
+        "unordered": "iiif_prezi:unordered",
+        "individuals": "iiif_prezi:individualsHint",
+        "continuous": "iiif_prezi:continuousHint",
+        "paged": "iiif_prezi:pagedHint",
+        "facing-pages": "iiif_prezi:facingPagesHint",
+        "non-paged": "iiif_prezi:nonPagedHint",
+        "multi-part": "iiif_prezi:multiPartHint",
+        "together": "iiif_prezi:togetherHint",
+        "sequence": "iiif_prezi:sequenceHint",
+        "thumbnail-nav": "iiif_prezi:thumbnailNavHint",
+        "no-nav": "iiif_prezi:noNavHint",
+        "hidden": "iiif_prezi:noneHint"
+      }
+    },
+    "metadata": {
+      "@id": "iiif_prezi:metadataEntries",
+      "@container": "@set",
+      "@context": {
+        "none": "@none"
+      }
+    },
+    "thumbnail": {
+      "@type": "@id",
+      "@id": "iiif_prezi:thumbnail",
+      "@container": "@set"
+    },
+    "service": {
+      "@type": "@id",
+      "@id": "schema:potentialAction",
+      "@container": "@set",
+      "@context": {
+        "ImageService3": {
+          "@id": "http://iiif.io/api/image/3#ImageService"
+        }
+      }
+    },
+    "profile": "dcterms:conformsTo",
+    "ImageService3": "iiif_image:ImageService",
+    "protocol": "dcterms:type",
+    "requiredStatement": {
+      "@id": "iiif_prezi:requiredStatement",
+      "@type": "@id"
+    },
+    "rights": {
+      "@id": "dcterms:rights"
+    },
+    "provider": {
+      "@type": "@id",
+      "@id": "schema:provider",
+      "@container": "@set"
+    },
+    "Agent": "dcterms:Agent"
+  },
+  "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json",
+  "type": "Manifest",
+  "behavior": [
+    "individuals"
+  ],
+  "metadata": [
+    {
+      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#type",
+      "value": {
+        "en": [
+          "photo"
+        ]
+      },
+      "label": {
+        "nl": [
+          "Type"
+        ],
+        "en": [
+          "Type"
+        ]
+      }
+    },
+    {
+      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#dateCreated",
+      "value": {
+        "none": [
+          "1900/1960"
+        ]
+      },
+      "label": {
+        "nl": [
+          "Datum"
+        ],
+        "en": [
+          "Date"
+        ]
+      }
+    },
+    {
+      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#pid",
+      "value": {
+        "none": [
+          "5d8nc8tp93"
+        ]
+      },
+      "label": {
+        "nl": [
+          "PID"
+        ],
+        "en": [
+          "PID"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#requiredStatement",
+    "value": {
+      "nl": [
+        "© UGENT"
+      ],
+      "en": [
+        "© UGENT"
+      ]
+    },
+    "label": {
+      "nl": [
+        "Attributie"
+      ],
+      "en": [
+        "Attribution"
+      ]
+    }
+  },
+  "thumbnail": [
+    {
+      "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph/full/480,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph",
+          "type": "ImageService3",
+          "profile": "level1",
+          "protocol": "http://iiif.io/api/image"
+        }
+      ]
+    }
+  ],
+  "rights": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+  "label": {
+    "nl": [
+      "Vlakbeelden Midden Rijk"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1",
+      "type": "Canvas",
+      "thumbnail": [
+        {
+          "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph/full/480,/0/default.jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1/page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg"
+                }
+              ],
+              "target": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://data.hetarchief.be/id/organization/OR-0z70w1b",
+      "type": "Agent",
+      "label": {
+        "nl": [
+          "Universiteitsbibliotheek Gent"
+        ]
+      }
+    }
+  ]
+}
