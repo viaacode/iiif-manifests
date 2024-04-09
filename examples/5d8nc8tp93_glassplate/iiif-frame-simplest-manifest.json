@@ -1,9 +1,10 @@
 {
   "@type": "Manifest",
+  "@embed": "@always",
   "@context": {
     "@version": 1.1,
     "iiif_prezi": "http://iiif.io/api/presentation/3#",
-    "iiif_image": "http://iiif.io/api/image/3#",
+    "iiif_image_3": "http://iiif.io/api/image/3#",
     "exif": "http://www.w3.org/2003/12/exif/ns#",
     "oa": "http://www.w3.org/ns/oa#",
     "dc": "http://purl.org/dc/elements/1.1/",
@@ -18,83 +19,34 @@
     "schema": "https://schema.org/",
     "id": "@id",
     "type": "@type",
-    "Collection": {
-      "@id": "iiif_prezi:Collection",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
-        }
-      }
-    },
     "Manifest": {
-      "@id": "iiif_prezi:Manifest",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
-        }
-      }
+      "@id": "iiif_prezi:Manifest"
     },
     "Canvas": {
-      "@id": "iiif_prezi:Canvas",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
-        }
-      }
+      "@id": "iiif_prezi:Canvas"
     },
     "AnnotationPage": {
-      "@id": "as:OrderedCollectionPage",
-      "@context": {
-        "label": {
-          "@id": "rdfs:label",
-          "@container": ["@language", "@set"],
-          "@context": {
-            "none": "@none"
-          }
-        }
-      }
+      "@id": "as:OrderedCollectionPage"
     },
     "Annotation": {
       "@id": "oa:Annotation",
       "@context": {
-        "label": {
-          "@id": "rdfs:label",
-          "@container": ["@language", "@set"],
-          "@context": {
-            "none": "@none"
-          }
-        },
-        "motivation": "iiif_prezi:motivation",
-        "target": {
-          "@id": "oa:hasTarget",
-          "@type": "@id"
+        "motivation": {
+          "@id": "oa:motivatedBy"
         },
         "body": {
-          "@id": "oa:hasBody",
-          "@container": "@set",
-          "@context": {
-            "none": "@none"
-          }
+          "@type": "@id",
+          "@id": "oa:hasBody"
+        },
+        "target": {
+          "@type": "@id",
+          "@id": "oa:hasTarget"
         }
       }
     },
     "Image": "dctypes:StillImage",
-
     "label": {
       "@id": "rdfs:label",
-      "@container": ["@language", "@set"],
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "value": {
-      "@id": "rdf:value",
       "@container": ["@language", "@set"],
       "@context": {
         "none": "@none"
