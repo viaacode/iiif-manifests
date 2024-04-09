@@ -4,6 +4,7 @@
 @prefix evtAgRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/> .
 @prefix evtObjRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole/> .
 @prefix evtOutcome: <http://id.loc.gov/vocabulary/preservation/eventOutcome/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix haCarId: <https://data.hetarchief.be/id/carrier-type/> .
 @prefix haEvtId: <https://data.hetarchief.be/id/event-type/> .
 @prefix haLic: <https://data.hetarchief.be/id/license/> .
@@ -58,6 +59,26 @@
     # Dynamic.dc_rights_licenses.multiselect (L160-171)
     schema:license haLic:BEZOEKERTOOL-CONTENT, haLic:BEZOEKERTOOL-METADATA-ALL, haLic:VIAA-INTRA_CP-CONTENT, haLic:VIAA-INTRA_CP-METADATA-ALL, haLic:VIAA-ONDERWIJS, haLic:VIAA-ONDERZOEK, haLic:VIAA-PUBLIEK-METADATA-LTD, haLic:IIIF-PUBLIC ;
     prov:wasDerivedFrom <5d8nc8tp93_mediahaven_record> .
+
+# Data taken from the organizations data
+haOrgId:OR-0z70w1b a org:Organization, haOrg:ContentPartner ;
+  skos:prefLabel "Universiteitsbibliotheek Gent"@nl ;
+  schema:contactPoint haOrgId:7e8490a539ee0fdf56ae5f4ff55194c7, haOrgId:e81efd9ddc733667096ba89b88275db7 ;
+  foaf:homepage <https://lib.ugent.be> ;
+  dct:description "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;
+  skos:altLabel "UGent"@nl ;
+  org:classification <https://data.hetarchief.be/id/organization-type/archief> ;
+  org:hasPrimarySite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+  org:hasSite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+  org:identifier "OR-0z70w1b" ;
+  mh:tenantName "ugent" ;
+  haOrg:allowsBZT false ;
+  haOrg:allowsOverlay true ;
+  haOrg:hasAccountManager haOrgId:ccef9d6f3c0fdba69e8ea3cfa6d89dbc ;
+  haOrg:hasLogo <https://assets.viaa.be/images/OR-0z70w1b> ;
+  haOrg:requestForm "{local\\\\_cp\\\\_id}" ;
+  haOrg:sector "Cultuur" .
+
 
 <5d8nc8tp93_carrier_representation> a haObj:CarrierRepresentation ;
     schema:name "Dragerversie (photo): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl, "Carrier version (photo): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en, "Version sur support (photo): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr;
@@ -165,7 +186,7 @@
   
 <5d8nc8tp93_iiif_file> a premis:File;
     premis:storedAt [ 
-        rdf:value <https://iiif.meemoo.be/image/3/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d>
+        rdf:value <https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d>
         ] ;
     prov:wasDerivedFrom <5d8nc8tp93_mediahaven_record> .
 
