@@ -1,0 +1,280 @@
+@prefix crypHashFunc: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
+@prefix evtAgRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/> .
+@prefix evtObjRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole/> .
+@prefix evtOutcome: <http://id.loc.gov/vocabulary/preservation/eventOutcome/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix haCarId: <https://data.hetarchief.be/id/carrier-type/> .
+@prefix haEvtId: <https://data.hetarchief.be/id/event-type/> .
+@prefix haLic: <https://data.hetarchief.be/id/license/> .
+@prefix haObj: <https://data.hetarchief.be/ns/object/> .
+@prefix haOrg: <https://data.hetarchief.be/ns/organization/> .
+@prefix haOrgId: <https://data.hetarchief.be/id/organization/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix premis: <http://www.loc.gov/premis/rdf/v3/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rel: <http://id.loc.gov/vocabulary/preservation/relationshipSubType/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix storMedium: <http://id.loc.gov/vocabulary/preservation/storageMedium/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix haDes: <https://data.hetarchief.be/ns/descriptive/> .
+@prefix mh: <https://data.hetarchief.be/ns/mediahaven/> .
+
+@base <https://data.hetarchief.be/id/entity/> .
+
+<b0afa7404377f7ce492513a65d7e260c>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <68ef64cc816499685d4632d0729a404c> ;
+    haObj:isMasterCopyOf       <306221addb52256c58fd98c4ee4756e6> ;
+    schema:name                "Archive master (tif): '0k26971d59_19160915_0002.tif' (306221addb52256c58fd98c4ee4756e6)"@en ;
+    schema:name                "Maître d'archive (tif): '0k26971d59_19160915_0002.tif' (306221addb52256c58fd98c4ee4756e6)"@fr ;
+    schema:name                "Archiefmaster (tif): '0k26971d59_19160915_0002.tif' (306221addb52256c58fd98c4ee4756e6)"@nl ;
+    rel:inc                    <284303d552fa9108fa9e7fea78153a09> ;
+    rel:rep                    <306221addb52256c58fd98c4ee4756e6> .
+
+<a3e4627e4d98794ef8bb969a4b570c9f>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <ec120d266c6b03f5a9418edd01de877f> ;
+    haObj:isMezzanineCopyOf    <306221addb52256c58fd98c4ee4756e6> ;
+    schema:name                "Mezzanine copy (jp2): '0k26971d59_19160915_0002.jp2' (306221addb52256c58fd98c4ee4756e6)"@en ;
+    schema:name                "Mezzaninekopie (jp2): '0k26971d59_19160915_0002.jp2' (306221addb52256c58fd98c4ee4756e6)"@nl ;
+    schema:name                "Copie mezzanine (jp2): '0k26971d59_19160915_0002.jp2' (306221addb52256c58fd98c4ee4756e6)"@fr ;
+    rel:inc                    <42db2985b684c972199d0208904e05a8> ;
+    rel:rep                    <306221addb52256c58fd98c4ee4756e6> .
+
+<cf5ea49d41a21ad0aa338520c866f864>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <68ef64cc816499685d4632d0729a404c> ;
+    haObj:isAccessCopyOf       <306221addb52256c58fd98c4ee4756e6> ;
+    schema:name                "Lageresolutiekopie (jpg): '0k26971d59_19160915_0002.tif' (0k26971d59)"@nl ;
+    schema:name                "Low-resolution copy (jpg): '0k26971d59_19160915_0002.tif' (0k26971d59)"@en ;
+    schema:name                "Copie en basse résolution (jpg): '0k26971d59_19160915_0002.tif' (0k26971d59)"@fr ;
+    rel:inc                    <f25bbce6a9d602f9cac001fd346fe74d> ;
+    rel:rep                    <306221addb52256c58fd98c4ee4756e6> .
+
+<f25bbce6a9d602f9cac001fd346fe74d>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/jpeg" ;
+    premis:originalName        "browse.jpg" ;
+    premis:size                "0"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <63fdd3d8e17ef5b600fa89b4bf953ea2> ;
+    prov:wasDerivedFrom        <68ef64cc816499685d4632d0729a404c> ;
+    schema:name                "browse.jpg"@nl ;
+    schema:thumbnailUrl        <https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse.jpg> ;
+    rel:isi                    <cf5ea49d41a21ad0aa338520c866f864> .
+
+<1082a7ba5fc7c10891c1eea99f3dd210>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "application/xml" ;
+    premis:fixity              <76d1a4f0c031ad1db8526e721b8e22e2> ;
+    premis:originalName        "0k26971d59_19160915_0001_alto.xml" ;
+    premis:size                "364096"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <e801c32a56d2101174c7cc0e75071e36> ;
+    prov:wasDerivedFrom        <a6618699cc32b194bad1c3af92ea20fe> ;
+    schema:name                "0k26971d59_19160915_0001_alto.xml"@nl ;
+    rel:isi                    <c424838e026b0c638c85abe7e77576d7> .
+
+<c424838e026b0c638c85abe7e77576d7>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <a6618699cc32b194bad1c3af92ea20fe> ;
+    schema:name                "Représentation numérique (alto): '0k26971d59_19160915_0001_alto.xml' (53c0a058a83772a0920f5e094954af38)"@fr ;
+    schema:name                "Digital representation (alto): '0k26971d59_19160915_0001_alto.xml' (53c0a058a83772a0920f5e094954af38)"@en ;
+    schema:name                "Digitale representatie (alto): '0k26971d59_19160915_0001_alto.xml' (53c0a058a83772a0920f5e094954af38)"@nl ;
+    schema:thumbnailUrl        <https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png> ;
+    rel:hss                    <e275821ed12bb9540395d6f6171919f8> ;
+    rel:inc                    <1082a7ba5fc7c10891c1eea99f3dd210> ;
+    rel:rep                    <53c0a058a83772a0920f5e094954af38> .
+
+<403751c4d6328d0a36f7ec1aec905a9b>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/tiff" ;
+    premis:fixity              <ea51fdb69c631919ab00ab9a39d40875> ;
+    premis:originalName        "0k26971d59_19160915_0001.tif" ;
+    premis:size                "41530736"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <b0afd5f242073f159608f8c8b163f09b> ;
+    prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
+    schema:name                "0k26971d59_19160915_0001.tif"@nl ;
+    rel:isi                    <e275821ed12bb9540395d6f6171919f8> .
+
+<e275821ed12bb9540395d6f6171919f8>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
+    haObj:isMasterCopyOf       <53c0a058a83772a0920f5e094954af38> ;
+    schema:name                "Maître d'archive (tif): '0k26971d59_19160915_0001.tif' (53c0a058a83772a0920f5e094954af38)"@fr ;
+    schema:name                "Archiefmaster (tif): '0k26971d59_19160915_0001.tif' (53c0a058a83772a0920f5e094954af38)"@nl ;
+    schema:name                "Archive master (tif): '0k26971d59_19160915_0001.tif' (53c0a058a83772a0920f5e094954af38)"@en ;
+    rel:inc                    <403751c4d6328d0a36f7ec1aec905a9b> ;
+    rel:rep                    <53c0a058a83772a0920f5e094954af38> .
+
+<284303d552fa9108fa9e7fea78153a09>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/tiff" ;
+    premis:fixity              <510d5dd3255e88418fb6731bb8812fec> ;
+    premis:originalName        "0k26971d59_19160915_0002.tif" ;
+    premis:size                "42079736"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <3b69e2f7c99a0ac18e3480471ebc70ca> ;
+    prov:wasDerivedFrom        <68ef64cc816499685d4632d0729a404c> ;
+    schema:name                "0k26971d59_19160915_0002.tif"@nl ;
+    rel:isi                    <b0afa7404377f7ce492513a65d7e260c> .
+
+<5a2ad8061fbbe3f0ddb017f2e6a64a37>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/jpeg" ;
+    premis:originalName        "browse.jpg" ;
+    premis:size                "0"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <550f57a142b7b87615dc7880851634e5> ;
+    prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
+    schema:name                "browse.jpg"@nl ;
+    schema:thumbnailUrl        <https://archief-media.viaa.be/viaa/UGENT/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9/browse.jpg> ;
+    rel:isi                    <cc799afcf96f14b38dddf2f84ca36eb8> .
+
+<2146d15bfb72f407f1c3134fe73d0d60>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "application/xml" ;
+    premis:fixity              <64815bfd70ae5661c03718f0be05c61e> ;
+    premis:originalName        "0k26971d59_19160915_0002_alto.xml" ;
+    premis:size                "411818"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <d8848f5df55a195816d9ecdc851e4dbd> ;
+    prov:wasDerivedFrom        <cdd3bc77e24219e0772ec42f0d1cd156> ;
+    schema:name                "0k26971d59_19160915_0002_alto.xml"@nl ;
+    rel:isi                    <69153490aeec11296a08dbfcdc69c13d> .
+
+<69153490aeec11296a08dbfcdc69c13d>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <cdd3bc77e24219e0772ec42f0d1cd156> ;
+    schema:name                "Digital representation (alto): '0k26971d59_19160915_0002_alto.xml' (306221addb52256c58fd98c4ee4756e6)"@en ;
+    schema:name                "Digitale representatie (alto): '0k26971d59_19160915_0002_alto.xml' (306221addb52256c58fd98c4ee4756e6)"@nl ;
+    schema:name                "Représentation numérique (alto): '0k26971d59_19160915_0002_alto.xml' (306221addb52256c58fd98c4ee4756e6)"@fr ;
+    schema:thumbnailUrl        <https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png> ;
+    rel:hss                    <b0afa7404377f7ce492513a65d7e260c> ;
+    rel:inc                    <2146d15bfb72f407f1c3134fe73d0d60> ;
+    rel:rep                    <306221addb52256c58fd98c4ee4756e6> .
+
+haOrgId:OR-0z70w1b
+    a       haOrg:ContentPartner, org:Organization ;
+    skos:prefLabel             "Universiteitsbibliotheek Gent"@nl ;
+    foaf:homepage              <https://lib.ugent.be> ;
+    dct:description            "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;
+    mh:tenantName              "ugent" ;
+    haOrg:allowsBZT            false ;
+    haOrg:allowsOverlay        true ;
+    haOrg:hasAccountManager    <ccef9d6f3c0fdba69e8ea3cfa6d89dbc> ;
+    haOrg:hasLogo              <https://assets.viaa.be/images/OR-0z70w1b> ;
+    haOrg:requestForm          "{local\\_cp\\_id}" ;
+    haOrg:sector               "Cultuur" ;
+    schema:contactPoint        <e81efd9ddc733667096ba89b88275db7>, <7e8490a539ee0fdf56ae5f4ff55194c7> ;
+    skos:altLabel              "UGent"@nl ;
+    org:classification         <https://data.hetarchief.be/id/organization-type/archief> ;
+    org:hasPrimarySite         <f207e47b3c51228c0f07144936918fe2> ;
+    org:hasSite                <f207e47b3c51228c0f07144936918fe2> ;
+    org:identifier             "OR-0z70w1b" .
+
+<0k26971d59>
+    a                          haDes:NewspaperIssue, premis:IntellectualEntity ;
+    schema:dateCreated         "1916-09-15"^^edtf:EDTF-level0 ;
+    schema:identifier          "0k26971d59" ;
+    premis:identifier          <cd9be4967a4ebe509cc2a6893a3e96f0> ;
+    prov:wasDerivedFrom        <8c793c8e94b5d5b6d35a4cdeeb6d3f8b> ;
+    dct:format                  "newspaper" ;
+    schema:inLanguage          "nl" ;
+    schema:isPartOf            <https://anet.be/record/opacbnc/c:bnc:206/N> ;
+    schema:maintainer          haOrgId:OR-0z70w1b ;
+    schema:name                "De Gentenaar. De landwacht. De kleine patriot"@nl ;
+    rel:hsr                    <53c0a058a83772a0920f5e094954af38> ;
+    rel:isr                    <249914c091b3fa8a4de0d2e4f3cdc312> ;
+    rel:hsp                    <53c0a058a83772a0920f5e094954af38>, <306221addb52256c58fd98c4ee4756e6> ;
+    haDes:numberOfPages        "2"^^xsd:nonNegativeInteger ;
+    schema:issueNumber         "38:222" .
+
+<306221addb52256c58fd98c4ee4756e6>
+    a                          haDes:NewspaperIssuePage, premis:IntellectualEntity ;
+    schema:dateCreated         "1916-09-15"^^edtf:EDTF-level0 ;
+    schema:identifier          "306221addb52256c58fd98c4ee4756e6" ;
+    prov:wasDerivedFrom        <68ef64cc816499685d4632d0729a404c> ;
+    dct:format                 "newspaperpage" ;
+    haObj:hasAccessCopy        <cf5ea49d41a21ad0aa338520c866f864> ;
+    haObj:hasMasterCopy        <b0afa7404377f7ce492513a65d7e260c> ;
+    haObj:hasMezzanineCopy     <a3e4627e4d98794ef8bb969a4b570c9f> ;
+    schema:copyrightNotice     "© UGent" ;
+    schema:description         "fés en K-raatnur Babuck, werden sonder uH-«snderin : cp den anderen oevervandea Donauw fSTer. éb v-cht, waar zij volgens het zeggen der W.vo k'ns, opgehouden worden achter de stad K i h, in de nabijheid van den oever vaa le s .-.om, om dea laffen vijand tegen het Bu',-fàaisc; e uur te beschutten. M A CE DONISCH FRONT. - Op 10 Sep. tKbbcf ai er een Toetvolkgevecht pîaats ten twidc a het Os»rowo-meer, tegen ean zoua-iëar y ai dea daç te vorea verslagen. In à streek van Maglenitza en Us de Wardar-**Hei. ederrijdsch kononnenvuur. la ■ Srrwina-vaîlei, kebbeû vijandelijke èsiac'r • saten gepoogd de rivier over te steken màen he!4 <àw *orpea Newolem ea Kardi- Door onze ttmpea «HgevaJîen werden zij catior ce zwaarste verllezan teruggeworpen. tij • Struma-monding, hebben verscheidene pBR- Ische kompaniën, gesteund door geschut ë-5» de rechteroevar der rivier en door kanon-tso, |.:-.'poogd vooruît te gaan Oostwaarts : zij %«r-• •- door ons vuur an'haald en asngev&ll n in in huifte oiteangsstellingen terugîeworpen. T* vimadige bataljoas. die voornam n 4ezen «pmarsch te ateunen, zijn verstrooid £<î' Oîf'.ari door ons kanonaeavuur. ' «n - fijandefcjke vtoot kruist aaar gewoonte langa 4« kwst <6sr Egeesclhe Zee voor Kavalla en r iea'cferea io den golf va» Orfano. SOFIA, 12 September. — Officiëel : RUMEENSCH FRONT. - Aie den Donau-seveî h trach rast. Het oprukken onzer troepen ia da Bwferoedscha duutt voort. BALKANFRONT. — Gisterea, Il Septem-feer. ta de streek van hat Ostrowa-meer z?ra.k fttôllertovuuf en patroeljegevechten. la het ge-weal vas de Jtfeglica beeft de vijand met kleine Jfdaeîiagen aaasrevallen, doch werd overal door #bs vuur afgeiresrd. In het Wardar-dal en bij Dùir&a, levendig artillerievaur. Bij het Butkowo-meer zijn twee Italiaansche fecuipagnëii met machiengeweren, e venais een itka.'son in de richtiag op h t dorp Butk'owa-Dzutja tpgesebo;en, maar werden door een Êou(4eB iegeaaanval van onze troepen verstrooid. > ïtalianen werden gavan rea geaomen. Dit is 6ns eerste treffen met de Italianen. la het rial van ds S-roema heeft de vijand in feat iftiVecbt op de-n 10 S ptember bij de dorpen Kevelcrj en Kardeikoej 7 officierea e» rond 160 sian aan d»oden rerlorea. Ve!e gewrren, &a-~eU, ammunitie en indcr oor!o<smateriaal, aat de vijaad tij.-ieiis sijr.e vlucht had we^gewor-fea, wtrdca buitpernaakt. In dat gevecbt wer-aea Schotsche officierea en 100 Eagrtlschen gevangea genomea. Aan de Egeische ku?t '.ruiste de vijandelijke ^loot. Onze watervîiegtuigea heb'ien de vijan-«ejijke vloot in de haven van Kawalla met sncces aangevallen. Sorlog in EBLjIB ia FBAITKSIJ'K l\"r*asoha bariohtaa. PARIJS, 12 september. — Ten Z. vaa de Somme werd een Duit_che aanval op een d r Fransche loopgrachten ten O. van Balloy-en-aanterre g makkeiijk met haad^ranafen afges'a-gen. Een groote verrichtin? ston ! aan de Fran-«ehen toe ean Duitsche lorjpgr chi te bez: ttea •en Z. van het kerk'aof van Berny. Overal eîdsrs de gewone beschieting tijdens den nacht. PARIjS, 12 September, avondberichî. — Da 'ïlr g we d heden voongczet ten Noorden va; de Somme. Oas voetvolk heeft ee-- krachtdad g ofifensitf bewerks elligd op een front va:, otnjrent 6 kilometers, van aan het gewest ten Zui en van Combles, tôt a n de rivif-r. De aanval, rond 12.30 ure aasgevan^en, werd. voortsezet en ontwifrkelde zich vluchtig, dank *an den voortreÉfehjken geestdritt der troepen, a\".e in min dan een haîf uur, gehe\"l de eers'e linie der vijandelijke loopgrachten innamen. Vervolfiens, met dezslfde krachidadigheid, aua.ien aanval uaar het Oosten richtend, namen •nze voetvolksoldaten opvolgenthik de heliing 145, e bosschen Manières en gar.sch het vijan-«eiijk loopgrachtea stels *1 in tôt aan den weg Van Bapauaie naar Péronne welke zij omzoomt\n?an aan de Zuidelijke boschranden van Raucourt tôt aan hetZuiden van Bouchavesnes. Meer aaar het Zuiden hebben -vij onze liniëu vc-ornitgestoo'en tôt aan heurelfop 76, gelegen Sen Wes en vaa Feuillan^ourt. Tôt nog toe bedraagt het cijfer der krijgsge-yangenen 1.500 inan, waaronder talrijke officier en. Ten Zuiden der Somme, geweldig artillerie-gevecht in verschillende sektors, zouder iamen-fing van voetvolk. Op het overige van het front afgewisseld kanonvuur. Engelsoh beriohtsn: LONDEN, 12 Septembîr. — Gisterea avond heeft ons geschutvuur twee groote brandea gesticht in de vijandelijke opslagplaatsen vaa muiiitie te Graa icourt. Oostenrijksch-Staiiaanssha ooriog Xtallaansoli barioht, ROME, 12 September. — Tnsschea à? Vallarsa ea het dal van de boven-Posina heeft da vijand, na een heviçe bescbie'.ing, gisferea een aan-, al gedaan op de stellingen, eergistereB door ons veroverd. Hij is aanstonds terug e-slagen. Onze troepea hebben opuieaw kleine vorderingea gemaakt in de Vallarsa en het dal van de boven-Posina. In kleine gevacbten op den La^alusi (Trave-nanz-sdal,) op de hellin.'en van den Ci ma Bocche (Travignolo-dal) en op den Skme (Monte Ne:o, hebben wij den vijand teruggedrongen ea hem verîieze» toegebracht. Aan de Isonzo is niets van belang gebeuvd. Een vijandelijk vliegtuig heeft bommen ge-worpenop San Pietro (Gorz) ; r ismand is ge-deerd en er is geea schade aansericat. RÏÏSSISCH-DÏÏIÏSCHII 003L03 Busaïaoh borloht. ST-PETERSBURG, 12 September. - In df streek van de rivier Bialy Ose emosa hebben onze trorpen verscheidene hoogten bezet. Pogingen /an den vijand oin ze te hernemen zijn mis'ukt. In de B.sch-Karpsthen hebboa on?« troepen de geheele bsrgketen ten Noorden Capu! veroverd en bij <ie vervolgiag vaa dea vijand ook den Capul self. Zij hebben 13 officieren en 900 man gevangen genomen, 7 raitraljeuz^.n, 3 bomv;er; ers ea I zooklicht buitgeaiaakt. op ZEZ LONDEN, 12 September. — Het in dî?n grond boren wordt g mald van de Noorsche stoomschepen » Furu », « Fredavore » en « Polynes a ». Vaa de bemanning dor « Poîy-nesia » ztjn er 24 te Penzance (Zuidkust vaa Engeland) geland ; 4 man wordan vermist. De «Furu», in 1900 geboawd, mat 2029 ton bruto en behoorde aan de Akties Dpsk. Furu te Bergen. De «Fredavore ■, in 138! gebouwd, saat 1576 ton bruto en behoorde aan de A;.ties Fredavoro (Lundegaard & Siray) te Far-und. De « Polynesîi », in 1895 gebouwd, mat 4064 ton bruto ea b hoorde aan de Antarctic Whalitg Co Akties te Larvik. il In den Baikan. Hst oTsasiof vaa S&rrail. Er wordt gemeia dat generaal Sirrail schijnt toegegeven te hebben aan de drukking op hsm uitgeoefend, en bevel te hebben «egevea tôt herneming v_n het oSensief tegea Macedonië. In aile geval zi n de Fransche bladen e en-par ig in de laatste Engelsche aanvallen aaa het Wes'elijk gedee'te van het Salouixa-front bat be.rin van eea nie a v algemeea offensief, vaa hetwelk zij verwacbten dit het de Bulgaren ait de Dob\"u scha !o k< n zal. Da tosstanS ia C5rie&ealaaîl. De meest tegeis-rij lige geruchlen nopens de opvo'.ging van Zaïaiis doen in Parij3 de ronde. De « Informat on » verneemt uit Athene : In politieke i r agen wordt verzekerd dat\nkoning Kcnstautijn het inzicht had, opnieuw de vorming v.m aet kabinet aan Skuludis toe te vertrouwen. De Koning zal er nochtans waarschijnlijkop gesteld zijn d t Zaïmis zijn ontslag Intrekke. De « Matin » beweert dat de openbare meernng zich voor de lrandidatuur van Veuizelos verkkren zaL De Fransche bladen vernemen nog uit Athene dat d ; Koning den Knonprics naar Athene terugriep, alwaar eea familieraad zo.t ge'iouden worden. * * ♦ ïlet Grieksch ge^antschap looehent dat het aftredea van het Kabinet Zaimis zou te wijtea zijn aan eene onee&ii;heid met den Koning. Men gelooft veeleer dat de uitrede van Griekealand m den ooriog zich voorbereidt, wa'.rvan Zaïmis met een zwaiv overgangs abinet de verantwoor-delijkheid niet neinea wil. De b slissing zou voorbshouden zijn aan een toekomstig national ministerie. Oalaaten te 3noharont. Uit Bacbar st wordt gemeld dat, n'et ver van het koniaklijk pa'eis in het volkspark, samen-scho in:;cn plaats hadden van révolutionnaire elemenren, die aanstalten maakten om tsgen het koninklijk paîeis op te marscheeren, a.waar de koaingin veroleef. Er werd teee nover de woelmakers, ten getalle van ongeveer 2500 militaires weerstaad geboden. Scherpe salvos werdea afgevuurd, '.vaardoor verschei iene personen gidood we den. De betoogers konden uiieen gedreven wo den. Mea zegt dat rnen in de samearottingen wilde protest eren tegen de oaverbiddelijke iavords-ring der be as in en. Eene paniek brak Ios in de stad. Allé ver-dachte e!ernenfen worden onverbidd-lijk uit Bucharest uit,edreven.Een aantal zware vestir.g-kauonnea tôt reservebewapsning der forten zijn uit Moskowa n ekomen ea werden onverwijld in stelling gebracht. » * * Volgens de bladen van Milaan, werd Bucharest, tôt ve nina: verklaard. Aile niet genaturall-seerde vreemdîlingen moeten de stad veriaten. De s'eden Giurgevo en Olteniza h bb :n erg door de b schi t ng gele ien, en werdea door esn groot deel der bevolking veriaten. * * * Een bijronder telegiam der Russkoje Sîov. meldt dat Perer Carp sei ert eene wesk ;e Jassy wordt opgeliouden. Marghilcman moet te Bucharest blijven.\nHLLBK.L0Ï. Sono feoalits.slngr om ietleraa prlja. PARIJS, 11 September.— De Brit ch-Fran-sche leg1 rleiding trachi, naar blij -t uit de Fransche pers, de beslissin,^ aan de Somme om iederen prijs te bereiken, nog vôôr het inv'alien van den wi .ter. De « Matin » zegt : Wij mosten nu doorbreken. E :n b richt van de « Echo de Par s » < ischt : Wij mosten aîie reserven in den strijd w rpen om aan het lijdea van het Fransche volk nog dit jaar een einde te stedea. Da krljgsraaâ la hat 31 ysaum. De grao e Fransche krijgsraad die in het Elyseum onder voorzitterschap van président Poincaré werd gehouden, w rd behalve door den midiîter-voorzitter, en de rninisters van ooriog, ma iae, finmc.ën en biane;daadsche zaken, ook door de gcnaria s Jofire ea Castelnau bijgewoond. îa da Fraasohe Saasr. PARITS, 12 September. — De Kamer hervatta heden hare werkzaamhedc-n. De Senaat zal Donderdag wetr satn nkomin. In de Kamer zal worden ^oo-gesteld eerst de nieuwe5 pc!. leening en de vo nloopige twaalf-den voor het rierde kwaitaal vaa 1916 ta behandelen. Daaraa komen aan de crde : oor'o: sschade-• îooss'e'lingen, wijziging van verscheidene arti-kelen van het midtair strafwetboek, een beter gebruik van de officieren voor kaderversterking van da vechteade eenheden, zooaaede verschei\ndene interpd'a ies, waarvan de belangrijkst# betrekking hebben op dentoestand van het per* soneel van de:; gewapeaden dieastea de hulô» diensten. PARIJS, 13 September. — De wefgeTead» Kamer of Piriement is gisterea geopend worden door eene redevoerinsr, uitgeaprokeflt door M. Desch mel. M. Briana, vooi zit;er va® den ministerr lad, heeft roor Donderda? a. #.v eene redevo-ring aaag^kondigd, aaagaaade d* gebeurtenissea welke plaais hadden tijd ;ns den verloftijd. Daarna ging de Kamer over tôt d« dagorde. San *rlat?r7eldt<K&t ln 'i verso&isl, ST-PETERSBURG, 12 September. - 0» « Russki Iavaiid » officie l orga tn van het ministère van ooriog, kon ligt aan dat Ruslaud toebereidselen maakt voor eenen winTerveli-tocht, niette. eastaande het den wensch en hat verlangenh .d uitgedrukt dat de krijfsverrich* tingen eeneicdizoaden nemen voor hat iavalleft. van den strengen koude. Da kablaatakweatï® la Hoagar'5. Uit Budapest wordt gem ld : Het gedacht een koncentîatiekïbinet kan volkomen terzijda gesteld wordea. De regeering neemt te eno ^et de aansporir.g daartoe een volstrekt w igerend® houdingaan. De kwesWe zal eerst bij de bespre* king van het voorstei Andrassy, tus.chca dé toongevende faktoren ten berde komen. Bopnblllseinsol'to zogapraal ln Aaîerik». Uit Portland wordt gemeld dat de repubîl» keinen samen met de pro^essisten, bij de veç-kiezingen Maandag een groote zegtpraal bfif haalden. Zij kozen met 13000 stenunen dea gouverneur, twee seaators en vier leden van dé, volksvertegeîïwoordiger-kamer. Do Sajraîsaa# bavaaa gaalotea. AMSTERDAM, 1 September. — He' verkee# Vlissirigea-Londea heeft weder opgÊhoudelf., wijl de Enge'sche havens gesleten zijn. AMSTERDAM, 13 Septembar. — Ro-idmîd\"; dernacht ontving de havenmeester van Rottet\" dam een tele:;ram met de meliing, dat vaa dea voor .'aan den nanht,12 u;e,alleE agelsch: ha 'enS voor de neutrale scheepyaart gesloten waren. Hij heeft daarop nog zo jve 1 vaaituige ■ inoga»' lijkvan het feit in kennis geste:d. Des'oomef « Batavier VI» kon nog ing hou (en warden.' Heden morgend trachtîe de haven a:.e:.tef bevestigi-g te krij^en van het bericht. Da Engelsche algemeesia koasul wist no^ vaa niet»,' doch stelde z ch in verb n ing met het gezaat» fchap waar het feit baves'.igd werd. Ook de adrairaalst f kreeg mededeç'ing van den maatregel, waarvan het doel nog niet i(| gekend, doch die slechts voorbijgaande zijn kaai daar Engeland te veel bel ng heeft bij het in, voege blijven van het rerkeer. De Belgisstia gsls^rden ta de Statua vaa Noord-Amerlka. M. Maurits De Wulf, der Hoogeschool vaa' Leuven,heeft eene uitnoodiging aanvaard,we ke? hem gedaan is ge worden door de Amer kaanschas Hoogeschool vaa Harward, om er, gedureni® zes maanden, les te geven. | M.De Wulf zal er e.-noa leergang ope ien o~ac de Geschiedenis der wijsbegeerte in deXIIIeeeuTr3 Daarenboven doet msn hem de esr aan heta; uit te noodigen eenereeks voordrach'eo te gevert; in het groot insiituut « Lowell Ins'itute » vaaj Bo ton over het vo'gend onderwerp : « He*; kloosterleven in voile middeneeuwen. » Da E.'JKakanaalier is Woeasdag uit het groote Hoofdkwartier Berlijn terag^ekeerd. Saae sea-3<a§r vaa S. H. doa Zraaa bij don Ho^-us vaa Abyaslnié. ROME, 13 September. — De « Osservat'-ré Romano » koadigt aan dat pater Basile, overste! der katholieke zer.ding te Addis Abeba, plcchtig' is ontvacgen geworden door dea Nesus v a Abyssinië, te Harrar, en dat hij hem eenen eigenhandi. en brief van Z. H. den Paus heeft cverhandii-d, alsook het groot kruis der Oid« van het heilig graf des Zaligmakers."@nl ;
+    schema:inLanguage          "nl" ;
+    schema:isPartOf            <0k26971d59> ;
+    schema:maintainer          haOrgId:OR-0z70w1b ;
+    schema:name                "0k26971d59_19160915_0002.tif"@nl ;
+    rel:isr                    <b0afa7404377f7ce492513a65d7e260c>, <69153490aeec11296a08dbfcdc69c13d>, <cf5ea49d41a21ad0aa338520c866f864>, <a3e4627e4d98794ef8bb969a4b570c9f> ;
+    rel:isp                    <0k26971d59> ;
+    haDes:pageNumber           "2"^^xsd:nonNegativeInteger .
+
+<53c0a058a83772a0920f5e094954af38>
+    a                          haDes:NewspaperIssuePage, premis:IntellectualEntity ;
+    schema:dateCreated         "1916-09-15"^^edtf:EDTF-level0 ;
+    schema:identifier          "53c0a058a83772a0920f5e094954af38" ;
+    prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
+    dct:format                 "newspaperpage" ;
+    haObj:hasAccessCopy        <cc799afcf96f14b38dddf2f84ca36eb8> ;
+    haObj:hasMasterCopy        <e275821ed12bb9540395d6f6171919f8> ;
+    haObj:hasMezzanineCopy     <d4f751d4ed3343c1561b86974623959a> ;
+    schema:copyrightNotice     "© UGent" ;
+    schema:description         "DE GEHTEMUR - DE LANDWACHT\nSS'iaar. Uitgever G. De Graeve, Gent, Ketelvest, * «. TDS IK:LiT3I£<ri3 PAT.EIOT Vr^dag a» Saptember Î913. Nam.®»*\nCfficiëale Duitsche bsrichisa m VEEOR15-ENING ESKK» AHÏIKEL. » 9 der wet tôt regeling van hel op Sta»ts« Sfcostea gegeven Hooger onderwijs van 15-7-1849 Wordt als valgt aangevuld : i Verdi easteluke maanen, die hunne hoofd-'foezigheitl buï¥6a de Unitfersiteit hebben en die tôt verOâge«w«©rdiging van eenig bijzonder Wetenscn*j»pelijk vak onder de leerkrachteu «ener Universiteit worden opgenomen, kunnea tôt Ktwotin eer-professor benoemd worden. Met deze benoeming verkrijgen zij den rang der gewaae prafessoreu en do rechtea dei docenten. Hunne wedde wordt, voor elk geval, afzoa-âerlijk bepaald. Zij telles aiet mede in het bij artikel 10 van Voormelde wet vastgestelde «étal profession. Tôt uitosfeaing van hunne hoofdbezi'gheid behoeven zij «te bij artikel 12 van bewuste wet voorgçschreven n»achtiging nie t. Brussel, den 12 Augustus 1916. Der Çeneralgouverneur in Tîeîgien, Freiherr von BISSING, Generaloberst. A.. H. Q., den 22 Augustus 1916. Der Oberbefehlshaber der IV Arrose, Herz»g Albrecht von WurttemberG, Generalf Jdmarschall. 221. VERORDENING botreftenâs de labeslagneming der bran- wesijan veor bier van lagare gisting. 1. Aile bierbrouwerijen,welke ia het Etappen-jfebied van 't 4e leg*r bier van lagere gisting îabrikeeren, wsrden in baslaggenramen, camelijk Brouwerij Akkergem, Naaml. Vennootschap, Gent ; Brouwerij Burny, Gebroeders, Aalst ; Union-Brouwerij (Moenaert, Ressen eu Wwe JanssenJ, Denéermonde ; Brouwerij Euerard, lîekloo ; Brauwerij der Btouwerijschool, Gent, (Eig. Vanderstricht). , In geval er, in het Etappengebied buiten do genoemde sows aog brou werijea voor bier van &gere gistinç z»uden bestaan, moeten dezezich <ioor bemiddwNag harer Etappenkommandantur bij de Etappea-Icspektien aanmelden. 2. Van af 12 S*ptember wsrdt het in deza brouwerija»! jjefabriceerde bier aan het Duitsche legerfeestawr geleverd, hetwelk het ge-deeltelifk voar zijne behseften gebruikt, ge-deeltelijk aaa het bierverdeelingsbureel' der Serstenzentrale t®ewijst. 3. Ten eiade aan de inwoners van 't Etappengebied de befeearlijke hoeveeiheid bier van lagere gisting te kunnea toewijzen en gelijk-imatig verdeelen, is bij de Gerstenzentraie een bisrverdeelingsbureel ingericht. 4. Aile drankhuizen in 't Etappengebied welke tôt nu tae klanten der in beslaggenomsa Isrou werijea waren, kunaen van dit bierver-deelingskuroel bier ontvangen, zoolang de voor-raad strekt. De prijs is, tôt nader order, op 43,— M voor 100 liters bepaald. Zij nioefea tôt 14 Sentember bij de Gersten-centrale aanmelden, of zij in het vervolg nog bier vas lagere gisting te vertarp?n van zin zijn. Het biervertleeiiBgsbiirpel '/M alsdan van het bier dat wekeljjks ter beschikkin^ is, het over-eenkemstige aa*deal taewiiz^ri. De eerste toewijzing zal ivlaandag 18 Seplem-feer plaats hebben. i'__5. In gavai er drankhuizen, welke toe^elatea *ija voor personen die deel maken van 't Duitsche leger, masr welke tôt nu toe nog geen bier van ïagere gisiing vertapt heuben, zulks in 't vervolg willen verkoopen, zoo moet erom eene aanvraag bij de Etappen-I;>spektion worden ingediend, ,welke beslisr, of aan de aanvraa? kan voldaan ^orden en welke hoeveelheden bier toegewezen Srorden kunnen. iS. H. O., den 6 September 1916. Der Etappeninspekteur, von UNGER, General der kavallerie.\nAan onze Lezers. losse nummers 3 csntiessisn. Per week fl 5 eeniiemen. Duitschâ briehîeti v.jn îml Groot HseSdkwaffîï©af« Wastarjk krljgstsonss!. BERLIJN, 13 September. Legei front oan Veldmaarschalk kroonpriris Rupprecht oan Beieren. O.pnieuw is de strijd ten westen van de Sommo ontbrand. Onze troepen zijn tusschen Combles de Somme In zware gevechten gewikiceld. De F^antckiia zijn Bouchavesmes binnengedrongen. *• artmeriestrijd werd op beide zijdeu van den str®»m met groote hevigheid voortgezet. Legerfront van den Duilschen Kroor.prins : Reckts van de Maas zijn Fratische aanvallen in den seksor van Thiaumont en aan de ravija van Sou ville verijdeld. ©asîslijk kp!2ssioonscl. BERLIJN, 13 September. Legerfront oan generaal veldmaarschalk prins Leopold oan Beieren : De tsestand is oaveranderd. Kleice Ru^sische aanvallen werden iea Noor-den vi,n de Jpveten-m»nding en bij Barboenof.va ten Notrd-Westen vin DunaUurg afgeslagen. Legerfront van generasl der kavallerie Aarishirlog Karl. In de Karpathen gingea de Russen op het front van Smetru, ten Zuid-Westen van Zabie tôt aan de Guldenen Bis;ritz, tôt een afzonder-lijkcn massa-aanval over. Zij werden overal met groote verliezen door snze dappere, onder bavel van gen. v. Coata staanie troepen, teruggeslagen. la Zevenkurgen zijn Duitsche troepea in den sektor van Hermannstadt (Nag-Sxebenj en ten Zuid-0«sten van Hotzing Hatszeg, met de Roe-menea is gevechtsvoeling getredea. SaSkanissh osriïjstepMla. BERLIJN, 13 Sep'emij&r. — De bewegingen in de Dobrasedscha worden pianmatig voltrok-ken. Aan het Maceioaiscie front geene gebeur-tenis van bijzondere beteekeais. BERLIJN, 13 September. —Officieel. — Op 11 S Jîîtesttbir vielea Duitsche mariaevJiegtuigen vôôr Cotstanzi ea teaZuiden hiervan Russische stnj Akracktea aan. Op een linieschip, een onder-zeebo»t e» eenige destroyers werdea onbetwist-bare treffers waarse*om:n. Aile vlie^iuigea keerdea oubeschadigd terug. Op 12 September 's avouds oudernamsn meef«ere emzer vliegtuigaskaders in de Golf vaa Riga een aanval op vijaadelij.<e zeestrij lkrac'r-t;;n. Vers^lillende onbetwistbara treflers werden berewt en een vijandelijk destroyer onaiid-dellijk tôt zinken gebracht. Trots hevige beschietisg zijn alla vli^gtuigea on^edeerd weerjeVeer^. BERLIJN, 13 Sep'ember. — Nadat Duïfsch-Bulgaarsche troes»eD, z ck door den aanval van Sarratî hadden gedwongen gez'en, in tegenaari-val Grieksch-Mace îonië binnen te rukken,stond achter éen linker Bulgaarschen vleug-.l tôt aan de Struma-rivier vooruitgedrongen, het Griek-sche 4® le^erkorps, geweer aan den voet, in de drie steien Seres, Drama en Kawalla. De maatreg-len der Entente gingen op het doel af, deze Grieksche troepea op haren kant te trekken, of hun een gelijk lot te bereiden, zooals de in Salonik i met geweld bedwongeaa deëlen der elfde Grieksche legerafdeeling. De vrije verbinding met Athene was onderbrokeu, het verkeer met de overheden in het vaderland werd door de Entente gekoatroleerd en naar believen geweigerd.\nDe bevelvoerende generaal van het 4e Grieksche legerkorps in Kawalla, trouw aan den wil van zijnen krijgsheer en aaa de wettelijke regee-riag aan de neutraliteit vasthoudend, heeft zioh ten opzichte van den onhoudbaren toestan 1 der hem vertrouwde troepen bedreigd door horgar en ziekte, gedwongen gezien op eigen han l te hande'en, en den 12 September de Duitsche legerleiding verzocht, zijne dappere troepen getrou w aan koning en regeenng, tegen de drukking der Entente in bescherming te nemen, en hun ees onderkomen en oa-ierhoud te waar-borgen. Aan dat verzoek zal gevolg gegeven worden. Ten einde aile schsnnis der neutraliteit te ver-mijden, werd er met den bevelvoerenden generaal, overeer>gekomen, de Grieksche troepen, vo'ledig bewapsnd en uitgerust, als neutralen rair verblijfplaatsen in' Duitschland over te voeren. Zij zullen hier van de rechten der gast-vrijheid genieten totdat hun vaderland vaa de indringers der Entente zal verlaten zijn. ûfïiciaeie Osslenrijkscha berichten WEENEN, 13 September. Osstelijk krljgsiaonesL Boemeenaoh froiit. Do toestand is onveranderd. Front van luilenant-veldmaarschalk aarlshertog Karl : De aaneengeslotene massenaanval door de Russën gedrevea tegen ons Karpathenfront tusschen Smotric (Zuidwest waarts van Zabie) en den gullea Bistritz stiet a£ op den dappeiea wee stand der verèedigers onier buitengewoon zwa e verliezen voor den vijand. In Oost-Galicie geeae gebeurtenissen. Legerfront van veldmaarschalk prins Leopold van Beieren. Buiten mati^e kanonnen- enmijnwerpersvuur niets van belang. liallaansch krlj^sto^neeh Op het Isoazafrorit duurt het vijaiidelijk j kaaonnen niur tusschfn hetEtsch en het As.ach-dal voort. Er is tamelijk rust ing^tredea. Zuid-Ssstellik krljgstoonssl Op de Bojusa lijdelijke leveadige scher-mutseling.Gebeua'îeaïssen op zee. In den nacht van 12 tôt 13 September, heeft eea onzer zeeviiegtuigenvloten de statieinrich-tiagea ea militaire d^elen van Cervignaao met talrijke bommen goed be vorpen. Twee groote braaden, eene hevige ontploffing in een der diielen, alsook verscheidene raak-schoten in de statie-inrichtingen werden vast-ges'.eld.Eeae andere zeevîiegtuigenvloot viel in den-ze t iea racht de krijgshaven vaa Veaetté aan. Er werden raakscnatea opgemerkt van de z .vaarste bommen in het Arseaaal.in de dokken, bij dea gazometer in het Alberanefort en in de weriinrichtiagen van Chioggia ; ia Chioggia ook veric -îeidene branden. Beide viiegtuigenvloten zijn oadanks hevige beschieting ongedeerd teruggekeerd. 0a aanoj in het Ods!oo, Tarksch berloht. KONSTANTINOPEL, 12 September. - Op het front van Fillâhie wierpen wij op 11 September met goeden uitslag bommen op een vijaade-iijk kamp en veroorzaaktea braadea. KAUKA.SUSFRONT : Op den rechtervleugsl sloegen wij eenen aaa val van den vijand af. In den sektor van Ogmit werden twee vijan-delijke aanvallen van 10 September en in den vorigen nacht, die door kanonnenvuur voorba-reid waren door onze tegenaaavallea terugge-wezen.De vijandelijlce trospea, die verscheidene\ngroepen onzer stellingen poogden te naderen,' werden d ior ons kanonnenvuur verstrooid ea leden buitengewone verliezen. Onder dea buit welken wij den vijand ia de# ?e tor van Kighi op 9 September afgenomen hebben is eene groote hoevee'heid ammuniti* en materiaal, waarvan h.et getal nog niet rast-ge.ate'.i^is.Het aantal der gevangen genomsn ofliciere» en solditen neemt toe. Op den linkervleugel vielen schermutseliagea te oazen gunste uit. Wij namen gevangenen ea kaapten vrapens ea uitrustingsstukken. Op de andere fronten geene verrichtingen van beteekenis. Vo gens volledi?ende berichten sloegen onza troepea op het Gallicische front op 7 September door tegenstooten met de bajonet de aanrallea van sterkere Russische troepen at. De verliezea des vijands werdea op 8000 geschat. Bij de botsingen werden in het nagevecht drie ofâcieren en 300 man gevangen genomen en eea machiengeweer den vijand afgenomen. Bu'gaarsofc. berloht. SOFIA, 13 September (Mededeelinp va» 11 September in vertraging). — Op het Rumeeni-sche front langs den Donauw, kanonnenvuur te Tskija, Widden, Lompa'anka, Oienowo ea Sistow. Het offensief gaat voort in de DobrudBcha. Op 10 September zijn onze troepen Silistria bianengetreden, waarvan de bsvo'.king haar eea zegevierend oathaal heeft voorbereid. De Bulgaarsche driekleurvlag wajjpert nu op . de hayen vaa Arabtabia. Wij hebben in de versterkteplants lOforteres-kanons gevonden en eene groote hoevealkeiil oorlogsmateriaal. De vijandelijko troepen zijn achteruit getrok-ken, vervolgd door onze ruiterij, op de twea oevers van den Donauw, in de richting van het Noord-Oosten en vau het Oosten. De aftocht d r Rumenen, Rus'en en Serviers, vojral van de eerstea wordt galaan onder het bigaan vaa de verschrikkelijleste wreadkedea tegen de vreedzame bevolkiag. De iegerbeveihebbîr meldt op 10 September : Vaa den eersten dag a's ik over de K-rens ov»r-ge ioititea was, heb ik eene ree-s schandelijke onmenschslijkhe ien vaa het Rumeenso're leger vastgesteld ; die zich meer en meer hebben voor=;eiaan als feiten van eene onnoembara beestachtigheid. Aldus hebben de Rum^ensche overheden» eenige da^en voor de oorlo^sverklating, al het vee der bevolking medegenomen. zoader for-mee'e op-^isching. Biast den aft c'it heeft de vij >nd bijzondere milit lire detacheme • ea gevor.ud otn de Bulgaarsche dfflrpen in br tnd testeken. De dorpen Ciskicej, Ai'.omro 'o, Scrobarna, Dschu naja, Mahale, Taztar, Aima Ija en aadere gele^ea in de s;rookea en in don omtiek vaa Tii^rakin en Silist.i t braaden aog, E-n detachement dat te Sans i :ar verslagea was, dat in winorde afget:okken is naar Saistrîa heeft in dîn avond va a 7 September eeae kompan:e met 2 oUcieren aaa h :t hoofd naar het dorp Srebiraa gszond i, d e er ds geheele maanehjke bjvolUtag aa ihi .ld om za 's nachts :e doodea. Het plein en de stra'en van hit dorp liggen vol lijken van onschuldige slacîitoffers, op d«. 0'imenschelijk?te wij^;e misha id.l i. Een aantal kinderea vanhetzelfdj dorp werden verbraad in de huizen gevoniea. De overige kinderen ea vrouw^n werden naar Silistria gesleept. 's Morgends van den 8 S -pte aber weïden da mannen van het dorp Alifak naar dea oever van den Donauw gebràcht en onmededoogead gedDOd. De liiken werden in den stroom geworpen. Al de inwoners dtr dorpea Kalipet.o vu, Arte-"@nl ;
+    schema:inLanguage          "nl" ;
+    schema:isPartOf            <0k26971d59> ;
+    schema:maintainer          haOrgId:OR-0z70w1b ;
+    schema:name                "0k26971d59_19160915_0001.tif"@nl ;
+    rel:isr                    <e275821ed12bb9540395d6f6171919f8>, <d4f751d4ed3343c1561b86974623959a>, <c424838e026b0c638c85abe7e77576d7>, <cc799afcf96f14b38dddf2f84ca36eb8> ;
+    rel:isp                    <0k26971d59> ;
+    haDes:pageNumber           "1"^^xsd:nonNegativeInteger .
+
+<42db2985b684c972199d0208904e05a8>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/jp2" ;
+    premis:fixity              <8bf31844854cb0c2651ce629235c8f0f> ;
+    premis:originalName        "0k26971d59_19160915_0002.jp2" ;
+    premis:size                "2611698"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <935b65970166ca84271769f9b6b7cc97> ;
+    prov:wasDerivedFrom        <ec120d266c6b03f5a9418edd01de877f> ;
+    schema:name                "0k26971d59_19160915_0002.jp2"@nl ;
+    rel:isi                    <a3e4627e4d98794ef8bb969a4b570c9f> .
+
+<cc799afcf96f14b38dddf2f84ca36eb8>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
+    haObj:isAccessCopyOf       <53c0a058a83772a0920f5e094954af38> ;
+    schema:name                "Copie en basse résolution (jpg): '0k26971d59_19160915_0001.tif' (0k26971d59)"@fr ;
+    schema:name                "Low-resolution copy (jpg): '0k26971d59_19160915_0001.tif' (0k26971d59)"@en ;
+    schema:name                "Lageresolutiekopie (jpg): '0k26971d59_19160915_0001.tif' (0k26971d59)"@nl ;
+    rel:inc                    <5a2ad8061fbbe3f0ddb017f2e6a64a37> ;
+    rel:rep                    <53c0a058a83772a0920f5e094954af38> .
+
+<d4f751d4ed3343c1561b86974623959a>
+    a                          haObj:DigitalRepresentation ;
+    prov:wasDerivedFrom        <e890bae3bf41f9aa2fbc2a9aa791bd2f> ;
+    haObj:isMezzanineCopyOf    <53c0a058a83772a0920f5e094954af38> ;
+    schema:name                "Mezzanine copy (jp2): '0k26971d59_19160915_0001.jp2' (53c0a058a83772a0920f5e094954af38)"@en ;
+    schema:name                "Copie mezzanine (jp2): '0k26971d59_19160915_0001.jp2' (53c0a058a83772a0920f5e094954af38)"@fr ;
+    schema:name                "Mezzaninekopie (jp2): '0k26971d59_19160915_0001.jp2' (53c0a058a83772a0920f5e094954af38)"@nl ;
+    rel:inc                    <a073c870c602a7b27872249a68ec2304> ;
+    rel:rep                    <53c0a058a83772a0920f5e094954af38> .
+
+<a073c870c602a7b27872249a68ec2304>
+    a                          premis:File ;
+    schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
+    ebucore:hasMimeType        "image/jp2" ;
+    premis:fixity              <66a9cd360dd6df7fce8d64fbadabf4cf> ;
+    premis:originalName        "0k26971d59_19160915_0001.jp2" ;
+    premis:size                "2728930"^^xsd:nonNegativeInteger ;
+    premis:storedAt            <46ebb5250a59be4c3973d576ece39141> ;
+    prov:wasDerivedFrom        <e890bae3bf41f9aa2fbc2a9aa791bd2f> ;
+    schema:name                "0k26971d59_19160915_0001.jp2"@nl ;
+    rel:isi                    <d4f751d4ed3343c1561b86974623959a> .
+    
