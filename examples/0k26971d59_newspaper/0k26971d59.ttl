@@ -284,5 +284,26 @@ haLic:IIIF-PUBLIC
     schema:name                "0k26971d59_19160915_0001.jp2"@nl ;
     rel:isi                    <d4f751d4ed3343c1561b86974623959a> .
 
+<8c793c8e94b5d5b6d35a4cdeeb6d3f8b>
+    a                           mh:Record ;
+    mh:PID                      "0k26971d59" ;
+    mh:fragmentIdentifier       "5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb3262f5b0b268437883453fd49350641b" ;
+    schema:dateCreated          "2015-06-30T23:45:59Z"^^xsd:dateTime ;
+    schema:dateModified         "2023-10-03T16:49:13.569Z"^^xsd:dateTime ;
+    schema:identifier           "5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb" .
 
+<ac397eb666c51ee72ee963bf48ed540f>
+    a                           mh:Record ;
+    mh:PID                      "0k26971d59" ;
+    mh:fragmentIdentifier       "a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b98f1cf086dc454e25a86490c7b670b49d" ;
+    schema:dateCreated          "2015-06-30T23:45:58Z"^^xsd:dateTime ;
+    schema:dateModified         "2023-10-25T11:37:27.245Z"^^xsd:dateTime ;
+    schema:identifier           "a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9" .
 
+<68ef64cc816499685d4632d0729a404c>
+    a                           mh:Record ;
+    mh:PID                      "0k26971d59" ;
+    mh:fragmentIdentifier       "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187" ;
+    schema:dateCreated          "2015-06-30T23:45:58Z"^^xsd:dateTime ;
+    schema:dateModified         "2023-09-26T13:03:38.361Z"^^xsd:dateTime ;
+    schema:identifier           "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d" .
