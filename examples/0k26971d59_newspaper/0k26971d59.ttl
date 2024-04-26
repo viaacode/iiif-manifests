@@ -378,4 +378,5 @@ haLic:IIIF-PUBLIC
 
 <https://anet.be/record/opacbnc/c:bnc:206/N>
     a                           schema:Newspaper ;
-    schema:name                 "De Gentenaar. De landwacht. De kleine patriot"@nl .
+    schema:name                 "De Gentenaar. De landwacht. De kleine patriot"@nl ;
+    schema:identifier           "c:bnc:206" .
