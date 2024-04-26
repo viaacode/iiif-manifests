@@ -1,5 +1,6 @@
 @prefix crypHashFunc: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/> .
 @prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
 @prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
 @prefix evtAgRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/> .
 @prefix evtObjRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole/> .
@@ -95,6 +96,7 @@
     a                          premis:File ;
     schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
     ebucore:hasMimeType        "image/tiff" ;
+    edm:isNextInSequence       <284303d552fa9108fa9e7fea78153a09> ;
     premis:fixity              <ea51fdb69c631919ab00ab9a39d40875> ;
     premis:originalName        "0k26971d59_19160915_0001.tif" ;
     premis:size                "41530736"^^xsd:nonNegativeInteger ;
@@ -105,6 +107,7 @@
 
 <e275821ed12bb9540395d6f6171919f8>
     a                          haObj:DigitalRepresentation ;
+    edm:isNextInSequence       <b0afa7404377f7ce492513a65d7e260c> ;
     prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
     haObj:isMasterCopyOf       <53c0a058a83772a0920f5e094954af38> ;
     schema:name                "Maître d'archive (tif): '0k26971d59_19160915_0001.tif' (53c0a058a83772a0920f5e094954af38)"@fr ;
@@ -127,6 +130,7 @@
 
 <5a2ad8061fbbe3f0ddb017f2e6a64a37>
     a                          premis:File ;
+    edm:isNextInSequence       <f25bbce6a9d602f9cac001fd346fe74d> ;
     schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
     ebucore:hasMimeType        "image/jpeg" ;
     premis:originalName        "browse.jpg" ;
@@ -219,6 +223,7 @@ haOrgId:OR-0z70w1b
 
 <53c0a058a83772a0920f5e094954af38>
     a                          haDes:NewspaperIssuePage, premis:IntellectualEntity ;
+    edm:isNextInSequence       <306221addb52256c58fd98c4ee4756e6> ;
     schema:dateCreated         "1916-09-15"^^edtf:EDTF-level0 ;
     schema:identifier          "53c0a058a83772a0920f5e094954af38" ;
     prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
@@ -254,6 +259,7 @@ haLic:IIIF-PUBLIC
 
 <cc799afcf96f14b38dddf2f84ca36eb8>
     a                          haObj:DigitalRepresentation ;
+    edm:isNextInSequence       <cf5ea49d41a21ad0aa338520c866f864> ;
     prov:wasDerivedFrom        <ac397eb666c51ee72ee963bf48ed540f> ;
     haObj:isAccessCopyOf       <53c0a058a83772a0920f5e094954af38> ;
     schema:name                "Copie en basse résolution (jpg): '0k26971d59_19160915_0001.tif' (0k26971d59)"@fr ;
@@ -264,6 +270,7 @@ haLic:IIIF-PUBLIC
 
 <d4f751d4ed3343c1561b86974623959a>
     a                          haObj:DigitalRepresentation ;
+    edm:isNextInSequence       <a3e4627e4d98794ef8bb969a4b570c9f> ;
     prov:wasDerivedFrom        <e890bae3bf41f9aa2fbc2a9aa791bd2f> ;
     haObj:isMezzanineCopyOf    <53c0a058a83772a0920f5e094954af38> ;
     schema:name                "Mezzanine copy (jp2): '0k26971d59_19160915_0001.jp2' (53c0a058a83772a0920f5e094954af38)"@en ;
@@ -276,6 +283,7 @@ haLic:IIIF-PUBLIC
     a                          premis:File ;
     schema:dateCreated         "2015-06-30T23:45:58.000000Z"^^edtf:EDTF-level0 ;
     ebucore:hasMimeType        "image/jp2" ;
+    edm:isNextInSequence       <42db2985b684c972199d0208904e05a8> ;
     premis:fixity              <66a9cd360dd6df7fce8d64fbadabf4cf> ;
     premis:originalName        "0k26971d59_19160915_0001.jp2" ;
     premis:size                "2728930"^^xsd:nonNegativeInteger ;
