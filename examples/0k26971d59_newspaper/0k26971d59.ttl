@@ -81,6 +81,11 @@
     schema:name                "0k26971d59_19160915_0001_alto.xml"@nl ;
     rel:isi                    <c424838e026b0c638c85abe7e77576d7> .
 
+<e801c32a56d2101174c7cc0e75071e36>
+    a                           premis:StorageLocation ;
+    premis:medium               <http://id.loc.gov/vocabulary/preservation/storageMedium/har> ;
+    rdf:value                   <https://archief-media.meemoo.be/viaa/MOB/UGENT/aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d23/aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d23.xml> .
+
 <c424838e026b0c638c85abe7e77576d7>
     a                          haObj:DigitalRepresentation ;
     prov:wasDerivedFrom        <a6618699cc32b194bad1c3af92ea20fe> ;
@@ -152,6 +157,11 @@
     prov:wasDerivedFrom        <cdd3bc77e24219e0772ec42f0d1cd156> ;
     schema:name                "0k26971d59_19160915_0002_alto.xml"@nl ;
     rel:isi                    <69153490aeec11296a08dbfcdc69c13d> .
+
+<d8848f5df55a195816d9ecdc851e4dbd>
+    a                           premis:StorageLocation ;
+    premis:medium               <http://id.loc.gov/vocabulary/preservation/storageMedium/har> ;
+    rdf:value                   <https://archief-media.meemoo.be/viaa/MOB/UGENT/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b.xml> .
 
 <69153490aeec11296a08dbfcdc69c13d>
     a                          haObj:DigitalRepresentation ;
@@ -315,3 +325,19 @@ haLic:IIIF-PUBLIC
     schema:dateCreated          "2015-06-30T23:45:58Z"^^xsd:dateTime ;
     schema:dateModified         "2023-09-26T13:03:38.361Z"^^xsd:dateTime ;
     schema:identifier           "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d" .
+
+<cdd3bc77e24219e0772ec42f0d1cd156>
+    a                           mh:Record ;
+    mh:PID                      "0k26971d59" ;
+    mh:fragmentIdentifier       "4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b5087bdded3a04392b4e94dff394cc15f" ;
+    schema:dateCreated          "2015-06-30T23:45:58Z"^^xsd:dateTime ;
+    schema:dateModified         "2023-09-30T07:15:45.934Z"^^xsd:dateTime ;
+    schema:identifier           "4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b" .
+
+<a6618699cc32b194bad1c3af92ea20fe>
+    a                           mh:Record ;
+    mh:PID                      "0k26971d59" ;
+    mh:fragmentIdentifier       "aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d239d1bd9beddb94f658caf4e8b1a14879c" ;
+    schema:dateCreated          "2015-06-30T23:45:58Z"^^xsd:dateTime ;
+    schema:dateModified         "2023-10-25T18:49:53.475Z"^^xsd:dateTime ;
+    schema:identifier           "aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d23" .
