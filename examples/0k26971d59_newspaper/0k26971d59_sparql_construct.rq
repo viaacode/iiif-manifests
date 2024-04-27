@@ -130,7 +130,8 @@ WHERE {
   ?iiifFile a premis:File ;
             premis:storedAt ?iiifFileLocation .
 
-  ?iiifFileLocation rdf:value ?iiifFileUrl .
+  ?iiifFileLocation a premis:StorageLocation ;
+                    rdf:value ?iiifFileUrl .
 
   ?altoRepresentation a haObj:DigitalRepresentation ;
                       rel:inc ?altoFile .
@@ -139,7 +140,8 @@ WHERE {
             ebucore:hasMimeType "application/xml" ;
             premis:storedAt ?altoFileLocation .
 
-  ?altoFileLocation rdf:value ?altoFileUrl .
+  ?altoFileLocation a premis:StorageLocation ;
+                    rdf:value ?altoFileUrl .
 
   ?cp org:identifier ?cpId ;
       skos:prefLabel ?cpLabel ;
@@ -166,4 +168,3 @@ WHERE {
   BIND(IF(LANG(?titleNewspaperIssue) = "nl", ?titleNewspaperIssue, 1/0) AS ?titleNewspaperIssueNl)
   BIND(STR(?newspaperIssueDate) AS ?newspaperIssueDateString)
 } 
-
