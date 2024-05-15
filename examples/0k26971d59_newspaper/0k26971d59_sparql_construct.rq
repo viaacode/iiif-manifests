@@ -98,6 +98,10 @@ CONSTRUCT{
   
 }
 WHERE {
+  # https://data.hetarchief.be/id/entity/0k26971d59
+  # BIND(IRI(CONCAT("https://data.hetarchief.be/id/entity/",?incomingPid)) AS ?newspaperIssue)
+  VALUES ?license {haLic:IIIF-PUBLIC}
+    
   ?newspaper a schema:Newspaper ;
              schema:name ?titleNewspaper ;
              schema:identifier ?abrahamId ;
@@ -148,7 +152,7 @@ WHERE {
       foaf:homepage ?cpHomepage ;
       haOrg:hasLogo ?cpLogo .
 
-  FILTER (?license IN (haLic:IIIF-PUBLIC))
+  # FILTER (?license IN (haLic:IIIF-PUBLIC))
 
   BIND(STR(?newspaperIssuePageNumber) AS ?newspaperIssuePageNumberText)
 
