@@ -32,7 +32,7 @@ CONSTRUCT{
                iiif_prezi:behavior iiif_prezi:individualsHint, iiif_prezi:pagedHint ;
                iiif_prezi:viewingDirection iiif_prezi:leftToRightDirection ;
                iiif_prezi:requiredStatement mf:requiredStatement ;
-               dct:rights "https://creativecommons.org/licenses/by/4.0/deed.nl" ;
+               dct:rights "http://creativecommons.org/licenses/by/4.0/deed.nl" ;
                iiif_prezi:metadataEntries mf:language, mf:type ;
                iiif_prezi:navigationDate ?newspaperIssueDateString ;
                dct:partOf ?collectionIri ;
