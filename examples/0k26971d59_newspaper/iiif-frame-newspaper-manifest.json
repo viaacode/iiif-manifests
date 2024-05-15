@@ -19,6 +19,7 @@
     "schema": "https://schema.org/",
     "id": "@id",
     "type": "@type",
+    "none": "@none",
     "Collection": {
       "@id": "iiif_prezi:Collection",
       "@context": {
