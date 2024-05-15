@@ -54,7 +54,10 @@
       "@context": {
         "label": {
           "@id": "rdfs:label",
-          "@container": ["@language", "@set"],
+          "@container": [
+            "@language",
+            "@set"
+          ],
           "@context": {
             "none": "@none"
           }
@@ -79,14 +82,20 @@
     },
     "label": {
       "@id": "rdfs:label",
-      "@container": ["@language", "@set"],
+      "@container": [
+        "@language",
+        "@set"
+      ],
       "@context": {
         "none": "@none"
       }
     },
     "value": {
       "@id": "rdf:value",
-      "@container": ["@language", "@set"],
+      "@container": [
+        "@language",
+        "@set"
+      ],
       "@context": {
         "none": "@none"
       }
@@ -116,7 +125,6 @@
     "viewingDirection": {
       "@id": "iiif_prezi:viewingDirection",
       "@type": "@vocab",
-      "@container": "@set",
       "@context": {
         "left-to-right": "iiif_prezi:leftToRightDirection",
         "right-to-left": "iiif_prezi:rightToLeftDirection",
