@@ -2,59 +2,9 @@
   "@type": "Manifest",
   "@embed": "@always",
   "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
     "https://iiif.io/api/presentation/3/context.json",
-    {
-      "metadata": {
-        "@type": "@id",
-        "@id": "iiif_prezi:metadataEntries",
-        "@container": "@set"
-      },
-      "viewingDirection": {
-        "@id": "iiif_prezi:viewingDirection",
-        "@type": "@vocab",
-        "@context": {
-          "left-to-right": "iiif_prezi:leftToRightDirection",
-          "right-to-left": "iiif_prezi:rightToLeftDirection",
-          "top-to-bottom": "iiif_prezi:topToBottomDirection",
-          "bottom-to-top": "iiif_prezi:bottomToTopDirection"
-        }
-      },
-      "items": {
-        "@type": "@id",
-        "@id": "as:items",
-        "@container": "@set"
-      },
-      "annotations": {
-        "@type": "@id",
-        "@id": "iiif_prezi:annotations",
-        "@container": "@set"
-      },
-      "AnnotationPage": {
-        "@id": "as:OrderedCollectionPage",
-        "@context": [
-          {
-            "items": {
-              "@type": "@id",
-              "@id": "as:items",
-              "@container": "@set"
-            }
-          }
-        ]
-      },
-      "none": "@none"
-    },
+    "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/image/3/context.json",
-    {
-      "profile": {
-        "@type": "@id",
-        "@id": "dcterms:conformsTo",
-        "@context": {
-          "level0": "http://iiif.io/api/image/3/level0.json",
-          "level1": "http://iiif.io/api/image/3/level1.json",
-          "level2": "http://iiif.io/api/image/3/level2.json"
-        }
-      }
-    }
+    "https://meemoo-int.triply.cc/milan/iiif-test-newspaper/assets/664dee7920f8b6330ceea888"
   ]
 }
