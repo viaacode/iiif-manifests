@@ -50,7 +50,7 @@ CONSTRUCT{
 
   ?canvasIri  a iiif_prezi:Canvas ;
               rdfs:label ?pageNumberText ;
-              dcterms:hasFormat ?altoFileUrl ;
+              rdfs:seeAlso ?altoFileUrl ;
               iiif_prezi:thumbnail ?browseThumbnailIri ;
               as:items ?annotationPageIri ;
               iiif_prezi:annotations ?annotationPageOcrIri .
@@ -79,11 +79,18 @@ CONSTRUCT{
   ?annotationOcrIri a oa:Annotation ;
                     oa:motivatedBy iiif_prezi:supplementing ;
                     oa:hasTarget ?canvasIri ;
-                    oa:hasBody ?altoFileUrl .
+                    oa:hasBody ?annotationBodyOcrIri .
 
-  ?altoFileUrl a dctypes:Text ;
-               dc:format "application/xml" ;
+  ?altoFileUrl a dctypes:Dataset ;
+               dc:format "text/xml" ;
+               dcterms:conformsTo <http://www.loc.gov/standards/alto> ;
                rdfs:label "ALTO XML versie"@nl, "ALTO XML version"@en .
+
+  ?annotationBodyOcrIri a oa:TextualBody ;
+                        dc:language ?newspaperIssueLanguage ;
+                        dc:format "text/plain" ;
+                        rdf:value "test body" .
+                        # rdf:value ?ocrFullTextPlain .
 
   ?cp a dcterms:Agent ;
       rdfs:label ?cpLabel ;
@@ -120,7 +127,8 @@ WHERE {
                       haDes:pageNumber  ?newspaperIssuePageNumber;
                       haObj:hasAccessCopy ?browseRepresentation ;
                       haObj:hasIIIFCopy ?iiifRepresentation ;
-                      rel:isr ?altoRepresentation .
+                      rel:isr ?altoRepresentation ;
+                      schema:description ?ocrFullTextNl .
 
   ?browseRepresentation a haObj:DigitalRepresentation ;
                         rel:inc ?browseFile .
@@ -164,6 +172,7 @@ WHERE {
   BIND(IRI(CONCAT(STR(?canvasIri),"/page/ocr/",?newspaperIssuePageNumberText)) as ?annotationPageOcrIri)
   BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/",?newspaperIssuePageNumberText)) as ?annotationIri)
   BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/",?newspaperIssuePageNumberText)) as ?annotationOcrIri)
+  BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/body/",?newspaperIssuePageNumberText)) as ?annotationBodyOcrIri)
   BIND(IRI(CONCAT(STR(?iiifFileUrl),".jph")) AS ?serviceIri)
   BIND(IRI(CONCAT(STR(?serviceIri), "/full/max/0/default.jpg")) AS ?bodyIri)
   
@@ -171,5 +180,5 @@ WHERE {
   BIND(IF(LANG(?titleNewspaper) = "nl", ?titleNewspaper, 1/0) AS ?titleNewspaperNl)
   BIND(IF(LANG(?titleNewspaperIssue) = "nl", ?titleNewspaperIssue, 1/0) AS ?titleNewspaperIssueNl)
   BIND(STR(?newspaperIssueDate) AS ?newspaperIssueDateString)
-  BIND(STRLANG("nl", "nl") AS ?nlString)
+  BIND(STR(?ocrFullTextNl) AS ?ocrFullTextPlain)
 } 
