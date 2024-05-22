@@ -1,6 +1,6 @@
 prefix as: <http://www.w3.org/ns/activitystreams#>
 prefix dc: <http://purl.org/dc/elements/1.1/>
-prefix dct: <http://purl.org/dc/terms/>
+prefix dcterms: <http://purl.org/dc/terms/>
 prefix dctypes: <http://purl.org/dc/dcmitype/>
 prefix foaf: <http://xmlns.com/foaf/0.1/>
 prefix iiif_prezi: <http://iiif.io/api/presentation/3#>
@@ -32,16 +32,25 @@ CONSTRUCT{
                iiif_prezi:behavior iiif_prezi:individualsHint, iiif_prezi:pagedHint ;
                iiif_prezi:viewingDirection iiif_prezi:leftToRightDirection ;
                iiif_prezi:requiredStatement mf:requiredStatement ;
-               dct:rights "http://creativecommons.org/licenses/by/4.0/deed.nl" ;
+               dcterms:rights <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
                iiif_prezi:metadataEntries mf:language, mf:type ;
                iiif_prezi:navigationDate ?newspaperIssueDateString ;
-               dct:partOf ?collectionIri ;
+               dcterms:partOf ?collectionIri ;
                as:items ?canvasIri ;
                schema:provider ?cp .
 
+  mf:language rdfs:label "taal"@nl, "language"@en ;
+              rdf:value ?newspaperIssueLanguage .
+
+  mf:type     rdfs:label "type"@nl, "type"@en;
+              rdf:value "https://data.hetarchief.be/ns/description/NewspaperIssue" .
+
+  mf:requiredStatement rdfs:label "Attribution"@en, "Attributie"@nl ;
+                       rdf:value "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden" .
+
   ?canvasIri  a iiif_prezi:Canvas ;
               rdfs:label ?pageNumberText ;
-              dct:hasFormat ?altoFileUrl ;
+              dcterms:hasFormat ?altoFileUrl ;
               iiif_prezi:thumbnail ?browseThumbnailIri ;
               as:items ?annotationPageIri ;
               iiif_prezi:annotations ?annotationPageOcrIri .
@@ -53,7 +62,7 @@ CONSTRUCT{
                      as:items ?annotationIri .
 
   ?annotationIri a oa:Annotation ;
-                oa:motivatedBy "painting" ;
+                oa:motivatedBy iiif_prezi:painting ;
                 oa:hasTarget ?canvasIri ;
                 oa:hasBody ?bodyIri .
   
@@ -62,13 +71,13 @@ CONSTRUCT{
             schema:potentialAction ?serviceIri .
 
   ?serviceIri a iiif_image_3:ImageService ;
-             dct:conformsTo "level2" .
+             dcterms:conformsTo <http://iiif.io/api/image/3/level2.json> .
 
   ?annotationPageOcrIri a as:OrderedCollectionPage ;
                         as:items ?annotationOcrIri .
 
   ?annotationOcrIri a oa:Annotation ;
-                    oa:motivatedBy "supplementing" ;
+                    oa:motivatedBy iiif_prezi:supplementing ;
                     oa:hasTarget ?canvasIri ;
                     oa:hasBody ?altoFileUrl .
 
@@ -76,16 +85,7 @@ CONSTRUCT{
                dc:format "application/xml" ;
                rdfs:label "ALTO XML versie"@nl, "ALTO XML version"@en .
 
-  mf:language rdfs:label "taal"@nl, "language"@en ;
-              rdf:value ?newspaperIssueLanguage .
-
-  mf:type     rdfs:label "type"@nl, "type"@en;
-              rdf:value "https://data.hetarchief.be/ns/description/NewspaperIssue" .
-
-  mf:requiredStatement rdfs:label "Attribution"@en, "Attributie"@nl ;
-                       rdf:value "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden" .
-
-  ?cp a dct:Agent ;
+  ?cp a dcterms:Agent ;
       rdfs:label ?cpLabel ;
       foaf:homepage ?cpHomepage ;
       foaf:logo ?cpLogo .
@@ -171,4 +171,5 @@ WHERE {
   BIND(IF(LANG(?titleNewspaper) = "nl", ?titleNewspaper, 1/0) AS ?titleNewspaperNl)
   BIND(IF(LANG(?titleNewspaperIssue) = "nl", ?titleNewspaperIssue, 1/0) AS ?titleNewspaperIssueNl)
   BIND(STR(?newspaperIssueDate) AS ?newspaperIssueDateString)
+  BIND(STRLANG("nl", "nl") AS ?nlString)
 } 
