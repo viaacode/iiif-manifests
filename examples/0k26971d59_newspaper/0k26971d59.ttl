@@ -359,7 +359,7 @@ haLic:IIIF-PUBLIC
     prov:wasDerivedFrom         <68ef64cc816499685d4632d0729a404c> ;
     premis:storedAt             [
                                 a premis:StorageLocation ;
-                                rdf:value <https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187>
+                                rdf:value <https://images.meemoo.be/iiif/public/OR-0z70w1b/31/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187>
                                 ] .
 
 # IIIF rep. page 2
@@ -375,7 +375,7 @@ haLic:IIIF-PUBLIC
     prov:wasDerivedFrom         <ac397eb666c51ee72ee963bf48ed540f> ;
     premis:storedAt             [
                                 a premis:StorageLocation ;
-                                rdf:value <https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b98f1cf086dc454e25a86490c7b670b49d>
+                                rdf:value <https://images.meemoo.be/iiif/public/OR-0z70w1b/a7/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b98f1cf086dc454e25a86490c7b670b49d>
                                 ] .
 
 <https://anet.be/record/opacbnc/c:bnc:206/N>
