@@ -1,204 +1,97 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "iiif_prezi": "http://iiif.io/api/presentation/3#",
-    "iiif_image_3": "http://iiif.io/api/image/3#",
-    "exif": "http://www.w3.org/2003/12/exif/ns#",
-    "oa": "http://www.w3.org/ns/oa#",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "dctypes": "http://purl.org/dc/dcmitype/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "as": "http://www.w3.org/ns/activitystreams#",
-    "ebu": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
-    "schema": "https://schema.org/",
-    "id": "@id",
-    "type": "@type",
-    "Collection": {
-      "@id": "iiif_prezi:Collection",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "https://iiif.io/api/presentation/3/context.json",
+    {
+      "metadata": {
+        "@type": "@id",
+        "@id": "iiif_prezi:metadataEntries",
+        "@container": "@set"
+      },
+      "viewingDirection": {
+        "@id": "iiif_prezi:viewingDirection",
+        "@type": "@vocab",
+        "@context": {
+          "left-to-right": "iiif_prezi:leftToRightDirection",
+          "right-to-left": "iiif_prezi:rightToLeftDirection",
+          "top-to-bottom": "iiif_prezi:topToBottomDirection",
+          "bottom-to-top": "iiif_prezi:bottomToTopDirection"
         }
-      }
-    },
-    "Manifest": {
-      "@id": "iiif_prezi:Manifest",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
-        }
-      }
-    },
-    "Canvas": {
-      "@id": "iiif_prezi:Canvas",
-      "@context": {
-        "partOf": {
-          "@id": "dcterms:partOf",
-          "@type": "@id",
-          "@container": "@set"
-        }
-      }
-    },
-    "AnnotationPage": {
-      "@id": "as:OrderedCollectionPage",
-      "@context": {
-        "label": {
-          "@id": "rdfs:label",
-          "@container": ["@language", "@set"],
-          "@context": {
-            "none": "@none"
+      },
+      "items": {
+        "@type": "@id",
+        "@id": "as:items",
+        "@container": "@set"
+      },
+      "annotations": {
+        "@type": "@id",
+        "@id": "iiif_prezi:annotations",
+        "@container": "@set"
+      },
+      "AnnotationPage": {
+        "@id": "as:OrderedCollectionPage",
+        "@context": [
+          {
+            "items": {
+              "@type": "@id",
+              "@id": "as:items",
+              "@container": "@set"
+            }
           }
+        ]
+      },
+      "none": "@none"
+    },
+    "http://iiif.io/api/image/3/context.json",
+    {
+      "profile": {
+        "@type": "@id",
+        "@id": "dcterms:conformsTo",
+        "@context": {
+          "level0": "http://iiif.io/api/image/3/level0.json",
+          "level1": "http://iiif.io/api/image/3/level1.json",
+          "level2": "http://iiif.io/api/image/3/level2.json"
         }
       }
-    },
-    "Annotation": {
-      "@id": "oa:Annotation",
-      "@context": {
-        "motivation": {
-          "@id": "oa:motivatedBy"
-        },
-        "body": {
-          "@type": "@id",
-          "@id": "oa:hasBody"
-        },
-        "target": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        }
-      }
-    },
-    "label": {
-      "@id": "rdfs:label",
-      "@container": ["@language", "@set"],
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "value": {
-      "@id": "rdf:value",
-      "@container": ["@language", "@set"],
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "items": {
-      "@type": "@id",
-      "@id": "as:items",
-      "@container": "@set"
-    },
-    "behavior": {
-      "@id": "iiif_prezi:behavior",
-      "@type": "@vocab",
-      "@container": "@set",
-      "@context": {
-        "individuals": "iiif_prezi:individualsHint",
-        "paged": "iiif_prezi:pagedHint"
-      }
-    },
-    "metadata": {
-      "@type": "@id",
-      "@id": "iiif_prezi:metadataEntries",
-      "@container": "@set"
-    },
-    "navDate": {
-      "@id": "iiif_prezi:navigationDate"
-    },
-    "viewingDirection": {
-      "@id": "iiif_prezi:viewingDirection",
-      "@type": "@vocab",
-      "@container": "@set",
-      "@context": {
-        "left-to-right": "iiif_prezi:leftToRightDirection",
-        "right-to-left": "iiif_prezi:rightToLeftDirection",
-        "top-to-bottom": "iiif_prezi:topToBottomDirection",
-        "bottom-to-top": "iiif_prezi:bottomToTopDirection"
-      }
-    },
-    "requiredStatement": {
-      "@id": "iiif_prezi:requiredStatement",
-      "@type": "@id"
-    },
-    "rights": {
-      "@id": "dcterms:rights"
-    },
-    "provider": {
-      "@type": "@id",
-      "@id": "schema:provider",
-      "@container": "@set"
-    },
-    "Agent": "dcterms:Agent",
-    "homepage": {
-      "@type": "@id",
-      "@id": "foaf:homepage",
-      "@container": "@set"
-    },
-    "logo": {
-      "@type": "@id",
-      "@id": "foaf:logo",
-      "@container": "@set"
-    },
-    "Text": "dctypes:Text",
-    "Image": "dctypes:StillImage",
-    "format": {
-      "@id": "dc:format"
-    },
-    "thumbnail": {
-      "@type": "@id",
-      "@id": "iiif_prezi:thumbnail",
-      "@container": "@set"
-    },
-    "service": {
-      "@type": "@id",
-      "@id": "schema:potentialAction",
-      "@container": "@set",
-      "@context": {
-        "ImageService3": {
-          "@id": "iiif_image_3:ImageService"
-        }
-      }
-    },
-    "profile": "dcterms:conformsTo",
-    "annotations": {
-      "@type": "@id",
-      "@id": "iiif_prezi:annotations",
-      "@container": "@set"
-    },
-    "rendering": {
-      "@id": "dcterms:hasFormat",
-      "@type": "@id",
-      "@container": "@set"
     }
-  },
+  ],
   "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/manifest.json",
   "type": "Manifest",
-  "behavior": ["individuals", "paged"],
+  "behavior": [
+    "individuals",
+    "paged"
+  ],
   "metadata": [
     {
       "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-newspaper-manifest/1/run#language",
       "value": {
-        "@none": ["nl"]
+        "none": [
+          "nl"
+        ]
       },
       "label": {
-        "nl": ["taal"],
-        "en": ["language"]
+        "en": [
+          "language"
+        ],
+        "nl": [
+          "taal"
+        ]
       }
     },
     {
       "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-newspaper-manifest/1/run#type",
       "value": {
-        "@none": ["https://data.hetarchief.be/ns/description/NewspaperIssue"]
+        "none": [
+          "https://data.hetarchief.be/ns/description/NewspaperIssue"
+        ]
       },
       "label": {
-        "nl": ["type"],
-        "en": ["type"]
+        "en": [
+          "type"
+        ],
+        "nl": [
+          "type"
+        ]
       }
     }
   ],
@@ -206,104 +99,38 @@
   "requiredStatement": {
     "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-newspaper-manifest/1/run#requiredStatement",
     "value": {
-      "@none": [
+      "none": [
         "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden"
       ]
     },
     "label": {
-      "en": ["Attribution"],
-      "nl": ["Attributie"]
+      "nl": [
+        "Attributie"
+      ],
+      "en": [
+        "Attribution"
+      ]
     }
   },
-  "viewingDirection": ["left-to-right"],
+  "viewingDirection": "left-to-right",
   "partOf": [
     {
       "id": "https://iiif.meemoo.be/presentation/3/c:bnc:206/newspaper_title-collection.json",
       "type": "Collection",
       "label": {
-        "nl": ["De Gentenaar. De landwacht. De kleine patriot"]
+        "nl": [
+          "De Gentenaar. De landwacht. De kleine patriot"
+        ]
       }
     }
   ],
-  "rights": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+  "rights": "http://creativecommons.org/licenses/by/4.0/deed.nl",
   "label": {
-    "nl": ["De Gentenaar. De landwacht. De kleine patriot"]
+    "nl": [
+      "De Gentenaar. De landwacht. De kleine patriot"
+    ]
   },
   "items": [
-    {
-      "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
-      "type": "Canvas",
-      "annotations": [
-        {
-          "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/ocr/2",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2/annotation/ocr/2",
-              "type": "Annotation",
-              "body": {
-                "id": "https://archief-media.meemoo.be/viaa/MOB/UGENT/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b.xml",
-                "type": "Text",
-                "format": "application/xml",
-                "label": {
-                  "nl": ["ALTO XML versie"],
-                  "en": ["ALTO XML version"]
-                }
-              },
-              "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
-              "motivation": "supplementing"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse.jpg",
-          "type": "Image",
-          "format": "image/jpeg"
-        }
-      ],
-      "rendering": [
-        {
-          "id": "https://archief-media.meemoo.be/viaa/MOB/UGENT/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b.xml",
-          "type": "Text",
-          "format": "application/xml",
-          "label": {
-            "nl": ["ALTO XML versie"],
-            "en": ["ALTO XML version"]
-          }
-        }
-      ],
-      "label": {
-        "@none": ["p2"]
-      },
-      "items": [
-        {
-          "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2/annotation/2",
-              "type": "Annotation",
-              "body": {
-                "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187.jph/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187.jph",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ]
-              },
-              "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
-              "motivation": "painting"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/1",
       "type": "Canvas",
@@ -320,8 +147,12 @@
                 "type": "Text",
                 "format": "application/xml",
                 "label": {
-                  "nl": ["ALTO XML versie"],
-                  "en": ["ALTO XML version"]
+                  "nl": [
+                    "ALTO XML versie"
+                  ],
+                  "en": [
+                    "ALTO XML version"
+                  ]
                 }
               },
               "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/1",
@@ -343,13 +174,19 @@
           "type": "Text",
           "format": "application/xml",
           "label": {
-            "nl": ["ALTO XML versie"],
-            "en": ["ALTO XML version"]
+            "nl": [
+              "ALTO XML versie"
+            ],
+            "en": [
+              "ALTO XML version"
+            ]
           }
         }
       ],
       "label": {
-        "@none": ["p1"]
+        "none": [
+          "p1"
+        ]
       },
       "items": [
         {
@@ -367,11 +204,95 @@
                   {
                     "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b98f1cf086dc454e25a86490c7b670b49d.jph",
                     "type": "ImageService3",
-                    "profile": "level2"
+                    "profile": "http://iiif.io/api/image/3/level2.json"
                   }
                 ]
               },
               "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/1",
+              "motivation": "painting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
+      "type": "Canvas",
+      "annotations": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/ocr/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2/annotation/ocr/2",
+              "type": "Annotation",
+              "body": {
+                "id": "https://archief-media.meemoo.be/viaa/MOB/UGENT/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b.xml",
+                "type": "Text",
+                "format": "application/xml",
+                "label": {
+                  "en": [
+                    "ALTO XML version"
+                  ],
+                  "nl": [
+                    "ALTO XML versie"
+                  ]
+                }
+              },
+              "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
+              "motivation": "supplementing"
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://archief-media.meemoo.be/viaa/MOB/UGENT/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b/4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b.xml",
+          "type": "Text",
+          "format": "application/xml",
+          "label": {
+            "en": [
+              "ALTO XML version"
+            ],
+            "nl": [
+              "ALTO XML versie"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "none": [
+          "p2"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2/page/2/annotation/2",
+              "type": "Annotation",
+              "body": {
+                "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187.jph/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187.jph",
+                    "type": "ImageService3",
+                    "profile": "http://iiif.io/api/image/3/level2.json"
+                  }
+                ]
+              },
+              "target": "https://iiif.meemoo.be/presentation/3/0k26971d59/canvas/2",
               "motivation": "painting"
             }
           ]
@@ -384,7 +305,9 @@
       "id": "https://data.hetarchief.be/id/organization/OR-0z70w1b",
       "type": "Agent",
       "label": {
-        "nl": ["Universiteitsbibliotheek Gent"]
+        "nl": [
+          "Universiteitsbibliotheek Gent"
+        ]
       },
       "homepage": [
         {
