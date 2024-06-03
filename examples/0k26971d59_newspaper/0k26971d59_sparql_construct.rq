@@ -89,8 +89,7 @@ CONSTRUCT{
   ?annotationBodyOcrIri a oa:TextualBody ;
                         dc:language ?newspaperIssueLanguage ;
                         dc:format "text/plain" ;
-                        rdf:value "test body" .
-                        # rdf:value ?ocrFullTextPlain .
+                        rdf:value ?ocrFullTextPlain .
 
   ?cp a dcterms:Agent ;
       rdfs:label ?cpLabel ;
