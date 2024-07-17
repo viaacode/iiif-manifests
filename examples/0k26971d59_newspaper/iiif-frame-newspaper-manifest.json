@@ -1,0 +1,10 @@
+{
+  "@type": "Manifest",
+  "@embed": "@always",
+  "@context": [
+    "https://iiif.io/api/presentation/3/context.json",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/image/3/context.json",
+    "https://meemoo-int.triply.cc/milan/iiif-test-newspaper/assets/664dee7920f8b6330ceea888"
+  ]
+}

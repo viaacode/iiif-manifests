@@ -1,0 +1,183 @@
+prefix as: <http://www.w3.org/ns/activitystreams#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix dctypes: <http://purl.org/dc/dcmitype/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix iiif_prezi: <http://iiif.io/api/presentation/3#>
+prefix iiif_image_3: <http://iiif.io/api/image/3#>
+prefix oa: <http://www.w3.org/ns/oa#>
+prefix org: <http://www.w3.org/ns/org#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix schema: <https://schema.org/>
+prefix haLic: <https://data.hetarchief.be/id/license/>
+prefix mf: <https://api.meemoo-int.triply.cc/queries/milan/iiif-newspaper-manifest/1/run#>
+prefix mh: <https://data.hetarchief.be/ns/mediahaven/>
+prefix haObj: <https://data.hetarchief.be/ns/object/>
+prefix haOrg: <https://data.hetarchief.be/ns/organization/>
+prefix rel: <http://id.loc.gov/vocabulary/preservation/relationshipSubType/>
+prefix premis: <http://www.loc.gov/premis/rdf/v3/>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix haDes: <https://data.hetarchief.be/ns/descriptive/>
+prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#>
+
+CONSTRUCT{
+  ?collectionIri a iiif_prezi:Collection ;
+                 rdfs:label ?titleNewspaperNl .
+
+  ?manifestIri a iiif_prezi:Manifest ;
+               rdfs:label ?titleNewspaperIssueNl ;
+               iiif_prezi:behavior iiif_prezi:individualsHint, iiif_prezi:pagedHint ;
+               iiif_prezi:viewingDirection iiif_prezi:leftToRightDirection ;
+               iiif_prezi:requiredStatement mf:requiredStatement ;
+               dcterms:rights <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
+               iiif_prezi:metadataEntries mf:language, mf:type ;
+               iiif_prezi:navigationDate ?newspaperIssueDateString ;
+               dcterms:partOf ?collectionIri ;
+               as:items ?canvasIri ;
+               schema:provider ?cp .
+
+  mf:language rdfs:label "taal"@nl, "language"@en ;
+              rdf:value ?newspaperIssueLanguage .
+
+  mf:type     rdfs:label "type"@nl, "type"@en;
+              rdf:value "https://data.hetarchief.be/ns/description/NewspaperIssue" .
+
+  mf:requiredStatement rdfs:label "Attribution"@en, "Attributie"@nl ;
+                       rdf:value "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden" .
+
+  ?canvasIri  a iiif_prezi:Canvas ;
+              rdfs:label ?pageNumberText ;
+              rdfs:seeAlso ?altoFileUrl ;
+              iiif_prezi:thumbnail ?browseThumbnailIri ;
+              as:items ?annotationPageIri ;
+              iiif_prezi:annotations ?annotationPageOcrIri .
+
+  ?browseThumbnailIri a dctypes:StillImage ;
+                      dc:format "image/jpeg" .
+
+  ?annotationPageIri a as:OrderedCollectionPage ;
+                     as:items ?annotationIri .
+
+  ?annotationIri a oa:Annotation ;
+                oa:motivatedBy iiif_prezi:painting ;
+                oa:hasTarget ?canvasIri ;
+                oa:hasBody ?bodyIri .
+  
+  ?bodyIri a dctypes:StillImage ;
+            dc:format "image/jpeg" ;
+            schema:potentialAction ?serviceIri .
+
+  ?serviceIri a iiif_image_3:ImageService ;
+             dcterms:conformsTo <http://iiif.io/api/image/3/level2.json> .
+
+  ?annotationPageOcrIri a as:OrderedCollectionPage ;
+                        as:items ?annotationOcrIri .
+
+  ?annotationOcrIri a oa:Annotation ;
+                    oa:motivatedBy iiif_prezi:supplementing ;
+                    oa:hasTarget ?canvasIri ;
+                    oa:hasBody ?annotationBodyOcrIri .
+
+  ?altoFileUrl a dctypes:Dataset ;
+               dc:format "text/xml" ;
+               dcterms:conformsTo <http://www.loc.gov/standards/alto> ;
+               rdfs:label "ALTO XML versie"@nl, "ALTO XML version"@en .
+
+  ?annotationBodyOcrIri a oa:TextualBody ;
+                        dc:language ?newspaperIssueLanguage ;
+                        dc:format "text/plain" ;
+                        rdf:value ?ocrFullTextPlain .
+
+  ?cp a dcterms:Agent ;
+      rdfs:label ?cpLabel ;
+      foaf:homepage ?cpHomepage ;
+      foaf:logo ?cpLogo .
+
+  ?cpHomepage a dctypes:Text ;
+              dc:format "text/html" .
+
+  ?cpLogo a dctypes:StillImage ;
+          dc:format "image/png" .
+  
+}
+WHERE {
+  # https://data.hetarchief.be/id/entity/0k26971d59
+  # BIND(IRI(CONCAT("https://data.hetarchief.be/id/entity/",?incomingPid)) AS ?newspaperIssue)
+  VALUES ?license {haLic:IIIF-PUBLIC}
+    
+  ?newspaper a schema:Newspaper ;
+             schema:name ?titleNewspaper ;
+             schema:identifier ?abrahamId ;
+             ^schema:isPartOf ?newspaperIssue .
+  
+  ?newspaperIssue a haDes:NewspaperIssue ;
+                  schema:name  ?titleNewspaperIssue ;
+                  schema:license ?license ;
+                  schema:identifier ?pid ;
+                  schema:inLanguage ?newspaperIssueLanguage ;
+                  schema:dateCreated ?newspaperIssueDate ;
+                  schema:maintainer ?cp ;
+                  rel:hsp ?newspaperIssuePage .
+
+  ?newspaperIssuePage a haDes:NewspaperIssuePage ;
+                      haDes:pageNumber  ?newspaperIssuePageNumber;
+                      haObj:hasAccessCopy ?browseRepresentation ;
+                      haObj:hasIIIFCopy ?iiifRepresentation ;
+                      rel:isr ?altoRepresentation ;
+                      schema:description ?ocrFullTextNl .
+
+  ?browseRepresentation a haObj:DigitalRepresentation ;
+                        rel:inc ?browseFile .
+
+  ?browseFile a premis:File ;
+              schema:thumbnailUrl ?browseThumbnailIri .
+
+  ?iiifRepresentation a haObj:DigitalRepresentation ;
+                      rel:inc ?iiifFile .
+
+  ?iiifFile a premis:File ;
+            premis:storedAt ?iiifFileLocation .
+
+  ?iiifFileLocation a premis:StorageLocation ;
+                    rdf:value ?iiifFileUrl .
+
+  ?altoRepresentation a haObj:DigitalRepresentation ;
+                      rel:inc ?altoFile .
+
+  ?altoFile a premis:File ;
+            ebucore:hasMimeType "application/xml" ;
+            premis:storedAt ?altoFileLocation .
+
+  ?altoFileLocation a premis:StorageLocation ;
+                    rdf:value ?altoFileUrl .
+
+  ?cp org:identifier ?cpId ;
+      skos:prefLabel ?cpLabel ;
+      foaf:homepage ?cpHomepage ;
+      haOrg:hasLogo ?cpLogo .
+
+  # FILTER (?license IN (haLic:IIIF-PUBLIC))
+
+  BIND(STR(?newspaperIssuePageNumber) AS ?newspaperIssuePageNumberText)
+
+  BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?abrahamId, "/newspaper_title-collection.json")) AS ?collectionIri)
+  BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/manifest.json")) AS ?manifestIri)
+  BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/",?newspaperIssuePageNumberText)) AS ?canvasIri)
+  BIND(CONCAT("p",?newspaperIssuePageNumberText) AS ?pageNumberText)
+  BIND(IRI(CONCAT(STR(?canvasIri),"/page/",?newspaperIssuePageNumberText)) as ?annotationPageIri)
+  BIND(IRI(CONCAT(STR(?canvasIri),"/page/ocr/",?newspaperIssuePageNumberText)) as ?annotationPageOcrIri)
+  BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/",?newspaperIssuePageNumberText)) as ?annotationIri)
+  BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/",?newspaperIssuePageNumberText)) as ?annotationOcrIri)
+  BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/body/",?newspaperIssuePageNumberText)) as ?annotationBodyOcrIri)
+  BIND(IRI(CONCAT(STR(?iiifFileUrl),".jph")) AS ?serviceIri)
+  BIND(IRI(CONCAT(STR(?serviceIri), "/full/max/0/default.jpg")) AS ?bodyIri)
+  
+
+  BIND(IF(LANG(?titleNewspaper) = "nl", ?titleNewspaper, 1/0) AS ?titleNewspaperNl)
+  BIND(IF(LANG(?titleNewspaperIssue) = "nl", ?titleNewspaperIssue, 1/0) AS ?titleNewspaperIssueNl)
+  BIND(STR(?newspaperIssueDate) AS ?newspaperIssueDateString)
+  BIND(STR(?ocrFullTextNl) AS ?ocrFullTextPlain)
+} 
