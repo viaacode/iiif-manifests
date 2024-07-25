@@ -1,0 +1,1635 @@
+{
+	"NrOfResults": 7,
+	"StartIndex": 0,
+	"TotalNrOfResults": 7,
+	"Results": [
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"InformationPackage": "Aip",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000003"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"OriginalStatus": "completed",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0/browse.jpg",
+				"IsFragment": false,
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0/browse.jpg",
+				"HasKeyframes": false,
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "jpg",
+							"FileSize": 0
+						}
+					]
+				},
+				"MediaObjectId": "25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0",
+				"ArchiveStatus": "on_disk",
+				"BrowseStatus": "completed",
+				"RecordId": "25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"FragmentId": "25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d02235d0db57934983b6ecabe713e75cf2",
+				"OffsetInDatabase": 399992,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/25757887d6d74432ab7b6531f56974d86f7e6e35336b4765951228b61b9153d0/browse-thumb.jpg",
+				"ContainsGeoData": false,
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"ImageQuality": "high",
+				"OriginalExtension": "jp2",
+				"FileSize": 2611698,
+				"ImageSize": "4004x3500",
+				"MimeType": "image/jp2",
+				"Height": 3500,
+				"Width": 4004,
+				"Md5": "a762e2b84a15b907074105944e6a64e8",
+				"ImageOrientation": "landscape",
+				"PronomId": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-06-30T23:45:54.000000Z",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"OriginalFilename": "0k26971d59_19160915_0002.jp2",
+				"Title": "0k26971d59_19160915_0002.jp2",
+				"RightsOwner": "© UGent",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-06-24T13:53:47.764000Z",
+				"IsSynchronized": false,
+				"IsOriginal": true,
+				"OrganisationName": "ugent",
+				"HasFailedJobs": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2021-04-25T01:12:45.382000Z",
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"PublicationDate": "2022-04-23T17:35:47.595000Z",
+				"DeleteStatus": "NotDeleted",
+				"Type": "image",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalId": null,
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"Workflow": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"InformationPackage": "Aip",
+				"HasChildren": false,
+				"HasNonRepresentationChildren": false,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Newspapers": {
+					"Newspaper": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"FragmentStartFrames": null,
+				"FragmentEndFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"updated_on": "2015-03-30T14:03:03",
+				"number_of_pages": "2",
+				"language": "NL",
+				"type_viaa": "Paper",
+				"number": "38:222",
+				"original_location": "BIB.J.004060",
+				"shipment_id": "14277202531",
+				"Sub_CP": "UGent Boekentoren",
+				"digitization_format": "TIFF/300ppi/24bit True color",
+				"created_by": "Lotte Campforts",
+				"created_on": "2014-11-19T13:11:11",
+				"sp_id": "OR-qj77x56",
+				"updated_by": "Noortje",
+				"text_quality_for_ocr": "No problems",
+				"abraham_ID": "c:bnc:206",
+				"carrier_date": "1916-09-15",
+				"status": "Pending",
+				"premis": "<premis:premis version=\"2.3\" xmlns:premis=\"info:lc/xmlns/premis-v2\"><premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>VIAA-INSPECTION-EVENT</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Inspection</premis:eventType>\n            <premis:eventDateTime>2015-02-24</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        </premis:premis>",
+				"batch_id": "NWPB05",
+				"paper": "Reasonable",
+				"sp_name": "GMS",
+				"carrier_unity": "Loose",
+				"PID": "0k26971d59",
+				"CP": "UGENT",
+				"batch_name": "NWPB05",
+				"original_carrier_id": "rug01:000339712/items/000000815773",
+				"CP_id": "OR-0z70w1b",
+				"collection_box_barcode": "BNWP_UGE_000008",
+				"NeedsPublicationDateMigration": "true",
+				"carrier_barcode": "ANWP_UGE_002599",
+				"preservation_problems": "Vlekken",
+				"dimensions": "A4"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"OriginalStatus": "completed",
+				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"IsFragment": false,
+				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"HasKeyframes": false,
+				"MediaObjectId": "5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb",
+				"ArchiveStatus": "completed",
+				"BrowseStatus": "no_browse",
+				"RecordId": "5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"FragmentId": "5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb3262f5b0b268437883453fd49350641b",
+				"OffsetInDatabase": 399996,
+				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"ContainsGeoData": false,
+				"DepartmentId": "9a243364-c671-428e-8e4c-a98cfc14aa3a",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Browses": {},
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"OriginalExtension": "xml",
+				"FileSize": 0,
+				"Md5": null,
+				"MimeType": null,
+				"PronomId": null,
+				"Width": null,
+				"Height": null,
+				"ImageSize": null,
+				"ImageOrientation": null,
+				"ImageQuality": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"df107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "1916-09-14T22:00:00.000000Z",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"OriginalFilename": "0k26971d59.mets.xml",
+				"Title": "De Gentenaar. De landwacht. De kleine patriot",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"RightsOwner": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-02T23:29:35.754000Z",
+				"IsSynchronized": false,
+				"IsOriginal": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"IsPreservation": false,
+				"DepartmentName": "tempugent",
+				"UserLastModifiedDate": "2021-04-28T03:32:35.880000Z",
+				"ArchiveDate": "2015-06-30T23:45:59.000000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"PublicationDate": "2022-04-23T19:38:44.662000Z",
+				"ExternalId": "0k26971d59",
+				"DeleteStatus": "NotDeleted",
+				"Type": "newspaper",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"InformationPackage": "Aip",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000005"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"OriginalStatus": "completed",
+				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"IsFragment": false,
+				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"HasKeyframes": false,
+				"MediaObjectId": "4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b",
+				"ArchiveStatus": "on_disk",
+				"BrowseStatus": "failed",
+				"RecordId": "4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"FragmentId": "4493f1bfb5fa4669b5a351737e3a876493129717f7564184a81824bac895e77b5087bdded3a04392b4e94dff394cc15f",
+				"OffsetInDatabase": 399990,
+				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"ContainsGeoData": false,
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Browses": {},
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"OriginalExtension": "xml",
+				"FileSize": 411818,
+				"MimeType": "application/xml",
+				"Md5": "43791dabae4e26d4d2a54f20f03337a3",
+				"PronomId": null,
+				"Width": null,
+				"Height": null,
+				"ImageSize": null,
+				"ImageOrientation": null,
+				"ImageQuality": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-06-30T23:45:54.000000Z",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"OriginalFilename": "0k26971d59_19160915_0002_alto.xml",
+				"Title": "0k26971d59_19160915_0002_alto.xml",
+				"RightsOwner": "© UGent",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-06-29T23:49:56.059000Z",
+				"IsSynchronized": false,
+				"IsOriginal": true,
+				"OrganisationName": "ugent",
+				"HasFailedJobs": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2021-04-27T03:03:55.526000Z",
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"PublicationDate": "2022-04-23T12:57:05.701000Z",
+				"DeleteStatus": "NotDeleted",
+				"Type": "document",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalId": null,
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"Workflow": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000001"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"InformationPackage": "Aip",
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"number_of_pages": "2",
+				"type_viaa": "Paper",
+				"number": "38:222",
+				"original_location": "BIB.J.004060",
+				"shipment_id": "14277202531",
+				"digitization_format": "TIFF/300ppi/24bit True color",
+				"created_on": "2014-11-19T13:11:11",
+				"updated_by": "Noortje",
+				"text_quality_for_ocr": "No problems",
+				"abraham_ID": "c:bnc:206",
+				"carrier_date": "1916-09-15",
+				"status": "Pending",
+				"premis": "<premis:premis version=\"2.3\" xmlns:premis=\"info:lc/xmlns/premis-v2\"><premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>DIGITIZATION-EVENT-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Digitization</premis:eventType>\n            <premis:eventDateTime>2015-02-24T11:20:38Z</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-6</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>FIXITY-CHECK-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Fixity check</premis:eventType>\n            <premis:eventDateTime>2015-06-11</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-1</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>EDITING-EVENT-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Digitization Editing</premis:eventType>\n            <premis:eventDateTime>2015-02-24T11:20:38Z</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-3</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>BULK-QC-EVENT-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Bulk QC</premis:eventType>\n            <premis:eventDateTime>2015-06-09</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote>Manual QC y</premis:eventOutcomeDetailNote>\n                <premis:eventOutcomeDetailExtension>\n                  <premis:linkingObjectIdentifier>\n                    <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n                    <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.jp2</premis:linkingObjectIdentifierValue>\n                  </premis:linkingObjectIdentifier>\n                </premis:eventOutcomeDetailExtension>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>OCR-EVENT-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>OCR creation</premis:eventType>\n            <premis:eventDateTime>2015-06-08</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote/>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-4</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>TRANSFER-EVENT-P2</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Transfer to FTP</premis:eventType>\n            <premis:eventDateTime>2015-06-10</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote/>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0002.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        </premis:premis>",
+				"batch_id": "NWPB05",
+				"PID": "0k26971d59_19160915_0002",
+				"CP": "UGENT",
+				"batch_name": "NWPB05",
+				"carrier_barcode": "ANWP_UGE_002599",
+				"preservation_problems": "Vlekken",
+				"dimensions": "A4",
+				"updated_on": "2015-03-30T14:03:03",
+				"language": "NL",
+				"Sub_CP": "UGent Boekentoren",
+				"created_by": "Lotte Campforts",
+				"sp_id": "OR-qj77x56",
+				"paper": "Reasonable",
+				"sp_name": "GMS",
+				"carrier_unity": "Loose",
+				"original_carrier_id": "rug01:000339712/items/000000815773",
+				"CP_id": "OR-0z70w1b",
+				"collection_box_barcode": "BNWP_UGE_000008",
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse.jpg",
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse.jpg",
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "jpg",
+							"FileSize": 0
+						}
+					]
+				},
+				"BrowseStatus": "completed",
+				"RecordId": "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"HasKeyframes": false,
+				"MediaObjectId": "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d",
+				"ArchiveStatus": "on_tape",
+				"FragmentId": "31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d9f19ace79335473a8b5aa50e5ef3b187",
+				"OffsetInDatabase": 399995,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/31e7659afdf042df832dea3e49d3696274f3887adfc94242b1f2116388acb41d/browse-thumb.jpg",
+				"DepartmentId": "9a243364-c671-428e-8e4c-a98cfc14aa3a",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"ImageQuality": "high",
+				"OriginalExtension": "tif",
+				"MimeType": "image/tiff",
+				"Width": 4005,
+				"Md5": "c0c9de7b3690f2e75048055f750af156",
+				"FileSize": 42079736,
+				"ImageSize": "4005x3500",
+				"Height": 3500,
+				"ImageOrientation": "landscape",
+				"PronomId": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"df107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-02-24T10:20:38.000000Z",
+				"Description": "fés en K-raatnur Babuck, werden sonder uH-«snderin : cp den anderen oevervandea Donauw fSTer. éb v-cht, waar zij volgens het zeggen der W.vo k'ns, opgehouden worden achter de stad K i h, in de nabijheid van den oever vaa le s .-.om, om dea laffen vijand tegen het Bu',-fàaisc; e uur te beschutten. M A CE DONISCH FRONT. - Op 10 Sep. tKbbcf ai er een Toetvolkgevecht pîaats ten twidc a het Os»rowo-meer, tegen ean zoua-iëar y ai dea daç te vorea verslagen. In à streek van Maglenitza en Us de Wardar-**Hei. ederrijdsch kononnenvuur. la ■ Srrwina-vaîlei, kebbeû vijandelijke èsiac'r • saten gepoogd de rivier over te steken màen he!4 <àw *orpea Newolem ea Kardi- Door onze ttmpea «HgevaJîen werden zij catior ce zwaarste verllezan teruggeworpen. tij • Struma-monding, hebben verscheidene pBR- Ische kompaniën, gesteund door geschut ë-5» de rechteroevar der rivier en door kanon-tso, |.:-.'poogd vooruît te gaan Oostwaarts : zij %«r-• •- door ons vuur an'haald en asngev&ll n in in huifte oiteangsstellingen terugîeworpen. T* vimadige bataljoas. die voornam n 4ezen «pmarsch te ateunen, zijn verstrooid £<î' Oîf'.ari door ons kanonaeavuur. ' «n - fijandefcjke vtoot kruist aaar gewoonte langa 4« kwst <6sr Egeesclhe Zee voor Kavalla en r iea'cferea io den golf va» Orfano. SOFIA, 12 September. — Officiëel : RUMEENSCH FRONT. - Aie den Donau-seveî h trach rast. Het oprukken onzer troepen ia da Bwferoedscha duutt voort. BALKANFRONT. — Gisterea, Il Septem-feer. ta de streek van hat Ostrowa-meer z?ra.k fttôllertovuuf en patroeljegevechten. la het ge-weal vas de Jtfeglica beeft de vijand met kleine Jfdaeîiagen aaasrevallen, doch werd overal door #bs vuur afgeiresrd. In het Wardar-dal en bij Dùir&a, levendig artillerievaur. Bij het Butkowo-meer zijn twee Italiaansche fecuipagnëii met machiengeweren, e venais een itka.'son in de richtiag op h t dorp Butk'owa-Dzutja tpgesebo;en, maar werden door een Êou(4eB iegeaaanval van onze troepen verstrooid. > ïtalianen werden gavan rea geaomen. Dit is 6ns eerste treffen met de Italianen. la het rial van ds S-roema heeft de vijand in feat iftiVecbt op de-n 10 S ptember bij de dorpen Kevelcrj en Kardeikoej 7 officierea e» rond 160 sian aan d»oden rerlorea. Ve!e gewrren, &a-~eU, ammunitie en indcr oor!o<smateriaal, aat de vijaad tij.-ieiis sijr.e vlucht had we^gewor-fea, wtrdca buitpernaakt. In dat gevecbt wer-aea Schotsche officierea en 100 Eagrtlschen gevangea genomea. Aan de Egeische ku?t '.ruiste de vijandelijke ^loot. Onze watervîiegtuigea heb'ien de vijan-«ejijke vloot in de haven van Kawalla met sncces aangevallen. Sorlog in EBLjIB ia FBAITKSIJ'K l\"r*asoha bariohtaa. PARIJS, 12 september. — Ten Z. vaa de Somme werd een Duit_che aanval op een d r Fransche loopgrachten ten O. van Balloy-en-aanterre g makkeiijk met haad^ranafen afges'a-gen. Een groote verrichtin? ston ! aan de Fran-«ehen toe ean Duitsche lorjpgr chi te bez: ttea •en Z. van het kerk'aof van Berny. Overal eîdsrs de gewone beschieting tijdens den nacht. PARIjS, 12 September, avondberichî. — Da 'ïlr g we d heden voongczet ten Noorden va; de Somme. Oas voetvolk heeft ee-- krachtdad g ofifensitf bewerks elligd op een front va:, otnjrent 6 kilometers, van aan het gewest ten Zui en van Combles, tôt a n de rivif-r. De aanval, rond 12.30 ure aasgevan^en, werd. voortsezet en ontwifrkelde zich vluchtig, dank *an den voortreÉfehjken geestdritt der troepen, a\".e in min dan een haîf uur, gehe\"l de eers'e linie der vijandelijke loopgrachten innamen. Vervolfiens, met dezslfde krachidadigheid, aua.ien aanval uaar het Oosten richtend, namen •nze voetvolksoldaten opvolgenthik de heliing 145, e bosschen Manières en gar.sch het vijan-«eiijk loopgrachtea stels *1 in tôt aan den weg Van Bapauaie naar Péronne welke zij omzoomt\n?an aan de Zuidelijke boschranden van Raucourt tôt aan hetZuiden van Bouchavesnes. Meer aaar het Zuiden hebben -vij onze liniëu vc-ornitgestoo'en tôt aan heurelfop 76, gelegen Sen Wes en vaa Feuillan^ourt. Tôt nog toe bedraagt het cijfer der krijgsge-yangenen 1.500 inan, waaronder talrijke officier en. Ten Zuiden der Somme, geweldig artillerie-gevecht in verschillende sektors, zouder iamen-fing van voetvolk. Op het overige van het front afgewisseld kanonvuur. Engelsoh beriohtsn: LONDEN, 12 Septembîr. — Gisterea avond heeft ons geschutvuur twee groote brandea gesticht in de vijandelijke opslagplaatsen vaa muiiitie te Graa icourt. Oostenrijksch-Staiiaanssha ooriog Xtallaansoli barioht, ROME, 12 September. — Tnsschea à? Vallarsa ea het dal van de boven-Posina heeft da vijand, na een heviçe bescbie'.ing, gisferea een aan-, al gedaan op de stellingen, eergistereB door ons veroverd. Hij is aanstonds terug e-slagen. Onze troepea hebben opuieaw kleine vorderingea gemaakt in de Vallarsa en het dal van de boven-Posina. In kleine gevacbten op den La^alusi (Trave-nanz-sdal,) op de hellin.'en van den Ci ma Bocche (Travignolo-dal) en op den Skme (Monte Ne:o, hebben wij den vijand teruggedrongen ea hem verîieze» toegebracht. Aan de Isonzo is niets van belang gebeuvd. Een vijandelijk vliegtuig heeft bommen ge-worpenop San Pietro (Gorz) ; r ismand is ge-deerd en er is geea schade aansericat. RÏÏSSISCH-DÏÏIÏSCHII 003L03 Busaïaoh borloht. ST-PETERSBURG, 12 September. - In df streek van de rivier Bialy Ose emosa hebben onze trorpen verscheidene hoogten bezet. Pogingen /an den vijand oin ze te hernemen zijn mis'ukt. In de B.sch-Karpsthen hebboa on?« troepen de geheele bsrgketen ten Noorden Capu! veroverd en bij <ie vervolgiag vaa dea vijand ook den Capul self. Zij hebben 13 officieren en 900 man gevangen genomen, 7 raitraljeuz^.n, 3 bomv;er; ers ea I zooklicht buitgeaiaakt. op ZEZ LONDEN, 12 September. — Het in dî?n grond boren wordt g mald van de Noorsche stoomschepen » Furu », « Fredavore » en « Polynes a ». Vaa de bemanning dor « Poîy-nesia » ztjn er 24 te Penzance (Zuidkust vaa Engeland) geland ; 4 man wordan vermist. De «Furu», in 1900 geboawd, mat 2029 ton bruto en behoorde aan de Akties Dpsk. Furu te Bergen. De «Fredavore ■, in 138! gebouwd, saat 1576 ton bruto en behoorde aan de A;.ties Fredavoro (Lundegaard & Siray) te Far-und. De « Polynesîi », in 1895 gebouwd, mat 4064 ton bruto ea b hoorde aan de Antarctic Whalitg Co Akties te Larvik. il In den Baikan. Hst oTsasiof vaa S&rrail. Er wordt gemeia dat generaal Sirrail schijnt toegegeven te hebben aan de drukking op hsm uitgeoefend, en bevel te hebben «egevea tôt herneming v_n het oSensief tegea Macedonië. In aile geval zi n de Fransche bladen e en-par ig in de laatste Engelsche aanvallen aaa het Wes'elijk gedee'te van het Salouixa-front bat be.rin van eea nie a v algemeea offensief, vaa hetwelk zij verwacbten dit het de Bulgaren ait de Dob\"u scha !o k< n zal. Da tosstanS ia C5rie&ealaaîl. De meest tegeis-rij lige geruchlen nopens de opvo'.ging van Zaïaiis doen in Parij3 de ronde. De « Informat on » verneemt uit Athene : In politieke i r agen wordt verzekerd dat\nkoning Kcnstautijn het inzicht had, opnieuw de vorming v.m aet kabinet aan Skuludis toe te vertrouwen. De Koning zal er nochtans waarschijnlijkop gesteld zijn d t Zaïmis zijn ontslag Intrekke. De « Matin » beweert dat de openbare meernng zich voor de lrandidatuur van Veuizelos verkkren zaL De Fransche bladen vernemen nog uit Athene dat d ; Koning den Knonprics naar Athene terugriep, alwaar eea familieraad zo.t ge'iouden worden. * * ♦ ïlet Grieksch ge^antschap looehent dat het aftredea van het Kabinet Zaimis zou te wijtea zijn aan eene onee&ii;heid met den Koning. Men gelooft veeleer dat de uitrede van Griekealand m den ooriog zich voorbereidt, wa'.rvan Zaïmis met een zwaiv overgangs abinet de verantwoor-delijkheid niet neinea wil. De b slissing zou voorbshouden zijn aan een toekomstig national ministerie. Oalaaten te 3noharont. Uit Bacbar st wordt gemeld dat, n'et ver van het koniaklijk pa'eis in het volkspark, samen-scho in:;cn plaats hadden van révolutionnaire elemenren, die aanstalten maakten om tsgen het koninklijk paîeis op te marscheeren, a.waar de koaingin veroleef. Er werd teee nover de woelmakers, ten getalle van ongeveer 2500 militaires weerstaad geboden. Scherpe salvos werdea afgevuurd, '.vaardoor verschei iene personen gidood we den. De betoogers konden uiieen gedreven wo den. Mea zegt dat rnen in de samearottingen wilde protest eren tegen de oaverbiddelijke iavords-ring der be as in en. Eene paniek brak Ios in de stad. Allé ver-dachte e!ernenfen worden onverbidd-lijk uit Bucharest uit,edreven.Een aantal zware vestir.g-kauonnea tôt reservebewapsning der forten zijn uit Moskowa n ekomen ea werden onverwijld in stelling gebracht. » * * Volgens de bladen van Milaan, werd Bucharest, tôt ve nina: verklaard. Aile niet genaturall-seerde vreemdîlingen moeten de stad veriaten. De s'eden Giurgevo en Olteniza h bb :n erg door de b schi t ng gele ien, en werdea door esn groot deel der bevolking veriaten. * * * Een bijronder telegiam der Russkoje Sîov. meldt dat Perer Carp sei ert eene wesk ;e Jassy wordt opgeliouden. Marghilcman moet te Bucharest blijven.\nHLLBK.L0Ï. Sono feoalits.slngr om ietleraa prlja. PARIJS, 11 September.— De Brit ch-Fran-sche leg1 rleiding trachi, naar blij -t uit de Fransche pers, de beslissin,^ aan de Somme om iederen prijs te bereiken, nog vôôr het inv'alien van den wi .ter. De « Matin » zegt : Wij mosten nu doorbreken. E :n b richt van de « Echo de Par s » < ischt : Wij mosten aîie reserven in den strijd w rpen om aan het lijdea van het Fransche volk nog dit jaar een einde te stedea. Da krljgsraaâ la hat 31 ysaum. De grao e Fransche krijgsraad die in het Elyseum onder voorzitterschap van président Poincaré werd gehouden, w rd behalve door den midiîter-voorzitter, en de rninisters van ooriog, ma iae, finmc.ën en biane;daadsche zaken, ook door de gcnaria s Jofire ea Castelnau bijgewoond. îa da Fraasohe Saasr. PARITS, 12 September. — De Kamer hervatta heden hare werkzaamhedc-n. De Senaat zal Donderdag wetr satn nkomin. In de Kamer zal worden ^oo-gesteld eerst de nieuwe5 pc!. leening en de vo nloopige twaalf-den voor het rierde kwaitaal vaa 1916 ta behandelen. Daaraa komen aan de crde : oor'o: sschade-• îooss'e'lingen, wijziging van verscheidene arti-kelen van het midtair strafwetboek, een beter gebruik van de officieren voor kaderversterking van da vechteade eenheden, zooaaede verschei\ndene interpd'a ies, waarvan de belangrijkst# betrekking hebben op dentoestand van het per* soneel van de:; gewapeaden dieastea de hulô» diensten. PARIJS, 13 September. — De wefgeTead» Kamer of Piriement is gisterea geopend worden door eene redevoerinsr, uitgeaprokeflt door M. Desch mel. M. Briana, vooi zit;er va® den ministerr lad, heeft roor Donderda? a. #.v eene redevo-ring aaag^kondigd, aaagaaade d* gebeurtenissea welke plaais hadden tijd ;ns den verloftijd. Daarna ging de Kamer over tôt d« dagorde. San *rlat?r7eldt<K&t ln 'i verso&isl, ST-PETERSBURG, 12 September. - 0» « Russki Iavaiid » officie l orga tn van het ministère van ooriog, kon ligt aan dat Ruslaud toebereidselen maakt voor eenen winTerveli-tocht, niette. eastaande het den wensch en hat verlangenh .d uitgedrukt dat de krijfsverrich* tingen eeneicdizoaden nemen voor hat iavalleft. van den strengen koude. Da kablaatakweatï® la Hoagar'5. Uit Budapest wordt gem ld : Het gedacht een koncentîatiekïbinet kan volkomen terzijda gesteld wordea. De regeering neemt te eno ^et de aansporir.g daartoe een volstrekt w igerend® houdingaan. De kwesWe zal eerst bij de bespre* king van het voorstei Andrassy, tus.chca dé toongevende faktoren ten berde komen. Bopnblllseinsol'to zogapraal ln Aaîerik». Uit Portland wordt gemeld dat de repubîl» keinen samen met de pro^essisten, bij de veç-kiezingen Maandag een groote zegtpraal bfif haalden. Zij kozen met 13000 stenunen dea gouverneur, twee seaators en vier leden van dé, volksvertegeîïwoordiger-kamer. Do Sajraîsaa# bavaaa gaalotea. AMSTERDAM, 1 September. — He' verkee# Vlissirigea-Londea heeft weder opgÊhoudelf., wijl de Enge'sche havens gesleten zijn. AMSTERDAM, 13 Septembar. — Ro-idmîd\"; dernacht ontving de havenmeester van Rottet\" dam een tele:;ram met de meliing, dat vaa dea voor .'aan den nanht,12 u;e,alleE agelsch: ha 'enS voor de neutrale scheepyaart gesloten waren. Hij heeft daarop nog zo jve 1 vaaituige ■ inoga»' lijkvan het feit in kennis geste:d. Des'oomef « Batavier VI» kon nog ing hou (en warden.' Heden morgend trachtîe de haven a:.e:.tef bevestigi-g te krij^en van het bericht. Da Engelsche algemeesia koasul wist no^ vaa niet»,' doch stelde z ch in verb n ing met het gezaat» fchap waar het feit baves'.igd werd. Ook de adrairaalst f kreeg mededeç'ing van den maatregel, waarvan het doel nog niet i(| gekend, doch die slechts voorbijgaande zijn kaai daar Engeland te veel bel ng heeft bij het in, voege blijven van het rerkeer. De Belgisstia gsls^rden ta de Statua vaa Noord-Amerlka. M. Maurits De Wulf, der Hoogeschool vaa' Leuven,heeft eene uitnoodiging aanvaard,we ke? hem gedaan is ge worden door de Amer kaanschas Hoogeschool vaa Harward, om er, gedureni® zes maanden, les te geven. | M.De Wulf zal er e.-noa leergang ope ien o~ac de Geschiedenis der wijsbegeerte in deXIIIeeeuTr3 Daarenboven doet msn hem de esr aan heta; uit te noodigen eenereeks voordrach'eo te gevert; in het groot insiituut « Lowell Ins'itute » vaaj Bo ton over het vo'gend onderwerp : « He*; kloosterleven in voile middeneeuwen. » Da E.'JKakanaalier is Woeasdag uit het groote Hoofdkwartier Berlijn terag^ekeerd. Saae sea-3<a§r vaa S. H. doa Zraaa bij don Ho^-us vaa Abyaslnié. ROME, 13 September. — De « Osservat'-ré Romano » koadigt aan dat pater Basile, overste! der katholieke zer.ding te Addis Abeba, plcchtig' is ontvacgen geworden door dea Nesus v a Abyssinië, te Harrar, en dat hij hem eenen eigenhandi. en brief van Z. H. den Paus heeft cverhandii-d, alsook het groot kruis der Oid« van het heilig graf des Zaligmakers.",
+				"OriginalFilename": "0k26971d59_19160915_0002.tif",
+				"RightsOwner": "© UGent",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"Title": "0k26971d59_19160915_0002.tif",
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-06-26T16:17:37.481000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "newspaperpage",
+				"IsOriginal": true,
+				"IsPreservation": false,
+				"DepartmentName": "tempugent",
+				"UserLastModifiedDate": "2021-04-25T23:05:23.798000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2022-04-23T00:32:10.212000Z",
+				"ExternalId": "0k26971d59_19160915_0002",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"InformationPackage": "Aip",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000002"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"OriginalStatus": "completed",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283/browse.jpg",
+				"IsFragment": false,
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283/browse.jpg",
+				"HasKeyframes": false,
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "jpg",
+							"FileSize": 0
+						}
+					]
+				},
+				"MediaObjectId": "6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283",
+				"ArchiveStatus": "on_disk",
+				"BrowseStatus": "completed",
+				"RecordId": "6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"FragmentId": "6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283a3628eb39be343218ae259edca5ea1f0",
+				"OffsetInDatabase": 399993,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/6bb238a1eb104d6d9afb7d0b61d5d3572c8c774547a5474a8e66933889863283/browse-thumb.jpg",
+				"ContainsGeoData": false,
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"ImageQuality": "high",
+				"OriginalExtension": "jp2",
+				"FileSize": 2728930,
+				"ImageSize": "3980x3476",
+				"MimeType": "image/jp2",
+				"Height": 3476,
+				"Width": 3980,
+				"Md5": "055e20e82d738d6a8ad0b4f368e36dc8",
+				"ImageOrientation": "landscape",
+				"PronomId": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-06-30T23:45:54.000000Z",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"OriginalFilename": "0k26971d59_19160915_0001.jp2",
+				"Title": "0k26971d59_19160915_0001.jp2",
+				"RightsOwner": "© UGent",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-06T08:19:45.482000Z",
+				"IsSynchronized": false,
+				"IsOriginal": true,
+				"OrganisationName": "ugent",
+				"HasFailedJobs": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2021-04-29T08:34:11.387000Z",
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"PublicationDate": "2022-04-25T18:59:18.070000Z",
+				"DeleteStatus": "NotDeleted",
+				"Type": "image",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalId": null,
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"Workflow": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000000"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"InformationPackage": "Aip",
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"number_of_pages": "2",
+				"type_viaa": "Paper",
+				"number": "38:222",
+				"original_location": "BIB.J.004060",
+				"shipment_id": "14277202531",
+				"digitization_format": "TIFF/300ppi/24bit True color",
+				"created_on": "2014-11-19T13:11:11",
+				"updated_by": "Noortje",
+				"text_quality_for_ocr": "No problems",
+				"abraham_ID": "c:bnc:206",
+				"carrier_date": "1916-09-15",
+				"status": "Pending",
+				"premis": "<premis:premis version=\"2.3\" xmlns:premis=\"info:lc/xmlns/premis-v2\"><premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>DIGITIZATION-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Digitization</premis:eventType>\n            <premis:eventDateTime>2015-02-24T11:20:24Z</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-5</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>FIXITY-CHECK-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Fixity check</premis:eventType>\n            <premis:eventDateTime>2015-06-11</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-1</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>EDITING-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Digitization Editing</premis:eventType>\n            <premis:eventDateTime>2015-02-24T11:20:24Z</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-3</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>MANUAL-QC-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Manual QC</premis:eventType>\n            <premis:eventDateTime>2015-06-09</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.jp2</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>BULK-QC-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Bulk QC</premis:eventType>\n            <premis:eventDateTime>2015-06-09</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote>Manual QC y</premis:eventOutcomeDetailNote>\n                <premis:eventOutcomeDetailExtension>\n                  <premis:linkingObjectIdentifier>\n                    <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n                    <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.jp2</premis:linkingObjectIdentifierValue>\n                  </premis:linkingObjectIdentifier>\n                </premis:eventOutcomeDetailExtension>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>OCR-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>OCR creation</premis:eventType>\n            <premis:eventDateTime>2015-06-08</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote/>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-4</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        <premis:event xmlns:premis=\"info:lc/xmlns/premis-v2\" xmlns=\"http://www.loc.gov/METS/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:revtmd=\"http://nwtssite.nwts.nara/schema/\" xmlns:viaa=\"http://viaa.be\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n            <premis:eventIdentifier>\n              <premis:eventIdentifierType>VIAA SP Event</premis:eventIdentifierType>\n              <premis:eventIdentifierValue>TRANSFER-EVENT-P1</premis:eventIdentifierValue>\n            </premis:eventIdentifier>\n            <premis:eventType>Transfer to FTP</premis:eventType>\n            <premis:eventDateTime>2015-06-10</premis:eventDateTime>\n            <premis:eventOutcomeInformation>\n              <premis:eventOutcome>y</premis:eventOutcome>\n              <premis:eventOutcomeDetail>\n                <premis:eventOutcomeDetailNote/>\n              </premis:eventOutcomeDetail>\n            </premis:eventOutcomeInformation>\n            <premis:linkingAgentIdentifier>\n              <premis:linkingAgentIdentifierType>VIAA SP Agent</premis:linkingAgentIdentifierType>\n              <premis:linkingAgentIdentifierValue>AGENT-2</premis:linkingAgentIdentifierValue>\n            </premis:linkingAgentIdentifier>\n            <premis:linkingObjectIdentifier>\n              <premis:linkingObjectIdentifierType>VIAA Carrier PID</premis:linkingObjectIdentifierType>\n              <premis:linkingObjectIdentifierValue>0k26971d59_19160915_0001.tif</premis:linkingObjectIdentifierValue>\n            </premis:linkingObjectIdentifier>\n          </premis:event>\n        </premis:premis>",
+				"batch_id": "NWPB05",
+				"PID": "0k26971d59_19160915_0001",
+				"CP": "UGENT",
+				"batch_name": "NWPB05",
+				"carrier_barcode": "ANWP_UGE_002599",
+				"preservation_problems": "Vlekken",
+				"dimensions": "A4",
+				"updated_on": "2015-03-30T14:03:03",
+				"language": "NL",
+				"Sub_CP": "UGent Boekentoren",
+				"created_by": "Lotte Campforts",
+				"sp_id": "OR-qj77x56",
+				"paper": "Reasonable",
+				"sp_name": "GMS",
+				"carrier_unity": "Loose",
+				"original_carrier_id": "rug01:000339712/items/000000815773",
+				"CP_id": "OR-0z70w1b",
+				"collection_box_barcode": "BNWP_UGE_000008",
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9/browse.jpg",
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9/browse.jpg",
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "jpg",
+							"FileSize": 0
+						}
+					]
+				},
+				"BrowseStatus": "completed",
+				"RecordId": "a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"HasKeyframes": false,
+				"MediaObjectId": "a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9",
+				"ArchiveStatus": "on_tape",
+				"FragmentId": "a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b98f1cf086dc454e25a86490c7b670b49d",
+				"OffsetInDatabase": 399994,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/a7add972c1704767bf42ec6750e85820a7856522417f42549d00b22c8bb915b9/browse-thumb.jpg",
+				"DepartmentId": "9a243364-c671-428e-8e4c-a98cfc14aa3a",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"ImageQuality": "high",
+				"OriginalExtension": "tif",
+				"MimeType": "image/tiff",
+				"Width": 3980,
+				"Md5": "cef0207ab8e2415ff7203f8176457d99",
+				"FileSize": 41530736,
+				"ImageSize": "3980x3476",
+				"Height": 3476,
+				"ImageOrientation": "landscape",
+				"PronomId": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"df107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-02-24T10:20:24.000000Z",
+				"Description": "DE GEHTEMUR - DE LANDWACHT\nSS'iaar. Uitgever G. De Graeve, Gent, Ketelvest, * «. TDS IK:LiT3I£<ri3 PAT.EIOT Vr^dag a» Saptember Î913. Nam.®»*\nCfficiëale Duitsche bsrichisa m VEEOR15-ENING ESKK» AHÏIKEL. » 9 der wet tôt regeling van hel op Sta»ts« Sfcostea gegeven Hooger onderwijs van 15-7-1849 Wordt als valgt aangevuld : i Verdi easteluke maanen, die hunne hoofd-'foezigheitl buï¥6a de Unitfersiteit hebben en die tôt verOâge«w«©rdiging van eenig bijzonder Wetenscn*j»pelijk vak onder de leerkrachteu «ener Universiteit worden opgenomen, kunnea tôt Ktwotin eer-professor benoemd worden. Met deze benoeming verkrijgen zij den rang der gewaae prafessoreu en do rechtea dei docenten. Hunne wedde wordt, voor elk geval, afzoa-âerlijk bepaald. Zij telles aiet mede in het bij artikel 10 van Voormelde wet vastgestelde «étal profession. Tôt uitosfeaing van hunne hoofdbezi'gheid behoeven zij «te bij artikel 12 van bewuste wet voorgçschreven n»achtiging nie t. Brussel, den 12 Augustus 1916. Der Çeneralgouverneur in Tîeîgien, Freiherr von BISSING, Generaloberst. A.. H. Q., den 22 Augustus 1916. Der Oberbefehlshaber der IV Arrose, Herz»g Albrecht von WurttemberG, Generalf Jdmarschall. 221. VERORDENING botreftenâs de labeslagneming der bran- wesijan veor bier van lagare gisting. 1. Aile bierbrouwerijen,welke ia het Etappen-jfebied van 't 4e leg*r bier van lagere gisting îabrikeeren, wsrden in baslaggenramen, camelijk Brouwerij Akkergem, Naaml. Vennootschap, Gent ; Brouwerij Burny, Gebroeders, Aalst ; Union-Brouwerij (Moenaert, Ressen eu Wwe JanssenJ, Denéermonde ; Brouwerij Euerard, lîekloo ; Brauwerij der Btouwerijschool, Gent, (Eig. Vanderstricht). , In geval er, in het Etappengebied buiten do genoemde sows aog brou werijea voor bier van &gere gistinç z»uden bestaan, moeten dezezich <ioor bemiddwNag harer Etappenkommandantur bij de Etappea-Icspektien aanmelden. 2. Van af 12 S*ptember wsrdt het in deza brouwerija»! jjefabriceerde bier aan het Duitsche legerfeestawr geleverd, hetwelk het ge-deeltelifk voar zijne behseften gebruikt, ge-deeltelijk aaa het bierverdeelingsbureel' der Serstenzentrale t®ewijst. 3. Ten eiade aan de inwoners van 't Etappengebied de befeearlijke hoeveeiheid bier van lagere gisting te kunnea toewijzen en gelijk-imatig verdeelen, is bij de Gerstenzentraie een bisrverdeelingsbureel ingericht. 4. Aile drankhuizen in 't Etappengebied welke tôt nu tae klanten der in beslaggenomsa Isrou werijea waren, kunaen van dit bierver-deelingskuroel bier ontvangen, zoolang de voor-raad strekt. De prijs is, tôt nader order, op 43,— M voor 100 liters bepaald. Zij nioefea tôt 14 Sentember bij de Gersten-centrale aanmelden, of zij in het vervolg nog bier vas lagere gisting te vertarp?n van zin zijn. Het biervertleeiiBgsbiirpel '/M alsdan van het bier dat wekeljjks ter beschikkin^ is, het over-eenkemstige aa*deal taewiiz^ri. De eerste toewijzing zal ivlaandag 18 Seplem-feer plaats hebben. i'__5. In gavai er drankhuizen, welke toe^elatea *ija voor personen die deel maken van 't Duitsche leger, masr welke tôt nu toe nog geen bier van ïagere gisiing vertapt heuben, zulks in 't vervolg willen verkoopen, zoo moet erom eene aanvraag bij de Etappen-I;>spektion worden ingediend, ,welke beslisr, of aan de aanvraa? kan voldaan ^orden en welke hoeveelheden bier toegewezen Srorden kunnen. iS. H. O., den 6 September 1916. Der Etappeninspekteur, von UNGER, General der kavallerie.\nAan onze Lezers. losse nummers 3 csntiessisn. Per week fl 5 eeniiemen. Duitschâ briehîeti v.jn îml Groot HseSdkwaffîï©af« Wastarjk krljgstsonss!. BERLIJN, 13 September. Legei front oan Veldmaarschalk kroonpriris Rupprecht oan Beieren. O.pnieuw is de strijd ten westen van de Sommo ontbrand. Onze troepen zijn tusschen Combles de Somme In zware gevechten gewikiceld. De F^antckiia zijn Bouchavesmes binnengedrongen. *• artmeriestrijd werd op beide zijdeu van den str®»m met groote hevigheid voortgezet. Legerfront van den Duilschen Kroor.prins : Reckts van de Maas zijn Fratische aanvallen in den seksor van Thiaumont en aan de ravija van Sou ville verijdeld. ©asîslijk kp!2ssioonscl. BERLIJN, 13 September. Legerfront oan generaal veldmaarschalk prins Leopold oan Beieren : De tsestand is oaveranderd. Kleice Ru^sische aanvallen werden iea Noor-den vi,n de Jpveten-m»nding en bij Barboenof.va ten Notrd-Westen vin DunaUurg afgeslagen. Legerfront van generasl der kavallerie Aarishirlog Karl. In de Karpathen gingea de Russen op het front van Smetru, ten Zuid-Westen van Zabie tôt aan de Guldenen Bis;ritz, tôt een afzonder-lijkcn massa-aanval over. Zij werden overal met groote verliezen door snze dappere, onder bavel van gen. v. Coata staanie troepen, teruggeslagen. la Zevenkurgen zijn Duitsche troepea in den sektor van Hermannstadt (Nag-Sxebenj en ten Zuid-0«sten van Hotzing Hatszeg, met de Roe-menea is gevechtsvoeling getredea. SaSkanissh osriïjstepMla. BERLIJN, 13 Sep'emij&r. — De bewegingen in de Dobrasedscha worden pianmatig voltrok-ken. Aan het Maceioaiscie front geene gebeur-tenis van bijzondere beteekeais. BERLIJN, 13 September. —Officieel. — Op 11 S Jîîtesttbir vielea Duitsche mariaevJiegtuigen vôôr Cotstanzi ea teaZuiden hiervan Russische stnj Akracktea aan. Op een linieschip, een onder-zeebo»t e» eenige destroyers werdea onbetwist-bare treffers waarse*om:n. Aile vlie^iuigea keerdea oubeschadigd terug. Op 12 September 's avouds oudernamsn meef«ere emzer vliegtuigaskaders in de Golf vaa Riga een aanval op vijaadelij.<e zeestrij lkrac'r-t;;n. Vers^lillende onbetwistbara treflers werden berewt en een vijandelijk destroyer onaiid-dellijk tôt zinken gebracht. Trots hevige beschietisg zijn alla vli^gtuigea on^edeerd weerjeVeer^. BERLIJN, 13 Sep'ember. — Nadat Duïfsch-Bulgaarsche troes»eD, z ck door den aanval van Sarratî hadden gedwongen gez'en, in tegenaari-val Grieksch-Mace îonië binnen te rukken,stond achter éen linker Bulgaarschen vleug-.l tôt aan de Struma-rivier vooruitgedrongen, het Griek-sche 4® le^erkorps, geweer aan den voet, in de drie steien Seres, Drama en Kawalla. De maatreg-len der Entente gingen op het doel af, deze Grieksche troepea op haren kant te trekken, of hun een gelijk lot te bereiden, zooals de in Salonik i met geweld bedwongeaa deëlen der elfde Grieksche legerafdeeling. De vrije verbinding met Athene was onderbrokeu, het verkeer met de overheden in het vaderland werd door de Entente gekoatroleerd en naar believen geweigerd.\nDe bevelvoerende generaal van het 4e Grieksche legerkorps in Kawalla, trouw aan den wil van zijnen krijgsheer en aaa de wettelijke regee-riag aan de neutraliteit vasthoudend, heeft zioh ten opzichte van den onhoudbaren toestan 1 der hem vertrouwde troepen bedreigd door horgar en ziekte, gedwongen gezien op eigen han l te hande'en, en den 12 September de Duitsche legerleiding verzocht, zijne dappere troepen getrou w aan koning en regeenng, tegen de drukking der Entente in bescherming te nemen, en hun ees onderkomen en oa-ierhoud te waar-borgen. Aan dat verzoek zal gevolg gegeven worden. Ten einde aile schsnnis der neutraliteit te ver-mijden, werd er met den bevelvoerenden generaal, overeer>gekomen, de Grieksche troepen, vo'ledig bewapsnd en uitgerust, als neutralen rair verblijfplaatsen in' Duitschland over te voeren. Zij zullen hier van de rechten der gast-vrijheid genieten totdat hun vaderland vaa de indringers der Entente zal verlaten zijn. ûfïiciaeie Osslenrijkscha berichten WEENEN, 13 September. Osstelijk krljgsiaonesL Boemeenaoh froiit. Do toestand is onveranderd. Front van luilenant-veldmaarschalk aarlshertog Karl : De aaneengeslotene massenaanval door de Russën gedrevea tegen ons Karpathenfront tusschen Smotric (Zuidwest waarts van Zabie) en den gullea Bistritz stiet a£ op den dappeiea wee stand der verèedigers onier buitengewoon zwa e verliezen voor den vijand. In Oost-Galicie geeae gebeurtenissen. Legerfront van veldmaarschalk prins Leopold van Beieren. Buiten mati^e kanonnen- enmijnwerpersvuur niets van belang. liallaansch krlj^sto^neeh Op het Isoazafrorit duurt het vijaiidelijk j kaaonnen niur tusschfn hetEtsch en het As.ach-dal voort. Er is tamelijk rust ing^tredea. Zuid-Ssstellik krljgstoonssl Op de Bojusa lijdelijke leveadige scher-mutseling.Gebeua'îeaïssen op zee. In den nacht van 12 tôt 13 September, heeft eea onzer zeeviiegtuigenvloten de statieinrich-tiagea ea militaire d^elen van Cervignaao met talrijke bommen goed be vorpen. Twee groote braaden, eene hevige ontploffing in een der diielen, alsook verscheidene raak-schoten in de statie-inrichtingen werden vast-ges'.eld.Eeae andere zeevîiegtuigenvloot viel in den-ze t iea racht de krijgshaven vaa Veaetté aan. Er werden raakscnatea opgemerkt van de z .vaarste bommen in het Arseaaal.in de dokken, bij dea gazometer in het Alberanefort en in de weriinrichtiagen van Chioggia ; ia Chioggia ook veric -îeidene branden. Beide viiegtuigenvloten zijn oadanks hevige beschieting ongedeerd teruggekeerd. 0a aanoj in het Ods!oo, Tarksch berloht. KONSTANTINOPEL, 12 September. - Op het front van Fillâhie wierpen wij op 11 September met goeden uitslag bommen op een vijaade-iijk kamp en veroorzaaktea braadea. KAUKA.SUSFRONT : Op den rechtervleugsl sloegen wij eenen aaa val van den vijand af. In den sektor van Ogmit werden twee vijan-delijke aanvallen van 10 September en in den vorigen nacht, die door kanonnenvuur voorba-reid waren door onze tegenaaavallea terugge-wezen.De vijandelijlce trospea, die verscheidene\ngroepen onzer stellingen poogden te naderen,' werden d ior ons kanonnenvuur verstrooid ea leden buitengewone verliezen. Onder dea buit welken wij den vijand ia de# ?e tor van Kighi op 9 September afgenomen hebben is eene groote hoevee'heid ammuniti* en materiaal, waarvan h.et getal nog niet rast-ge.ate'.i^is.Het aantal der gevangen genomsn ofliciere» en solditen neemt toe. Op den linkervleugel vielen schermutseliagea te oazen gunste uit. Wij namen gevangenen ea kaapten vrapens ea uitrustingsstukken. Op de andere fronten geene verrichtingen van beteekenis. Vo gens volledi?ende berichten sloegen onza troepea op het Gallicische front op 7 September door tegenstooten met de bajonet de aanrallea van sterkere Russische troepen at. De verliezea des vijands werdea op 8000 geschat. Bij de botsingen werden in het nagevecht drie ofâcieren en 300 man gevangen genomen en eea machiengeweer den vijand afgenomen. Bu'gaarsofc. berloht. SOFIA, 13 September (Mededeelinp va» 11 September in vertraging). — Op het Rumeeni-sche front langs den Donauw, kanonnenvuur te Tskija, Widden, Lompa'anka, Oienowo ea Sistow. Het offensief gaat voort in de DobrudBcha. Op 10 September zijn onze troepen Silistria bianengetreden, waarvan de bsvo'.king haar eea zegevierend oathaal heeft voorbereid. De Bulgaarsche driekleurvlag wajjpert nu op . de hayen vaa Arabtabia. Wij hebben in de versterkteplants lOforteres-kanons gevonden en eene groote hoevealkeiil oorlogsmateriaal. De vijandelijko troepen zijn achteruit getrok-ken, vervolgd door onze ruiterij, op de twea oevers van den Donauw, in de richting van het Noord-Oosten en vau het Oosten. De aftocht d r Rumenen, Rus'en en Serviers, vojral van de eerstea wordt galaan onder het bigaan vaa de verschrikkelijleste wreadkedea tegen de vreedzame bevolkiag. De iegerbeveihebbîr meldt op 10 September : Vaa den eersten dag a's ik over de K-rens ov»r-ge ioititea was, heb ik eene ree-s schandelijke onmenschslijkhe ien vaa het Rumeenso're leger vastgesteld ; die zich meer en meer hebben voor=;eiaan als feiten van eene onnoembara beestachtigheid. Aldus hebben de Rum^ensche overheden» eenige da^en voor de oorlo^sverklating, al het vee der bevolking medegenomen. zoader for-mee'e op-^isching. Biast den aft c'it heeft de vij >nd bijzondere milit lire detacheme • ea gevor.ud otn de Bulgaarsche dfflrpen in br tnd testeken. De dorpen Ciskicej, Ai'.omro 'o, Scrobarna, Dschu naja, Mahale, Taztar, Aima Ija en aadere gele^ea in de s;rookea en in don omtiek vaa Tii^rakin en Silist.i t braaden aog, E-n detachement dat te Sans i :ar verslagea was, dat in winorde afget:okken is naar Saistrîa heeft in dîn avond va a 7 September eeae kompan:e met 2 oUcieren aaa h :t hoofd naar het dorp Srebiraa gszond i, d e er ds geheele maanehjke bjvolUtag aa ihi .ld om za 's nachts :e doodea. Het plein en de stra'en van hit dorp liggen vol lijken van onschuldige slacîitoffers, op d«. 0'imenschelijk?te wij^;e misha id.l i. Een aantal kinderea vanhetzelfdj dorp werden verbraad in de huizen gevoniea. De overige kinderen ea vrouw^n werden naar Silistria gesleept. 's Morgends van den 8 S -pte aber weïden da mannen van het dorp Alifak naar dea oever van den Donauw gebràcht en onmededoogead gedDOd. De liiken werden in den stroom geworpen. Al de inwoners dtr dorpea Kalipet.o vu, Arte-",
+				"OriginalFilename": "0k26971d59_19160915_0001.tif",
+				"RightsOwner": "© UGent",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"Title": "0k26971d59_19160915_0001.tif",
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-14T21:14:18.663000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "newspaperpage",
+				"IsOriginal": true,
+				"IsPreservation": false,
+				"DepartmentName": "tempugent",
+				"UserLastModifiedDate": "2021-05-05T03:13:52.609000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2022-05-14T03:31:40.948000Z",
+				"ExternalId": "0k26971d59_19160915_0001",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"InformationPackage": "Aip",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Newspapers": {
+					"Newspaper": [
+						"5625273194b74c97ada5eb3cbd13d6f819675b95b56a48888463be36e07783bb_0000000004"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Sets": {
+					"Set": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"NeedsPublicationDateMigration": "true"
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"OriginalStatus": "completed",
+				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"IsFragment": false,
+				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"HasKeyframes": false,
+				"MediaObjectId": "aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d23",
+				"ArchiveStatus": "on_disk",
+				"BrowseStatus": "failed",
+				"RecordId": "aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d23",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"FragmentId": "aa2d1d279cdd49aba1a21459dd86ee0212f8c8a125d441bd8bfad185c6207d239d1bd9beddb94f658caf4e8b1a14879c",
+				"OffsetInDatabase": 399991,
+				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"ContainsGeoData": false,
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Browses": {},
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Technical": {
+				"OriginalExtension": "xml",
+				"FileSize": 364096,
+				"MimeType": "application/xml",
+				"Md5": "851cc6a76991879d3c28a468558e18ac",
+				"PronomId": null,
+				"Width": null,
+				"Height": null,
+				"ImageSize": null,
+				"ImageOrientation": null,
+				"ImageQuality": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2015-06-30T23:45:54.000000Z",
+				"UploadedBy": "Bulk Upload",
+				"KeyframeStart": 0,
+				"OriginalFilename": "0k26971d59_19160915_0001_alto.xml",
+				"Title": "0k26971d59_19160915_0001_alto.xml",
+				"RightsOwner": "© UGent",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-15T04:53:11.910000Z",
+				"IsSynchronized": false,
+				"IsOriginal": true,
+				"OrganisationName": "ugent",
+				"HasFailedJobs": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2021-05-05T05:29:51.384000Z",
+				"ArchiveDate": "2015-06-30T23:45:58.000000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"PublicationDate": "2022-05-14T07:58:41.429000Z",
+				"DeleteStatus": "NotDeleted",
+				"Type": "document",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalId": null,
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"Workflow": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		}
+	]
+}
