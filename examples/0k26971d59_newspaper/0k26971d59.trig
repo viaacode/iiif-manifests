@@ -687,7 +687,7 @@ groepen onzer stellingen poogden te naderen,' werden d ior ons kanonnenvuur vers
     schema:maintainer haOrgId:OR-0z70w1b ;
     schema:name "0k26971d59_19160915_0001.tif"@nl .
 
-https://data.hetarchief.be/graph/organization{
+<https://data.hetarchief.be/graph/organization>{
     haOrgId:OR-0z70w1b a org:Organization,
         haOrg:ContentPartner ;
     dct:description "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;

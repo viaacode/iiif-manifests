@@ -408,7 +408,7 @@ haObjId:5d8nc8tp93 a premis:IntellectualEntity,
     schema:maintainer haOrgId:OR-0z70w1b ;
     schema:name "Vlakbeelden Midden Rijk"@nl .
 
-https://data.hetarchief.be/graph/organization{
+<https://data.hetarchief.be/graph/organization>{
     haOrgId:OR-0z70w1b a org:Organization,
         haOrg:ContentPartner ;
     dct:description "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;
