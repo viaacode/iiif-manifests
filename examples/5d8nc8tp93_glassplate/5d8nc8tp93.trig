@@ -408,3 +408,24 @@ haObjId:5d8nc8tp93 a premis:IntellectualEntity,
     schema:maintainer haOrgId:OR-0z70w1b ;
     schema:name "Vlakbeelden Midden Rijk"@nl .
 
+https://data.hetarchief.be/graph/organization{
+    haOrgId:OR-0z70w1b a org:Organization,
+        haOrg:ContentPartner ;
+    dct:description "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;
+    skos:altLabel "UGent, Boekentoren"@nl ;
+    skos:prefLabel "Universiteitsbibliotheek Gent"@nl ;
+    org:classification <https://data.hetarchief.be/id/organization-type/erfgoedbibliotheek> ;
+    org:hasPrimarySite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+    org:hasSite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+    org:identifier "OR-0z70w1b" ;
+    foaf:homepage <https://lib.ugent.be> ;
+    mh:tenantName "ugent" ;
+    haOrg:allowsBZT false ;
+    haOrg:allowsOverlay true ;
+    haOrg:hasAccountManager haOrgId:ccef9d6f3c0fdba69e8ea3cfa6d89dbc ;
+    haOrg:hasLogo <https://assets.viaa.be/images/OR-0z70w1b> ;
+    haOrg:requestForm "{local\\_cp\\_id}" ;
+    haOrg:sector "Cultuur" ;
+    schema:contactPoint haOrgId:7e8490a539ee0fdf56ae5f4ff55194c7,
+        haOrgId:e81efd9ddc733667096ba89b88275db7 .
+}
