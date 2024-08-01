@@ -708,3 +708,17 @@ groepen onzer stellingen poogden te naderen,' werden d ior ons kanonnenvuur vers
     schema:contactPoint haOrgId:7e8490a539ee0fdf56ae5f4ff55194c7,
         haOrgId:e81efd9ddc733667096ba89b88275db7 .
 }
+
+<https://data.hetarchief.be/graph/anet>{
+    <https://anet.be/record/opacbnc/c:bnc:206/N>    a schema:Newspaper ;
+    bibframe:precededBy <https://anet.be/record/opacbnc/c:bnc:214/N>,
+                        <https://anet.be/record/opacbnc/c:bnc:37/N>,
+                        <https://anet.be/record/opacbnc/c:bnc:38/N> ;
+    bibframe:succeededBy <https://anet.be/record/opacbnc/c:bnc:37/N>,
+                        <https://anet.be/record/opacbnc/c:bnc:38/N> ;
+    schema:alternateName "De kleine patriot", "De landwacht" ;
+    schema:hasPart <https://anet.be/record/opacbnc/https://anet.be/record/opacbnc/c:bnc:206/N#1914-1919> ;
+    schema:identifier "c:bnc:206" ;
+    schema:inLanguage "dut" ;
+    schema:name "De Gentenaar. De landwacht. De kleine patriot" .
+}
