@@ -36,8 +36,8 @@ CONSTRUCT {
                as:items ?canvasIri .
 
   ?canvasIri a iiif_prezi:Canvas ;
-             exif:width ?browseWidth;
-             exif:height ?browseHeight;
+             exif:width ?fileWidth;
+             exif:height ?fileHeight;
              iiif_prezi:thumbnail ?browseThumbnailIri ;
              rdfs:label ?titleNl ;
              as:items ?annotationPageIri .
@@ -95,16 +95,29 @@ WHERE {
      schema:copyrightNotice ?copyright ;
      schema:maintainer ?cp ;
      schema:dateCreated ?dateCreated ;
-     haObj:hasAccessCopy ?browseRepresentation .
+     haObj:hasAccessCopy ?browseRepresentation ;
+     haObj:hasMasterCopy ?masterRepresentation .
 
   ?browseRepresentation a haObj:DigitalRepresentation ;
                         rel:hss/haObj:isMezzanineCopyOf ?s ;
                         rel:inc ?browseFile .
 
   ?browseFile a premis:File ;
-              schema:thumbnailUrl ?browseThumbnailIri ;
-              schema:height/schema:value ?browseHeight ;
-              schema:width/schema:value ?browseWidth .
+              schema:thumbnailUrl ?browseThumbnailIri .
+
+  OPTIONAL{
+    ?browseFile schema:height/schema:value ?browseHeight ;
+                schema:width/schema:value ?browseWidth .
+  }
+
+  ?masterRepresentation a haObj:DigitalRepresentation ;
+                        rel:inc ?masterFile .
+
+  OPTIONAL{
+    ?masterFile schema:height/schema:value ?masterHeight ;
+                schema:width/schema:value ?masterWidth .
+  }
+              
      
 
   ?cp skos:prefLabel ?cpLabel ;
@@ -129,4 +142,20 @@ WHERE {
   BIND(STRLANG(?copyright, "nl") AS ?copyrightNl)
   BIND(STRLANG(?type, "en") AS ?typeEn)
   BIND(STR(?dateCreated) AS ?dateCreatedString)
+  BIND(
+    COALESCE(
+      IF(BOUND(?browseHeight), ?browseHeight, 1/0),
+      IF(BOUND(?masterHeight), ?masterHeight, 1/0),
+      0
+    )
+    AS ?fileHeight
+  )
+  BIND(
+    COALESCE(
+      IF(BOUND(?browseWidth), ?browseWidth, 1/0),
+      IF(BOUND(?masterWidth), ?masterWidth, 1/0),
+      0
+    )
+    AS ?fileWidth
+  )
 }
