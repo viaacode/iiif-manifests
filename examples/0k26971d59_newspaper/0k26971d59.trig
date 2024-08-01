@@ -1,3 +1,4 @@
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix crypHashFunc: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
