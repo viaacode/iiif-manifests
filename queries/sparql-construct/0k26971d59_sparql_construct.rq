@@ -129,9 +129,9 @@ WHERE {
                       haDes:pageNumber  ?newspaperIssuePageNumber;
                       haObj:hasAccessCopy ?browseRepresentation ;
                       haObj:hasMasterCopy ?masterRepresentation ;
-                      haObj:hasTranscriptionCopy ?altoRepresentation .
-                      # haObj:hasIIIFCopy ?iiifRepresentation ;
-                      # schema:description ?ocrFullTextNl .
+                      haObj:hasTranscriptionCopy ?altoRepresentation ;
+                      haObj:hasIIIFCopy ?iiifRepresentation ;
+                      schema:description ?ocrFullTextNl .
 
   ?browseRepresentation a haObj:DigitalRepresentation ;
                         rel:inc ?browseFile .
@@ -158,14 +158,11 @@ WHERE {
             ebucore:hasMimeType "application/xml" ;
             premis:storedAt/rdf:value ?altoFileUrl .
 
-  # ?iiifRepresentation a haObj:DigitalRepresentation ;
-  #                     rel:inc ?iiifFile .
+  ?iiifRepresentation a haObj:DigitalRepresentation ;
+                      rel:inc ?iiifFile .
 
-  # ?iiifFile a premis:File ;
-  #           premis:storedAt ?iiifFileLocation .
-
-  # ?iiifFileLocation a premis:StorageLocation ;
-  #                   rdf:value ?iiifFileUrl .
+  ?iiifFile a premis:File ;
+            premis:storedAt/rdf:value ?iiifFileUrl .
 
   ?cp skos:prefLabel ?cpLabel ;
       foaf:homepage ?cpHomepage ;
@@ -182,7 +179,7 @@ WHERE {
   BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/",?newspaperIssuePageNumberText)) as ?annotationIri)
   BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/",?newspaperIssuePageNumberText)) as ?annotationOcrIri)
   BIND(IRI(CONCAT(STR(?annotationPageIri),"/annotation/ocr/body/",?newspaperIssuePageNumberText)) as ?annotationBodyOcrIri)
-  BIND(IRI(CONCAT(STR(?iiifFileUrl),".jph")) AS ?serviceIri)
+  BIND(IRI(?iiifFileUrl) AS ?serviceIri)
   BIND(IRI(CONCAT(STR(?serviceIri), "/full/max/0/default.jpg")) AS ?bodyIri)
   
   BIND(STRLANG(?titleNewspaper, "nl") AS ?titleNewspaperNl)
