@@ -13,7 +13,6 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix prov: <http://www.w3.org/ns/prov#>
 prefix schema: <https://schema.org/>
 prefix haLic: <https://data.hetarchief.be/id/license/>
-prefix mf: <https://meemoo-int.triply.cc/meemoo/-/queries/iiif-newspaper-manifest/>
 prefix mh: <https://data.hetarchief.be/ns/mediahaven/>
 prefix haObj: <https://data.hetarchief.be/ns/object/>
 prefix haOrg: <https://data.hetarchief.be/ns/organization/>
@@ -32,22 +31,22 @@ CONSTRUCT{
                rdfs:label ?titleNewspaperIssueNl ;
                iiif_prezi:behavior iiif_prezi:individualsHint, iiif_prezi:pagedHint ;
                iiif_prezi:viewingDirection iiif_prezi:leftToRightDirection ;
-               iiif_prezi:requiredStatement mf:requiredStatement ;
+               iiif_prezi:requiredStatement ?requiredStatementIri ;
                dcterms:rights <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
-               iiif_prezi:metadataEntries mf:language, mf:type ;
+               iiif_prezi:metadataEntries ?languageIri, ?typeIri ;
                iiif_prezi:navigationDate ?newspaperIssueDateString ;
                dcterms:partOf ?collectionIri ;
                as:items ?canvasIri ;
                schema:provider ?cp .
 
-  mf:language rdfs:label "taal"@nl, "language"@en ;
-              rdf:value ?newspaperIssueLanguage .
+  ?languageIri rdfs:label "taal"@nl, "language"@en ;
+               rdf:value ?newspaperIssueLanguage .
 
-  mf:type     rdfs:label "type"@nl, "type"@en;
-              rdf:value "https://data.hetarchief.be/ns/description/NewspaperIssue" .
+  ?typeIri     rdfs:label "type"@nl, "type"@en;
+               rdf:value "https://data.hetarchief.be/ns/description/NewspaperIssue" .
 
-  mf:requiredStatement rdfs:label "Attribution"@en, "Attributie"@nl ;
-                       rdf:value "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden" .
+  ?requiredStatementIri rdfs:label "Attribution"@en, "Attributie"@nl ;
+                        rdf:value "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden" .
 
   ?canvasIri  a iiif_prezi:Canvas ;
               exif:width ?fileWidth;
@@ -108,7 +107,6 @@ CONSTRUCT{
 }
 WHERE {
   # https://data.hetarchief.be/id/entity/0k26971d59
-  # BIND(IRI(CONCAT("https://data.hetarchief.be/id/entity/",?incomingPid)) AS ?newspaperIssue)
   VALUES ?license {haLic:IIIF-PUBLIC haLic:IIIF-RESTRICTED}
     
   ?_ a schema:Newspaper ;
@@ -172,6 +170,9 @@ WHERE {
 
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?abrahamId, "/newspaper_title-collection.json")) AS ?collectionIri)
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/manifest.json")) AS ?manifestIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#type")) AS ?typeIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#language")) AS ?languageIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#requiredStatement")) AS ?requiredStatementIri)
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/",?newspaperIssuePageNumberText)) AS ?canvasIri)
   BIND(CONCAT("p",?newspaperIssuePageNumberText) AS ?pageNumberText)
   BIND(IRI(CONCAT(STR(?canvasIri),"/page/",?newspaperIssuePageNumberText)) as ?annotationPageIri)
