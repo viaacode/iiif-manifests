@@ -4,33 +4,6 @@
 	"TotalNrOfResults": 4,
 	"Results": [
 		{
-			"RightsManagement": {
-				"Permissions": {
-					"Write": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					],
-					"Export": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					],
-					"Read": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"df107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					]
-				},
-				"RecordPhase": "Published",
-				"ExpiryDate": null,
-				"ExpiryStatus": null,
-				"Zone": {}
-			},
 			"Structural": {
 				"RecordStructure": "DataFlat",
 				"HasChildren": false,
@@ -68,132 +41,6 @@
 				"OriginalRecordId": null,
 				"ChildOrder": null,
 				"DataRecordId": null
-			},
-			"Administrative": {
-				"LastModifiedDate": "2024-06-19T03:05:43.814000Z",
-				"IsSynchronized": false,
-				"OrganisationName": "ugent",
-				"Workflow": "GMS",
-				"HasFailedJobs": false,
-				"ArchiveDate": "2023-06-25T05:39:49.765000Z",
-				"IngestFlow": "Ingest-1.5",
-				"RecordStatus": "Published",
-				"IsAccess": false,
-				"Type": "set",
-				"IsOriginal": false,
-				"IsPreservation": false,
-				"DepartmentName": "ugent",
-				"UserLastModifiedDate": "2023-07-04T14:26:39.726000Z",
-				"OrganisationLongName": "ugent",
-				"RecordType": "Record",
-				"PublicationDate": "2023-07-04T14:26:39.754000Z",
-				"ExternalId": "5d8nc8tp93",
-				"DeleteStatus": "NotDeleted",
-				"MainRecordType": "Record",
-				"OrganisationExternalId": "OR-0z70w1b",
-				"ExternalUrl": null,
-				"IngestTape": null,
-				"LogicalDeletionDate": null,
-				"ChildOrderFields": {},
-				"RejectionDate": null,
-				"ExternalUse": null,
-				"RecordRejections": {}
-			},
-			"Descriptive": {
-				"CreationDate": "2023-03-29T22:00:00.000000Z",
-				"OriginalFilename": "5d8nc8tp93.complex",
-				"RightsOwner": "© UGENT",
-				"UploadedBy": "system ugent",
-				"KeyframeStart": 0,
-				"Title": "Vlakbeelden Midden Rijk",
-				"Description": null,
-				"CreationDateLegacy": null,
-				"Rights": null,
-				"Keywords": {
-					"Keyword": []
-				},
-				"Categories": {
-					"Category": []
-				},
-				"LimitedCategories": {},
-				"Publisher": null,
-				"Authors": {},
-				"Location": null,
-				"Address": {},
-				"NonPreferredTerm": null,
-				"Publications": {
-					"Comment": []
-				},
-				"OriginalPath": null,
-				"Position": {}
-			},
-			"Internal": {
-				"IndexName": "viaa",
-				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"BrowseStatus": "no_browse",
-				"RecordId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177",
-				"IsInIngestSpace": false,
-				"OrganisationId": "107",
-				"ContainsGeoData": false,
-				"OriginalStatus": "completed",
-				"IsFragment": false,
-				"HasKeyframes": false,
-				"MediaObjectId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177",
-				"ArchiveStatus": "completed",
-				"FragmentId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e4369817785b2a36089dc460fb39342309d11cde1",
-				"OffsetInDatabase": 13157299,
-				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"DepartmentId": "dd107b7a-efd0-44e3-8816-0905572421da",
-				"ExternalSourceUrl": null,
-				"IngestSpaceId": null,
-				"UploadedById": null,
-				"PathToVideo": null,
-				"PathToOriginal": null,
-				"Browses": {},
-				"Distributions": {
-					"Distribution": []
-				},
-				"Profiles": {}
-			},
-			"Technical": {
-				"OriginalExtension": "complex",
-				"FileSize": 0,
-				"Md5": null,
-				"MimeType": null,
-				"PronomId": null,
-				"Width": null,
-				"Height": null,
-				"ImageSize": null,
-				"ImageOrientation": null,
-				"ImageQuality": null,
-				"VideoTechnical": null,
-				"AudioTechnical": null,
-				"VideoFormat": null,
-				"Exif": {},
-				"Sha256": null,
-				"DurationTimeCode": null,
-				"StartTimeCode": null,
-				"EndTimeCode": null,
-				"DurationFrames": null,
-				"StartFrames": null,
-				"EndFrames": null,
-				"VideoCodec": null,
-				"VideoFps": null,
-				"VideoBitRate": null,
-				"AudioCodec": null,
-				"AudioChannels": null,
-				"AudioSampleRate": null,
-				"AudioBitRate": null,
-				"AudioTracks": {},
-				"BitRate": null,
-				"Origin": null,
-				"EssenceOffset": null,
-				"EditUnitByteSize": null,
-				"RunIn": null,
-				"FramesPerEditUnit": null,
-				"EditRate": null,
-				"IndexEditRate": null
 			},
 			"Dynamic": {
 				"type_viaa": "photo",
@@ -264,25 +111,6 @@
 				"cleaning_outcome": "y",
 				"collection_box_barcode": "SKU078158"
 			},
-			"Context": {
-				"IsDeletable": true,
-				"IsEditable": true,
-				"IsEmbeddable": false,
-				"IsExportable": true,
-				"IsPublic": false,
-				"IsPublishable": false,
-				"Profiles": [],
-				"Reasons": {
-					"IsPublishable": [
-						{
-							"Code": "RecordStatusNotPublishable",
-							"Value": "Record can not be published in its current status"
-						}
-					]
-				}
-			}
-		},
-		{
 			"RightsManagement": {
 				"Permissions": {
 					"Write": [
@@ -310,81 +138,11 @@
 				"ExpiryStatus": null,
 				"Zone": {}
 			},
-			"Structural": {
-				"HasChildren": false,
-				"FragmentStartFrames": 0,
-				"Sets": {
-					"Set": [
-						"04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177_0000000000"
-					]
-				},
-				"HasNonRepresentationChildren": false,
-				"FragmentEndFrames": 0,
-				"Versioning": {
-					"Status": "Untracked",
-					"Version": 1
-				},
-				"Collections": {
-					"Collection": []
-				},
-				"Newspapers": {
-					"Newspaper": []
-				},
-				"Relations": {},
-				"Fragments": {
-					"Fragment": []
-				},
-				"MainFragment": null,
-				"FragmentDurationTimeCode": null,
-				"FragmentStartTimeCode": null,
-				"FragmentEndTimeCode": null,
-				"FragmentDurationFrames": null,
-				"ReferenceCodes": {},
-				"ParentRecordId": null,
-				"ReferenceTitles": {},
-				"FieldDefinition": {},
-				"PreviewRecordId": null,
-				"OriginalRecordId": null,
-				"ChildOrder": null,
-				"RecordStructure": null,
-				"DataRecordId": null,
-				"InformationPackage": null
-			},
-			"Administrative": {
-				"LastModifiedDate": "2023-10-31T23:38:45.279000Z",
-				"IsSynchronized": false,
-				"OrganisationName": "ugent",
-				"Workflow": "GMS",
-				"HasFailedJobs": false,
-				"ArchiveDate": "2023-06-25T05:39:33.296000Z",
-				"RecordStatus": "Published",
-				"IsAccess": false,
-				"Type": "document",
-				"IsOriginal": false,
-				"IsPreservation": false,
-				"UserLastModifiedDate": "2023-06-25T05:39:33.296000Z",
-				"OrganisationLongName": "ugent",
-				"RecordType": "Record",
-				"PublicationDate": "2023-06-25T05:39:40.063000Z",
-				"DeleteStatus": "NotDeleted",
-				"MainRecordType": "Record",
-				"OrganisationExternalId": "OR-0z70w1b",
-				"ExternalId": null,
-				"ExternalUrl": null,
-				"DepartmentName": null,
-				"IngestTape": null,
-				"LogicalDeletionDate": null,
-				"ChildOrderFields": {},
-				"RejectionDate": null,
-				"ExternalUse": null,
-				"RecordRejections": {},
-				"IngestFlow": null
-			},
 			"Descriptive": {
 				"CreationDate": "2023-03-29T22:00:00.000000Z",
-				"OriginalFilename": "5d8nc8tp93_mets.xml",
+				"OriginalFilename": "5d8nc8tp93.complex",
 				"RightsOwner": "© UGENT",
-				"UploadedBy": "system@ugent",
+				"UploadedBy": "system ugent",
 				"KeyframeStart": 0,
 				"Title": "Vlakbeelden Midden Rijk",
 				"Description": null,
@@ -408,41 +166,42 @@
 				"OriginalPath": null,
 				"Position": {}
 			},
-			"Internal": {
-				"IndexName": "viaa",
-				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"BrowseStatus": "no_browse",
-				"RecordId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25",
-				"IsInIngestSpace": false,
-				"OrganisationId": "107",
-				"ContainsGeoData": false,
-				"OriginalStatus": "completed",
-				"IsFragment": false,
-				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
-				"HasKeyframes": false,
-				"MediaObjectId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25",
-				"ArchiveStatus": "on_disk",
-				"FragmentId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25b0f1d1a0dee644bf93e6f879f81f4c2d",
-				"OffsetInDatabase": 13157300,
-				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
-				"ExternalSourceUrl": null,
-				"IngestSpaceId": null,
-				"DepartmentId": null,
-				"PathToVideo": null,
-				"PathToOriginal": null,
-				"Browses": {},
-				"Distributions": {
-					"Distribution": []
-				},
-				"Profiles": {}
+			"Administrative": {
+				"LastModifiedDate": "2024-06-19T03:05:43.814000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2023-06-25T05:39:49.765000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "set",
+				"IsOriginal": false,
+				"IsPreservation": false,
+				"DepartmentName": "ugent",
+				"UserLastModifiedDate": "2023-07-04T14:26:39.726000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2023-07-04T14:26:39.754000Z",
+				"ExternalId": "5d8nc8tp93",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
 			},
 			"Technical": {
-				"PronomId": "fmt/101",
-				"OriginalExtension": "xml",
-				"MimeType": "application/xml",
-				"Md5": "eba32ce2add09b098b62e78a95dd718d",
-				"FileSize": 17043,
+				"OriginalExtension": "complex",
+				"FileSize": 0,
+				"Md5": null,
+				"MimeType": null,
+				"PronomId": null,
 				"Width": null,
 				"Height": null,
 				"ImageSize": null,
@@ -476,63 +235,34 @@
 				"EditRate": null,
 				"IndexEditRate": null
 			},
-			"Dynamic": {
-				"type_viaa": "photo",
-				"original_location": "BIB.GLAS.016209",
-				"inspection_outcome": "y",
-				"batch_pickup_date": "2023-02-27",
-				"shipment_id": "16769921271",
-				"digitization_format": "DNG/TIFF 16 bits",
-				"created_on": "2022-04-12T10:04:04",
-				"updated_by": "Marthe Bulckaen",
-				"status": "Pending",
-				"qc_date": "2023-03-30",
-				"batch_id": "GPLINB01",
-				"player_model": "ILCE-7RM4A",
-				"inspection_date": "2023-03-30",
-				"qc_outcome": "y",
-				"dc_identifier_localid": "5d8nc8tp93",
-				"PID": "5d8nc8tp93",
-				"CP": "UGENT",
-				"batch_name": "GPLINB01",
-				"player_serial_number": "03777459",
-				"carrier_barcode": "910001040370",
-				"preservation_problems": "Kleefband",
-				"dimensions": {
-					"height_in_mm": [
-						"85"
-					],
-					"width_in_mm": [
-						"100"
-					]
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"BrowseStatus": "no_browse",
+				"RecordId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"HasKeyframes": false,
+				"MediaObjectId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177",
+				"ArchiveStatus": "completed",
+				"FragmentId": "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e4369817785b2a36089dc460fb39342309d11cde1",
+				"OffsetInDatabase": 13157299,
+				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"DepartmentId": "dd107b7a-efd0-44e3-8816-0905572421da",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"UploadedById": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Browses": {},
+				"Distributions": {
+					"Distribution": []
 				},
-				"updated_on": "2022-04-12T10:04:04",
-				"lto_id": "FTP server",
-				"format_version": "Positive",
-				"player_manufacturer": "SONY",
-				"digitization_date": "2023-03-30",
-				"transfer_lto_date": "2023-05-11",
-				"digitization_outcome": "y",
-				"digitization_time": "02:23:42",
-				"format": "Glass plate",
-				"created_by": "Marthe Bulckaen",
-				"related_documents": "0",
-				"sp_id": "OR-qj77x56",
-				"dcterms_created": "1900/1960",
-				"cleaning_date": "2023-03-30",
-				"qc_by": "Controleur",
-				"color": "Black-white",
-				"sp_name": "GMS",
-				"label_present": true,
-				"dc_titles": {
-					"reeks": [
-						"Collectie Oude Nabije Oosten"
-					]
-				},
-				"cleaning_note": "ontstoft",
-				"CP_id": "OR-0z70w1b",
-				"cleaning_outcome": "y",
-				"collection_box_barcode": "SKU078158"
+				"Profiles": {}
 			},
 			"Context": {
 				"IsDeletable": true,
@@ -553,26 +283,6 @@
 			}
 		},
 		{
-			"RightsManagement": {
-				"Permissions": {
-					"Write": [
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					],
-					"Export": [
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					],
-					"Read": [
-						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"5f7d7475-c7cc-4dbc-b32c-342658732519"
-					]
-				},
-				"RecordPhase": "Published",
-				"ExpiryDate": null,
-				"ExpiryStatus": null,
-				"Zone": {}
-			},
 			"Structural": {
 				"RecordStructure": "DataFlat",
 				"HasChildren": false,
@@ -612,146 +322,6 @@
 				"OriginalRecordId": null,
 				"ChildOrder": null,
 				"DataRecordId": null
-			},
-			"Administrative": {
-				"LastModifiedDate": "2024-07-15T16:32:47.901000Z",
-				"IsSynchronized": false,
-				"OrganisationName": "ugent",
-				"Workflow": "GMS",
-				"HasFailedJobs": false,
-				"ArchiveDate": "2023-06-25T05:39:37.428000Z",
-				"IngestFlow": "Ingest-1.5",
-				"RecordStatus": "Published",
-				"IsAccess": false,
-				"Type": "image",
-				"IsOriginal": false,
-				"IsPreservation": false,
-				"UserLastModifiedDate": "2023-06-25T05:39:37.152000Z",
-				"OrganisationLongName": "ugent",
-				"RecordType": "Record",
-				"PublicationDate": "2023-06-25T05:39:37.427000Z",
-				"ExternalId": "5d8nc8tp93_dng",
-				"DeleteStatus": "NotDeleted",
-				"MainRecordType": "Record",
-				"OrganisationExternalId": "OR-0z70w1b",
-				"ExternalUrl": null,
-				"DepartmentName": null,
-				"IngestTape": null,
-				"LogicalDeletionDate": null,
-				"ChildOrderFields": {},
-				"RejectionDate": null,
-				"ExternalUse": null,
-				"RecordRejections": {}
-			},
-			"Descriptive": {
-				"CreationDate": "2023-03-29T22:00:00.000000Z",
-				"OriginalFilename": "5d8nc8tp93_dng.dng",
-				"RightsOwner": "© UGENT",
-				"UploadedBy": "system@ugent",
-				"KeyframeStart": 0,
-				"Title": "Vlakbeelden Midden Rijk",
-				"Description": null,
-				"CreationDateLegacy": null,
-				"Rights": null,
-				"Keywords": {
-					"Keyword": []
-				},
-				"Categories": {
-					"Category": []
-				},
-				"LimitedCategories": {},
-				"Publisher": null,
-				"Authors": {},
-				"Location": null,
-				"Address": {},
-				"NonPreferredTerm": null,
-				"Publications": {
-					"Comment": []
-				},
-				"OriginalPath": null,
-				"Position": {}
-			},
-			"Internal": {
-				"IndexName": "viaa",
-				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse.jpg",
-				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse.jpg",
-				"Browses": {
-					"Browse": [
-						{
-							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
-							"PathToKeyframe": "browse.jpg",
-							"PathToKeyframeThumb": "browse-thumb.jpg",
-							"HasKeyframes": false,
-							"Container": "jpg",
-							"Label": "image_jpg",
-							"FileSize": 237206,
-							"Height": 1333,
-							"Width": 2000
-						}
-					]
-				},
-				"BrowseStatus": "completed",
-				"RecordId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
-				"IsInIngestSpace": false,
-				"OrganisationId": "107",
-				"ContainsGeoData": false,
-				"OriginalStatus": "completed",
-				"IsFragment": false,
-				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
-				"HasKeyframes": false,
-				"MediaObjectId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
-				"ArchiveStatus": "on_tape",
-				"FragmentId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a191c9ad4ac0138490c8cf38f91bf2ae9e6",
-				"OffsetInDatabase": 13157301,
-				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse-thumb.jpg",
-				"ExternalSourceUrl": null,
-				"IngestSpaceId": null,
-				"DepartmentId": null,
-				"PathToVideo": null,
-				"PathToOriginal": null,
-				"Distributions": {
-					"Distribution": []
-				},
-				"Profiles": {}
-			},
-			"Technical": {
-				"ImageQuality": "high",
-				"PronomId": "fmt/152",
-				"OriginalExtension": "dng",
-				"MimeType": "image/x-adobe-dng",
-				"Width": 9504,
-				"Md5": "b6c80218743b7b9a4875523e701d0f32",
-				"FileSize": 120542493,
-				"ImageSize": "9504x6336",
-				"Height": 6336,
-				"ImageOrientation": "landscape",
-				"VideoTechnical": null,
-				"AudioTechnical": null,
-				"VideoFormat": null,
-				"Exif": {},
-				"Sha256": null,
-				"DurationTimeCode": null,
-				"StartTimeCode": null,
-				"EndTimeCode": null,
-				"DurationFrames": null,
-				"StartFrames": null,
-				"EndFrames": null,
-				"VideoCodec": null,
-				"VideoFps": null,
-				"VideoBitRate": null,
-				"AudioCodec": null,
-				"AudioChannels": null,
-				"AudioSampleRate": null,
-				"AudioBitRate": null,
-				"AudioTracks": {},
-				"BitRate": null,
-				"Origin": null,
-				"EssenceOffset": null,
-				"EditUnitByteSize": null,
-				"RunIn": null,
-				"FramesPerEditUnit": null,
-				"EditRate": null,
-				"IndexEditRate": null
 			},
 			"Dynamic": {
 				"type_viaa": "photo",
@@ -823,44 +393,18 @@
 				"cleaning_outcome": "y",
 				"collection_box_barcode": "SKU078158"
 			},
-			"Context": {
-				"IsDeletable": true,
-				"IsEditable": true,
-				"IsEmbeddable": false,
-				"IsExportable": true,
-				"IsPublic": false,
-				"IsPublishable": false,
-				"Profiles": [],
-				"Reasons": {
-					"IsPublishable": [
-						{
-							"Code": "RecordStatusNotPublishable",
-							"Value": "Record can not be published in its current status"
-						}
-					]
-				}
-			}
-		},
-		{
 			"RightsManagement": {
 				"Permissions": {
 					"Write": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
 						"dd107b7a-efd0-44e3-8816-0905572421da",
 						"5f7d7475-c7cc-4dbc-b32c-342658732519"
 					],
 					"Export": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
 						"dd107b7a-efd0-44e3-8816-0905572421da",
 						"5f7d7475-c7cc-4dbc-b32c-342658732519"
 					],
 					"Read": [
-						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
-						"dc100b7a-efd0-44e3-8816-0905572421da",
 						"dd107b7a-efd0-44e3-8816-0905572421da",
-						"df107b7a-efd0-44e3-8816-0905572421da",
 						"5f7d7475-c7cc-4dbc-b32c-342658732519"
 					]
 				},
@@ -869,79 +413,9 @@
 				"ExpiryStatus": null,
 				"Zone": {}
 			},
-			"Structural": {
-				"HasChildren": false,
-				"FragmentStartFrames": 0,
-				"Sets": {
-					"Set": [
-						"04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177_0000000002"
-					]
-				},
-				"HasNonRepresentationChildren": false,
-				"FragmentEndFrames": 0,
-				"Versioning": {
-					"Status": "Untracked",
-					"Version": 1
-				},
-				"Collections": {
-					"Collection": []
-				},
-				"Newspapers": {
-					"Newspaper": []
-				},
-				"Relations": {},
-				"Fragments": {
-					"Fragment": []
-				},
-				"MainFragment": null,
-				"FragmentDurationTimeCode": null,
-				"FragmentStartTimeCode": null,
-				"FragmentEndTimeCode": null,
-				"FragmentDurationFrames": null,
-				"ReferenceCodes": {},
-				"ParentRecordId": null,
-				"ReferenceTitles": {},
-				"FieldDefinition": {},
-				"PreviewRecordId": null,
-				"OriginalRecordId": null,
-				"ChildOrder": null,
-				"RecordStructure": null,
-				"DataRecordId": null,
-				"InformationPackage": null
-			},
-			"Administrative": {
-				"LastModifiedDate": "2024-02-29T12:54:05.441000Z",
-				"IsSynchronized": false,
-				"OrganisationName": "ugent",
-				"Workflow": "GMS",
-				"HasFailedJobs": false,
-				"ArchiveDate": "2023-06-25T05:39:41.272000Z",
-				"RecordStatus": "Published",
-				"IsAccess": false,
-				"Type": "image",
-				"IsOriginal": false,
-				"IsPreservation": false,
-				"UserLastModifiedDate": "2024-02-29T12:54:05.441000Z",
-				"OrganisationLongName": "ugent",
-				"RecordType": "Record",
-				"PublicationDate": "2023-06-25T05:39:41.272000Z",
-				"ExternalId": "5d8nc8tp93_tiff",
-				"DeleteStatus": "NotDeleted",
-				"MainRecordType": "Record",
-				"OrganisationExternalId": "OR-0z70w1b",
-				"ExternalUrl": null,
-				"DepartmentName": null,
-				"IngestTape": null,
-				"LogicalDeletionDate": null,
-				"ChildOrderFields": {},
-				"RejectionDate": null,
-				"ExternalUse": null,
-				"RecordRejections": {},
-				"IngestFlow": null
-			},
 			"Descriptive": {
 				"CreationDate": "2023-03-29T22:00:00.000000Z",
-				"OriginalFilename": "5d8nc8tp93_tiff.tiff",
+				"OriginalFilename": "5d8nc8tp93_dng.dng",
 				"RightsOwner": "© UGENT",
 				"UploadedBy": "system@ugent",
 				"KeyframeStart": 0,
@@ -967,59 +441,46 @@
 				"OriginalPath": null,
 				"Position": {}
 			},
-			"Internal": {
-				"IndexName": "viaa",
-				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse.jpg",
-				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse.jpg",
-				"Browses": {
-					"Browse": [
-						{
-							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
-							"PathToKeyframe": "browse.jpg",
-							"PathToKeyframeThumb": "browse-thumb.jpg",
-							"HasKeyframes": false,
-							"Container": "jpg",
-							"Label": "image_jpg",
-							"FileSize": 420375,
-							"Height": 1674,
-							"Width": 2000
-						}
-					]
-				},
-				"BrowseStatus": "completed",
-				"RecordId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
-				"IsInIngestSpace": false,
-				"OrganisationId": "107",
-				"ContainsGeoData": false,
-				"OriginalStatus": "completed",
-				"IsFragment": false,
-				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
-				"HasKeyframes": false,
-				"MediaObjectId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
-				"ArchiveStatus": "on_tape",
-				"FragmentId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d",
-				"OffsetInDatabase": 13157302,
-				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse-thumb.jpg",
-				"ExternalSourceUrl": null,
-				"IngestSpaceId": null,
-				"DepartmentId": null,
-				"PathToVideo": null,
-				"PathToOriginal": null,
-				"Distributions": {
-					"Distribution": []
-				},
-				"Profiles": {}
+			"Administrative": {
+				"LastModifiedDate": "2024-07-15T16:32:47.901000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2023-06-25T05:39:37.428000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "image",
+				"IsOriginal": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2023-06-25T05:39:37.152000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2023-06-25T05:39:37.427000Z",
+				"ExternalId": "5d8nc8tp93_dng",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
 			},
 			"Technical": {
 				"ImageQuality": "high",
-				"PronomId": "fmt/353",
-				"OriginalExtension": "tiff",
-				"MimeType": "image/tiff",
-				"Width": 7529,
-				"Md5": "5c3ca5dbf9b2d810eba1bf9b8c458fcf",
-				"FileSize": 284604288,
-				"ImageSize": "7529x6300",
-				"Height": 6300,
+				"PronomId": "fmt/152",
+				"OriginalExtension": "dng",
+				"MimeType": "image/x-adobe-dng",
+				"Width": 9504,
+				"Md5": "b6c80218743b7b9a4875523e701d0f32",
+				"FileSize": 120542493,
+				"ImageSize": "9504x6336",
+				"Height": 6336,
 				"ImageOrientation": "landscape",
 				"VideoTechnical": null,
 				"AudioTechnical": null,
@@ -1048,6 +509,378 @@
 				"FramesPerEditUnit": null,
 				"EditRate": null,
 				"IndexEditRate": null
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse.jpg",
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse.jpg",
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "image_jpg",
+							"FileSize": 237206,
+							"Height": 1333,
+							"Width": 2000
+						}
+					]
+				},
+				"BrowseStatus": "completed",
+				"RecordId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
+				"HasKeyframes": false,
+				"MediaObjectId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19",
+				"ArchiveStatus": "on_tape",
+				"FragmentId": "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a191c9ad4ac0138490c8cf38f91bf2ae9e6",
+				"OffsetInDatabase": 13157301,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse-thumb.jpg",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Sets": {
+					"Set": [
+						"04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177_0000000000"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"InformationPackage": "Aip",
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Newspapers": {
+					"Newspaper": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
+			},
+			"Dynamic": {
+				"type_viaa": "photo",
+				"original_location": "BIB.GLAS.016209",
+				"inspection_outcome": "y",
+				"batch_pickup_date": "2023-02-27",
+				"shipment_id": "16769921271",
+				"digitization_format": "DNG/TIFF 16 bits",
+				"created_on": "2022-04-12T10:04:04",
+				"updated_by": "Marthe Bulckaen",
+				"status": "Pending",
+				"qc_date": "2023-03-30",
+				"batch_id": "GPLINB01",
+				"player_model": "ILCE-7RM4A",
+				"inspection_date": "2023-03-30",
+				"qc_outcome": "y",
+				"dc_identifier_localid": "5d8nc8tp93",
+				"PID": "5d8nc8tp93",
+				"CP": "UGENT",
+				"batch_name": "GPLINB01",
+				"player_serial_number": "03777459",
+				"carrier_barcode": "910001040370",
+				"preservation_problems": "Kleefband",
+				"dimensions": {
+					"height_in_mm": [
+						"85"
+					],
+					"width_in_mm": [
+						"100"
+					]
+				},
+				"updated_on": "2022-04-12T10:04:04",
+				"lto_id": "FTP server",
+				"format_version": "Positive",
+				"player_manufacturer": "SONY",
+				"digitization_date": "2023-03-30",
+				"transfer_lto_date": "2023-05-11",
+				"digitization_outcome": "y",
+				"digitization_time": "02:23:42",
+				"format": "Glass plate",
+				"created_by": "Marthe Bulckaen",
+				"related_documents": "0",
+				"sp_id": "OR-qj77x56",
+				"dcterms_created": "1900/1960",
+				"cleaning_date": "2023-03-30",
+				"qc_by": "Controleur",
+				"color": "Black-white",
+				"sp_name": "GMS",
+				"label_present": true,
+				"dc_titles": {
+					"reeks": [
+						"Collectie Oude Nabije Oosten"
+					]
+				},
+				"cleaning_note": "ontstoft",
+				"CP_id": "OR-0z70w1b",
+				"cleaning_outcome": "y",
+				"collection_box_barcode": "SKU078158"
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"df107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2023-03-29T22:00:00.000000Z",
+				"OriginalFilename": "5d8nc8tp93_mets.xml",
+				"RightsOwner": "© UGENT",
+				"UploadedBy": "system@ugent",
+				"KeyframeStart": 0,
+				"Title": "Vlakbeelden Midden Rijk",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-18T22:00:39.437000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2023-06-25T05:39:33.296000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "document",
+				"IsOriginal": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2023-06-25T05:39:33.296000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2023-06-25T05:39:40.063000Z",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalId": null,
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Technical": {
+				"PronomId": "fmt/101",
+				"OriginalExtension": "xml",
+				"MimeType": "application/xml",
+				"Md5": "eba32ce2add09b098b62e78a95dd718d",
+				"FileSize": 17043,
+				"Width": null,
+				"Height": null,
+				"ImageSize": null,
+				"ImageOrientation": null,
+				"ImageQuality": null,
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"PathToPreview": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"BrowseStatus": "no_browse",
+				"RecordId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
+				"HasKeyframes": false,
+				"MediaObjectId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25",
+				"ArchiveStatus": "on_disk",
+				"FragmentId": "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25b0f1d1a0dee644bf93e6f879f81f4c2d",
+				"OffsetInDatabase": 13157300,
+				"PathToKeyframeThumb": "https://mheuropehot.blob.core.windows.net/mediahaven-saas-browse-main/no-preview.png",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Browses": {},
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
+			},
+			"Context": {
+				"IsDeletable": true,
+				"IsEditable": true,
+				"IsEmbeddable": false,
+				"IsExportable": true,
+				"IsPublic": false,
+				"IsPublishable": false,
+				"Profiles": [],
+				"Reasons": {
+					"IsPublishable": [
+						{
+							"Code": "RecordStatusNotPublishable",
+							"Value": "Record can not be published in its current status"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Structural": {
+				"RecordStructure": "DataFlat",
+				"HasChildren": false,
+				"FragmentStartFrames": 0,
+				"Sets": {
+					"Set": [
+						"04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177_0000000002"
+					]
+				},
+				"HasNonRepresentationChildren": false,
+				"InformationPackage": "Aip",
+				"FragmentEndFrames": 0,
+				"Versioning": {
+					"Status": "Untracked",
+					"Version": 1
+				},
+				"Collections": {
+					"Collection": []
+				},
+				"Newspapers": {
+					"Newspaper": []
+				},
+				"Relations": {},
+				"Fragments": {
+					"Fragment": []
+				},
+				"MainFragment": null,
+				"FragmentDurationTimeCode": null,
+				"FragmentStartTimeCode": null,
+				"FragmentEndTimeCode": null,
+				"FragmentDurationFrames": null,
+				"ReferenceCodes": {},
+				"ParentRecordId": null,
+				"ReferenceTitles": {},
+				"FieldDefinition": {},
+				"PreviewRecordId": null,
+				"OriginalRecordId": null,
+				"ChildOrder": null,
+				"DataRecordId": null
 			},
 			"Dynamic": {
 				"type_viaa": "photo",
@@ -1122,6 +955,173 @@
 				"CP_id": "OR-0z70w1b",
 				"cleaning_outcome": "y",
 				"collection_box_barcode": "SKU078158"
+			},
+			"RightsManagement": {
+				"Permissions": {
+					"Write": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Export": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					],
+					"Read": [
+						"cc7c56fc-58c8-4650-bc63-7e695fbc506c",
+						"dc100b7a-efd0-44e3-8816-0905572421da",
+						"dd107b7a-efd0-44e3-8816-0905572421da",
+						"df107b7a-efd0-44e3-8816-0905572421da",
+						"5f7d7475-c7cc-4dbc-b32c-342658732519"
+					]
+				},
+				"RecordPhase": "Published",
+				"ExpiryDate": null,
+				"ExpiryStatus": null,
+				"Zone": {}
+			},
+			"Descriptive": {
+				"CreationDate": "2023-03-29T22:00:00.000000Z",
+				"OriginalFilename": "5d8nc8tp93_tiff.tiff",
+				"RightsOwner": "© UGENT",
+				"UploadedBy": "system@ugent",
+				"KeyframeStart": 0,
+				"Title": "Vlakbeelden Midden Rijk",
+				"Description": null,
+				"CreationDateLegacy": null,
+				"Rights": null,
+				"Keywords": {
+					"Keyword": []
+				},
+				"Categories": {
+					"Category": []
+				},
+				"LimitedCategories": {},
+				"Publisher": null,
+				"Authors": {},
+				"Location": null,
+				"Address": {},
+				"NonPreferredTerm": null,
+				"Publications": {
+					"Comment": []
+				},
+				"OriginalPath": null,
+				"Position": {}
+			},
+			"Administrative": {
+				"LastModifiedDate": "2024-07-19T19:31:51.182000Z",
+				"IsSynchronized": false,
+				"OrganisationName": "ugent",
+				"Workflow": "GMS",
+				"HasFailedJobs": false,
+				"ArchiveDate": "2023-06-25T05:39:41.272000Z",
+				"IngestFlow": "Ingest-1.5",
+				"RecordStatus": "Published",
+				"IsAccess": false,
+				"Type": "image",
+				"IsOriginal": false,
+				"IsPreservation": false,
+				"UserLastModifiedDate": "2024-02-29T12:54:05.441000Z",
+				"OrganisationLongName": "ugent",
+				"RecordType": "Record",
+				"PublicationDate": "2023-06-25T05:39:41.272000Z",
+				"ExternalId": "5d8nc8tp93_tiff",
+				"DeleteStatus": "NotDeleted",
+				"MainRecordType": "Record",
+				"OrganisationExternalId": "OR-0z70w1b",
+				"ExternalUrl": null,
+				"DepartmentName": null,
+				"IngestTape": null,
+				"LogicalDeletionDate": null,
+				"ChildOrderFields": {},
+				"RejectionDate": null,
+				"ExternalUse": null,
+				"RecordRejections": {}
+			},
+			"Technical": {
+				"ImageQuality": "high",
+				"PronomId": "fmt/353",
+				"OriginalExtension": "tiff",
+				"MimeType": "image/tiff",
+				"Width": 7529,
+				"Md5": "5c3ca5dbf9b2d810eba1bf9b8c458fcf",
+				"FileSize": 284604288,
+				"ImageSize": "7529x6300",
+				"Height": 6300,
+				"ImageOrientation": "landscape",
+				"VideoTechnical": null,
+				"AudioTechnical": null,
+				"VideoFormat": null,
+				"Exif": {},
+				"Sha256": null,
+				"DurationTimeCode": null,
+				"StartTimeCode": null,
+				"EndTimeCode": null,
+				"DurationFrames": null,
+				"StartFrames": null,
+				"EndFrames": null,
+				"VideoCodec": null,
+				"VideoFps": null,
+				"VideoBitRate": null,
+				"AudioCodec": null,
+				"AudioChannels": null,
+				"AudioSampleRate": null,
+				"AudioBitRate": null,
+				"AudioTracks": {},
+				"BitRate": null,
+				"Origin": null,
+				"EssenceOffset": null,
+				"EditUnitByteSize": null,
+				"RunIn": null,
+				"FramesPerEditUnit": null,
+				"EditRate": null,
+				"IndexEditRate": null
+			},
+			"Internal": {
+				"IndexName": "viaa",
+				"PathToKeyframe": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse.jpg",
+				"PathToPreview": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse.jpg",
+				"Browses": {
+					"Browse": [
+						{
+							"BaseUrl": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
+							"PathToKeyframe": "browse.jpg",
+							"PathToKeyframeThumb": "browse-thumb.jpg",
+							"HasKeyframes": false,
+							"Container": "jpg",
+							"Label": "image_jpg",
+							"FileSize": 420375,
+							"Height": 1674,
+							"Width": 2000
+						}
+					]
+				},
+				"BrowseStatus": "completed",
+				"RecordId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
+				"IsInIngestSpace": false,
+				"OrganisationId": "107",
+				"ContainsGeoData": false,
+				"OriginalStatus": "completed",
+				"IsFragment": false,
+				"UploadedById": "ff107c7a-efd0-44e3-8816-0905572421da",
+				"HasKeyframes": false,
+				"MediaObjectId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b",
+				"ArchiveStatus": "on_tape",
+				"FragmentId": "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d",
+				"OffsetInDatabase": 13157302,
+				"PathToKeyframeThumb": "https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse-thumb.jpg",
+				"ExternalSourceUrl": null,
+				"IngestSpaceId": null,
+				"DepartmentId": null,
+				"PathToVideo": null,
+				"PathToOriginal": null,
+				"Distributions": {
+					"Distribution": []
+				},
+				"Profiles": {}
 			},
 			"Context": {
 				"IsDeletable": true,

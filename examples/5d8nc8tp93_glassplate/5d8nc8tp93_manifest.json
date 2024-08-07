@@ -1,194 +1,82 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "iiif_prezi": "http://iiif.io/api/presentation/3#",
-    "iiif_image_3": "http://iiif.io/api/image/3#",
-    "exif": "http://www.w3.org/2003/12/exif/ns#",
-    "oa": "http://www.w3.org/ns/oa#",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "dctypes": "http://purl.org/dc/dcmitype/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "as": "http://www.w3.org/ns/activitystreams#",
-    "ebu": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
-    "schema": "https://schema.org/",
-    "id": "@id",
-    "type": "@type",
-    "Collection": {
-      "@id": "iiif_prezi:Collection"
-    },
-    "Manifest": {
-      "@id": "iiif_prezi:Manifest"
-    },
-    "Canvas": {
-      "@id": "iiif_prezi:Canvas",
-      "@context": {
-        "service": {
-          "@type": "@id",
-          "@id": "schema:potentialAction",
-          "@container": "@set",
-          "@context": {
-            "ImageService3": {
-              "@id": "iiif_image_3:ImageService"
-            }
-          }
-        }
-      }
-    },
-    "AnnotationPage": {
-      "@id": "as:OrderedCollectionPage",
-      "@context": {
-        "label": {
-          "@id": "rdfs:label",
-          "@container": ["@language", "@set"],
-          "@context": {
-            "none": "@none"
-          }
-        }
-      }
-    },
-    "Annotation": {
-      "@id": "oa:Annotation",
-      "@context": {
-        "motivation": {
-          "@id": "oa:motivatedBy"
-        },
-        "body": {
-          "@type": "@id",
-          "@id": "oa:hasBody"
-        },
-        "target": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        }
-      }
-    },
-    "Image": "dctypes:StillImage",
-    "label": {
-      "@id": "rdfs:label",
-      "@container": ["@language", "@set"],
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "value": {
-      "@id": "rdf:value",
-      "@container": ["@language", "@set"],
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "items": {
-      "@type": "@id",
-      "@id": "as:items",
-      "@container": "@set"
-    },
-    "format": {
-      "@id": "dc:format"
-    },
-    "behavior": {
-      "@id": "iiif_prezi:behavior",
-      "@type": "@vocab",
-      "@container": "@set",
-      "@context": {
-        "individuals": "iiif_prezi:individualsHint"
-      }
-    },
-    "metadata": {
-      "@id": "iiif_prezi:metadataEntries",
-      "@container": "@set",
-      "@context": {
-        "none": "@none"
-      }
-    },
-    "thumbnail": {
-      "@type": "@id",
-      "@id": "iiif_prezi:thumbnail",
-      "@container": "@set"
-    },
-    "service": {
-      "@type": "@id",
-      "@id": "schema:potentialAction",
-      "@container": "@set",
-      "@context": {
-        "ImageService3": {
-          "@id": "iiif_image_3:ImageService"
-        }
-      }
-    },
-    "profile": "dcterms:conformsTo",
-    "requiredStatement": {
-      "@id": "iiif_prezi:requiredStatement",
-      "@type": "@id"
-    },
-    "rights": {
-      "@id": "dcterms:rights"
-    },
-    "provider": {
-      "@type": "@id",
-      "@id": "schema:provider",
-      "@container": "@set"
-    },
-    "Agent": "dcterms:Agent",
-    "homepage": {
-      "@type": "@id",
-      "@id": "foaf:homepage",
-      "@container": "@set"
-    },
-    "logo": {
-      "@type": "@id",
-      "@id": "foaf:logo",
-      "@container": "@set"
-    },
-    "Text": "dctypes:Text"
-  },
+  "@context": [
+    "https://iiif.io/api/presentation/3/context.json",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/image/3/context.json",
+    "https://meemoo-int.triply.cc/meemoo/iiif-test-newspaper-glassplate-combined/assets/6661c6d89efff93d46a1c1b7"
+  ],
   "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json",
   "type": "Manifest",
-  "behavior": ["individuals"],
+  "behavior": [
+    "individuals"
+  ],
   "metadata": [
     {
-      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#type",
+      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/pid",
       "value": {
-        "en": ["photo"]
+        "none": [
+          "5d8nc8tp93"
+        ]
       },
       "label": {
-        "nl": ["Type"],
-        "en": ["Type"]
+        "nl": [
+          "PID"
+        ],
+        "en": [
+          "PID"
+        ]
       }
     },
     {
-      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#dateCreated",
+      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/type",
       "value": {
-        "none": ["1900/1960"]
+        "en": [
+          "image"
+        ]
       },
       "label": {
-        "nl": ["Datum"],
-        "en": ["Date"]
+        "nl": [
+          "Type"
+        ],
+        "en": [
+          "Type"
+        ]
       }
     },
     {
-      "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#pid",
+      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/dateCreated",
       "value": {
-        "none": ["5d8nc8tp93"]
+        "none": [
+          "1900/1960"
+        ]
       },
       "label": {
-        "nl": ["PID"],
-        "en": ["PID"]
+        "en": [
+          "Date"
+        ],
+        "nl": [
+          "Datum"
+        ]
       }
     }
   ],
   "requiredStatement": {
-    "id": "https://api.meemoo-int.triply.cc/queries/milan/iiif-glassplate-manifest/1/run#requiredStatement",
+    "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/requiredStatement",
     "value": {
-      "nl": ["© UGENT"],
-      "en": ["© UGENT"]
+      "en": [
+        "© UGENT"
+      ],
+      "nl": [
+        "© UGENT"
+      ]
     },
     "label": {
-      "nl": ["Attributie"],
-      "en": ["Attribution"]
+      "nl": [
+        "Attributie"
+      ],
+      "en": [
+        "Attribution"
+      ]
     }
   },
   "thumbnail": [
@@ -198,9 +86,11 @@
       "format": "image/jpeg"
     }
   ],
-  "rights": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+  "rights": "http://creativecommons.org/licenses/by/4.0/deed.nl",
   "label": {
-    "nl": ["Vlakbeelden Midden Rijk"]
+    "nl": [
+      "Vlakbeelden Midden Rijk"
+    ]
   },
   "items": [
     {
@@ -214,8 +104,12 @@
         }
       ],
       "label": {
-        "nl": ["Vlakbeelden Midden Rijk"]
+        "nl": [
+          "Vlakbeelden Midden Rijk"
+        ]
       },
+      "height": "1674",
+      "width": "2000",
       "items": [
         {
           "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1/page/1",
@@ -225,14 +119,14 @@
               "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/canvas/1/page/1/annotation/1",
               "type": "Annotation",
               "body": {
-                "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph/full/max/0/default.jpg",
+                "id": "https://images.meemoo.be/iiif/public%252FOR-0z70w1b%252Ff6%252Ff64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph.jph/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://images.meemoo.be/iiif/public/OR-0z70w1b/f6/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph",
+                    "id": "https://images.meemoo.be/iiif/public%252FOR-0z70w1b%252Ff6%252Ff64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph.jph",
                     "type": "ImageService3",
-                    "profile": "level2"
+                    "profile": "http://iiif.io/api/image/3/level2.json"
                   }
                 ]
               },
@@ -249,7 +143,9 @@
       "id": "https://data.hetarchief.be/id/organization/OR-0z70w1b",
       "type": "Agent",
       "label": {
-        "nl": ["Universiteitsbibliotheek Gent"]
+        "nl": [
+          "Universiteitsbibliotheek Gent"
+        ]
       },
       "homepage": [
         {

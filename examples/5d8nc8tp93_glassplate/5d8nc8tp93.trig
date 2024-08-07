@@ -1,0 +1,434 @@
+@prefix crypHashFunc: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
+@prefix evtAgRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/> .
+@prefix evtObjRole: <http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole/> .
+@prefix evtOutcome: <http://id.loc.gov/vocabulary/preservation/eventOutcome/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix haCarId: <https://data.hetarchief.be/id/carrier-type/> .
+@prefix haDes: <https://data.hetarchief.be/ns/descriptive/> .
+@prefix haEvtId: <https://data.hetarchief.be/id/event-type/> .
+@prefix haLic: <https://data.hetarchief.be/id/license/> .
+@prefix haObj: <https://data.hetarchief.be/ns/object/> .
+@prefix haObjId: <https://data.hetarchief.be/id/entity/> .
+@prefix haOrg: <https://data.hetarchief.be/ns/organization/> .
+@prefix haOrgId: <https://data.hetarchief.be/id/organization/> .
+@prefix mh: <https://data.hetarchief.be/ns/mediahaven/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix premis: <http://www.loc.gov/premis/rdf/v3/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rel: <http://id.loc.gov/vocabulary/preservation/relationshipSubType/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix storMedium: <http://id.loc.gov/vocabulary/preservation/storageMedium/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+haObjId:0a618775a759f70591f42cc63f18dc38 a premis:Event,
+        haEvtId:registration ;
+    evtAgRole:imp haOrgId:OR-0z70w1b ;
+    evtObjRole:sou haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2022-04-12T10:04:04"^^xsd:dateTime ;
+    prov:startedAtTime "2022-04-12T10:04:04"^^xsd:dateTime ;
+    schema:name "Registration (event): 5d8nc8tp93"@en,
+        "Inscription (événement): 5d8nc8tp93"@fr,
+        "Registratie (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:398e82a83da2defcdcbf341146f16a14 a premis:Event,
+        haEvtId:quality-control ;
+    evtAgRole:imp haObjId:ed8a91f7807b8ff302ef8bb84c94356a,
+        haOrgId:OR-qj77x56 ;
+    evtObjRole:sou haObjId:febc45ce7155bced59150b3839fe32ec ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Quality-Control (event): 5d8nc8tp93"@en,
+        "Contrôle de la qualité (événement): 5d8nc8tp93"@fr,
+        "Kwaliteitscontrole (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:6b4bbed6c9cfe2cc89986223a2b6adfa a premis:Event,
+        haEvtId:check-out ;
+    evtAgRole:imp haOrgId:OR-qj77x56 ;
+    evtObjRole:sou haObjId:e6546c079178069885372890fba85d43 ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-02-27T00:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-02-27T00:00:00"^^xsd:dateTime ;
+    schema:name "Check-Out (event): GPLINB01"@en,
+        "Départ (événement): GPLINB01"@fr,
+        "Uitchecken (gebeurtenis): GPLINB01"@nl .
+
+haObjId:7b24118d26d013b320c486f60957d1b2 a premis:Event,
+        haEvtId:transfer ;
+    evtAgRole:imp haOrgId:OR-qj77x56 ;
+    evtObjRole:sou haObjId:febc45ce7155bced59150b3839fe32ec ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-05-11T00:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-05-11T00:00:00"^^xsd:dateTime ;
+    schema:name "Transfer (event): 5d8nc8tp93"@en,
+        "Transfert (événement): 5d8nc8tp93"@fr,
+        "Overdracht (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:a0dbe1457fc31711f2d92afc1e7a66ea a premis:Event,
+        haEvtId:digitization ;
+    evtAgRole:imp haOrgId:OR-qj77x56 ;
+    evtObjRole:out haObjId:febc45ce7155bced59150b3839fe32ec ;
+    evtObjRole:sou haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-03-30T02:23:42"^^xsd:dateTime,
+        "30-3-2023 14:23:42" ;
+    prov:startedAtTime "2023-03-30T02:23:42"^^xsd:dateTime,
+        "30-3-2023 14:23:42" ;
+    prov:wasAssociatedWith haObjId:3ae755d74cbd727b9aca55cd091ecaf6,
+        haObjId:f2db8d37fc18fb0a2d6d5a20c7f48b6a ;
+    schema:instrument haObjId:3ae755d74cbd727b9aca55cd091ecaf6 ;
+    schema:name "Digitization (event): 5d8nc8tp93"@en,
+        "Numérisation (événement): 5d8nc8tp93"@fr,
+        "Digitalisering (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:bc438345e8ed2c1eade6e16ef6c85f33 a premis:Event,
+        haEvtId:inspection ;
+    evtAgRole:imp haOrgId:OR-qj77x56 ;
+    evtObjRole:sou haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Inspection (event): 5d8nc8tp93"@en,
+        "Inspection (événement): 5d8nc8tp93"@fr,
+        "Inspectie (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:dc826ddad911cabc237bb295fbfca6ab a premis:Event,
+        haEvtId:cleaning ;
+    evtAgRole:imp haOrgId:OR-qj77x56 ;
+    evtObjRole:sou haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    premis:note "ontstoft" ;
+    premis:outcome evtOutcome:suc ;
+    prov:endedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2023-03-30T00:00:00"^^xsd:dateTime ;
+    schema:name "Cleaning (event): 5d8nc8tp93"@en,
+        "Nettoyage (événement): 5d8nc8tp93"@fr,
+        "Schoonmaak (gebeurtenis): 5d8nc8tp93"@nl .
+
+haObjId:05c725732b3b1f38647ad75c66122d3b a schema:Brand ;
+    schema:name "SONY"@nl .
+
+haObjId:0953226ec615a2e3dea7da09237e742e a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 9504 .
+
+haObjId:106089becbe18fa1d5fc9dcff72e1fb6 a schema:CreativeWorkSeries ;
+    schema:hasPart haObjId:5d8nc8tp93 ;
+    schema:name "Collectie Oude Nabije Oosten"@nl .
+
+haObjId:286f65665b9f462f72794ca70cc95821 a skos:Concept ;
+    skos:prefLabel "Kleefband" .
+
+haObjId:369f425a312f71029de694be514552ac a haObj:shipment_id ;
+    rdf:value "16769921271" .
+
+haObjId:36ac6fb79a20501c7e1351208871b2dc a premis:StorageLocation ;
+    rdf:value <https://images.meemoo.be/iiif/public%252FOR-0z70w1b%252Ff6%252Ff64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph> .
+
+haObjId:3d44ec93ad166d3662aae1a59e9a4ddb a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 7529 .
+
+haObjId:579970fe9df5704c34868fa40d190032 a mh:Record ;
+    schema:identifier "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b" .
+
+haObjId:58e53bcd906eadb7a6d1401522a9eec3 a haObj:CarrierRepresentation ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    premis:storedAt haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    prov:wasDerivedFrom haObjId:3304dab656fc4b4f8c86e9b520a44e3f,
+        haObjId:6dd97682bf053b8a726ce38e57b0070b,
+        haObjId:aaa9c4d14ee644b4e6bc94629a079b12,
+        haObjId:f641f05e47341387b04311aa457fa6d0 ;
+    schema:name "Carrier version (image): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "Version sur support (image): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "Dragerversie (image): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:5ad1855ebad55ae65ee65be9053c28fc a premis:StorageLocation ;
+    premis:medium storMedium:mag .
+
+haObjId:6dd97682bf053b8a726ce38e57b0070b a mh:Fragment ;
+    mh:PID "5d8nc8tp93" ;
+    mh:record haObjId:ffb89dc03d7be2685cf60faee76533e5 ;
+    schema:dateCreated "2023-06-25T05:39:49.765000+00:00"^^xsd:dateTime ;
+    schema:dateModified "2024-06-19T03:05:43.814000+00:00"^^xsd:dateTime ;
+    schema:identifier "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e4369817785b2a36089dc460fb39342309d11cde1" .
+
+haObjId:714b69c3018955f0ff8b58f6e205af45 a premis:StorageLocation ;
+    premis:medium storMedium:mag .
+
+haObjId:7bbba70c642df9c02551481045580824 a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 1674 .
+
+haObjId:825dcd244f1b16afc664550a4a802e2f a mh:Record ;
+    schema:identifier "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19" .
+
+haObjId:a7533f3059ff7a5324094cbd5875713b a premis:File ;
+    rel:isi haObjId:febc45ce7155bced59150b3839fe32ec ;
+    dct:format <https://www.nationalarchives.gov.uk/PRONOM/fmt/152> ;
+    ebucore:hasMimeType "image/x-adobe-dng" ;
+    premis:fixity haObjId:ec4f3b5512e3eebae6f02051a5b681a4 ;
+    premis:originalName "5d8nc8tp93_dng.dng" ;
+    premis:size "120542493"^^xsd:nonNegativeInteger ;
+    premis:storedAt haObjId:5ad1855ebad55ae65ee65be9053c28fc ;
+    prov:wasDerivedFrom haObjId:3304dab656fc4b4f8c86e9b520a44e3f ;
+    schema:dateCreated "2023-06-25T05:39:37.428000Z"^^edtf:EDTF-level0 ;
+    schema:height haObjId:cc3db26f2034647a1cfa3b6828eb52a4 ;
+    schema:name "5d8nc8tp93_dng.dng"@nl ;
+    schema:width haObjId:0953226ec615a2e3dea7da09237e742e .
+
+haObjId:adfd1ac31b962fa1fc70b061a3c9d88c a haObj:collection_box_barcode ;
+    rdf:value "SKU078158" .
+
+haObjId:b511ef00c2cc88bd848dbcab9b8d32c1 a crypHashFunc:md5 ;
+    rdf:value "5c3ca5dbf9b2d810eba1bf9b8c458fcf" .
+
+haObjId:c576de53825e48268e5919eca54fb652 a premis:StorageLocation ;
+    premis:medium storMedium:har ;
+    rdf:value <https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse.jpg> .
+
+haObjId:c8f8092f43b9adc32ee0f5b79e6b38a7 a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 6300 .
+
+haObjId:cc3db26f2034647a1cfa3b6828eb52a4 a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 6336 .
+
+haObjId:cc796abdfc7cbae7479924bf4bb419a1 a premis:File ;
+    rel:isi haObjId:3e1ea823838edd00d44610d8910a335f ;
+    dct:format <https://www.nationalarchives.gov.uk/PRONOM/fmt/1964> ;
+    ebucore:hasMimeType "image/jph" ;
+    premis:originalName "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph" ;
+    premis:storedAt haObjId:36ac6fb79a20501c7e1351208871b2dc ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    schema:name "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d.jph"@nl .
+
+haObjId:db26c2d33bf786917857e4a49bba66a4 a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 1333 .
+
+haObjId:de12b9d5be97344e5e22c936d3c9e0fc a mh:Record ;
+    schema:identifier "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25" .
+
+haObjId:ec4f3b5512e3eebae6f02051a5b681a4 a crypHashFunc:md5 ;
+    rdf:value "b6c80218743b7b9a4875523e701d0f32" .
+
+haObjId:ed0ef5d2ede02706f3bc83b8a4497c94 a premis:File ;
+    rel:isi haObjId:ef62d5bd20d358b3bc9179344521cfd7 ;
+    dct:format <https://www.nationalarchives.gov.uk/PRONOM/fmt/353> ;
+    ebucore:hasMimeType "image/tiff" ;
+    premis:fixity haObjId:b511ef00c2cc88bd848dbcab9b8d32c1 ;
+    premis:originalName "5d8nc8tp93_tiff.tiff" ;
+    premis:size "284604288"^^xsd:nonNegativeInteger ;
+    premis:storedAt haObjId:714b69c3018955f0ff8b58f6e205af45 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    schema:dateCreated "2023-06-25T05:39:41.272000Z"^^edtf:EDTF-level0 ;
+    schema:height haObjId:c8f8092f43b9adc32ee0f5b79e6b38a7 ;
+    schema:name "5d8nc8tp93_tiff.tiff"@nl ;
+    schema:width haObjId:3d44ec93ad166d3662aae1a59e9a4ddb .
+
+haObjId:ed8a91f7807b8ff302ef8bb84c94356a a schema:Thing ;
+    schema:name "Controleur"@nl .
+
+haObjId:f2db8d37fc18fb0a2d6d5a20c7f48b6a a schema:Thing ;
+    schema:name "Operator"@nl .
+
+haObjId:f641f05e47341387b04311aa457fa6d0 a mh:Fragment ;
+    mh:PID "5d8nc8tp93" ;
+    mh:record haObjId:de12b9d5be97344e5e22c936d3c9e0fc ;
+    schema:dateCreated "2023-06-25T05:39:33.296000+00:00"^^xsd:dateTime ;
+    schema:dateModified "2024-07-18T22:00:39.437000+00:00"^^xsd:dateTime ;
+    schema:identifier "e23a873f3ad048d1a177e983785972fb4a321805ead1487498157b803feb2c25b0f1d1a0dee644bf93e6f879f81f4c2d" .
+
+haObjId:fcb3957b15421718c46d9ed48d47d602 a premis:StorageLocation ;
+    premis:medium storMedium:har ;
+    rdf:value <https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse.jpg> .
+
+haObjId:ffb89dc03d7be2685cf60faee76533e5 a mh:Record ;
+    schema:identifier "04765228c4c143e5935a502f7f722e5185d5d977c84a42a5ae72d37e43698177" .
+
+haObjId:03adc643d90dc05c990de09e7e3502b5 a schema:QuantitativeValue ;
+    schema:unitCode "E37" ;
+    schema:unitText "px" ;
+    schema:value 2000 .
+
+haObjId:13dcb84b9db2ea53201db10f0e8828e7 a premis:File ;
+    rel:isi haObjId:8da4748caa52efb51e0a92cc5fbe4d7f ;
+    ebucore:hasMimeType "image/jpeg" ;
+    premis:originalName "browse.jpg" ;
+    premis:size "237206"^^xsd:nonNegativeInteger ;
+    premis:storedAt haObjId:c576de53825e48268e5919eca54fb652 ;
+    prov:wasDerivedFrom haObjId:3304dab656fc4b4f8c86e9b520a44e3f ;
+    schema:dateCreated "2023-06-25T05:39:37.428000Z"^^edtf:EDTF-level0 ;
+    schema:height haObjId:db26c2d33bf786917857e4a49bba66a4 ;
+    schema:name "browse.jpg"@nl ;
+    schema:thumbnailUrl <https://archief-media.viaa.be/viaa/UGENT/afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a19/browse-thumb.jpg> ;
+    schema:width haObjId:03adc643d90dc05c990de09e7e3502b5 .
+
+haObjId:3ae755d74cbd727b9aca55cd091ecaf6 a premis:HardwareAgent ;
+    premis:version "ILCE-7RM4A" ;
+    schema:brand haObjId:05c725732b3b1f38647ad75c66122d3b ;
+    schema:model "ILCE-7RM4A" ;
+    schema:serialNumber "03777459" .
+
+haObjId:3ed817cf792deca3759586aee5e93475 a haObj:LocalIdentifier ;
+    rdf:value "5d8nc8tp93" .
+
+haObjId:cc58f2865cc8f952b3937ede92ffe9c8 a premis:File ;
+    rel:isi haObjId:aed70e4e3fde9e8948a89a3fe7bf9d3f ;
+    ebucore:hasMimeType "image/jpeg" ;
+    premis:originalName "browse.jpg" ;
+    premis:size "420375"^^xsd:nonNegativeInteger ;
+    premis:storedAt haObjId:fcb3957b15421718c46d9ed48d47d602 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    schema:dateCreated "2023-06-25T05:39:41.272000Z"^^edtf:EDTF-level0 ;
+    schema:height haObjId:7bbba70c642df9c02551481045580824 ;
+    schema:name "browse.jpg"@nl ;
+    schema:thumbnailUrl <https://archief-media.viaa.be/viaa/UGENT/f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b/browse-thumb.jpg> ;
+    schema:width haObjId:03adc643d90dc05c990de09e7e3502b5 .
+
+haObjId:e6546c079178069885372890fba85d43 a schema:Collection ;
+    premis:identifier haObjId:369f425a312f71029de694be514552ac,
+        haObjId:adfd1ac31b962fa1fc70b061a3c9d88c ;
+    schema:hasPart haObjId:d14e728a4b55469e656e074aeeb842d0 ;
+    schema:identifier "GPLINB01" ;
+    schema:name "GPLINB01"@nl .
+
+haObjId:3e1ea823838edd00d44610d8910a335f a haObj:DigitalRepresentation ;
+    rel:hss haObjId:febc45ce7155bced59150b3839fe32ec ;
+    rel:inc haObjId:cc796abdfc7cbae7479924bf4bb419a1 ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    haObj:isIIIFCopyOf haObjId:5d8nc8tp93 ;
+    schema:name "IIIF representation (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "IIIF numérique (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "IIIF representatie (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:8da4748caa52efb51e0a92cc5fbe4d7f a haObj:DigitalRepresentation ;
+    rel:hsr haObjId:13dcb84b9db2ea53201db10f0e8828e7 ;
+    rel:hss haObjId:febc45ce7155bced59150b3839fe32ec ;
+    rel:inc haObjId:13dcb84b9db2ea53201db10f0e8828e7 ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    prov:wasDerivedFrom haObjId:3304dab656fc4b4f8c86e9b520a44e3f ;
+    haObj:isAccessCopyOf haObjId:5d8nc8tp93 ;
+    schema:name "Low-resolution copy (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "Copie en basse résolution (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "Lageresolutiekopie (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:aed70e4e3fde9e8948a89a3fe7bf9d3f a haObj:DigitalRepresentation ;
+    rel:hsr haObjId:cc58f2865cc8f952b3937ede92ffe9c8 ;
+    rel:hss haObjId:ef62d5bd20d358b3bc9179344521cfd7 ;
+    rel:inc haObjId:cc58f2865cc8f952b3937ede92ffe9c8 ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    haObj:isAccessCopyOf haObjId:5d8nc8tp93 ;
+    schema:name "Low-resolution copy (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "Copie en basse résolution (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "Lageresolutiekopie (jpg): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:ef62d5bd20d358b3bc9179344521cfd7 a haObj:DigitalRepresentation ;
+    rel:inc haObjId:ed0ef5d2ede02706f3bc83b8a4497c94 ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    haObj:isMezzanineCopyOf haObjId:5d8nc8tp93 ;
+    schema:name "Mezzanine copy (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "Copie mezzanine (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "Mezzaninekopie (tiff): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:3304dab656fc4b4f8c86e9b520a44e3f a mh:Fragment ;
+    mh:PID "5d8nc8tp93" ;
+    mh:record haObjId:825dcd244f1b16afc664550a4a802e2f ;
+    schema:dateCreated "2023-06-25T05:39:37.428000+00:00"^^xsd:dateTime ;
+    schema:dateModified "2024-07-15T16:32:47.901000+00:00"^^xsd:dateTime ;
+    schema:identifier "afc2e2c12bfb446d927f9998e8d90799e5ede3c67961472d96e15e74d5703a191c9ad4ac0138490c8cf38f91bf2ae9e6" .
+
+haObjId:d14e728a4b55469e656e074aeeb842d0 a haObj:PhysicalCarrier ;
+    premis:medium haCarId:glassplate ;
+    haObj:preservationProblem haObjId:286f65665b9f462f72794ca70cc95821 ;
+    schema:identifier "910001040370" ;
+    schema:isPartOf haObjId:e6546c079178069885372890fba85d43 ;
+    schema:name "Carrier (Glass plate): 910001040370"@en,
+        "Support (Glass plate): 910001040370"@fr,
+        "Drager (Glass plate): 910001040370"@nl .
+
+haObjId:aaa9c4d14ee644b4e6bc94629a079b12 a mh:Fragment ;
+    mh:PID "5d8nc8tp93" ;
+    mh:record haObjId:579970fe9df5704c34868fa40d190032 ;
+    schema:dateCreated "2023-06-25T05:39:41.272000+00:00"^^xsd:dateTime ;
+    schema:dateModified "2024-07-19T19:31:51.182000+00:00"^^xsd:dateTime ;
+    schema:identifier "f64922b8a6314067a1a928119060f51659de2ef8245246e3b8676111c9adc34b9bf8c4f666c14a41936dbeb98669fe4d" .
+
+haObjId:febc45ce7155bced59150b3839fe32ec a haObj:DigitalRepresentation ;
+    rel:inc haObjId:a7533f3059ff7a5324094cbd5875713b ;
+    rel:rep haObjId:5d8nc8tp93 ;
+    prov:wasDerivedFrom haObjId:3304dab656fc4b4f8c86e9b520a44e3f ;
+    haObj:isMasterCopyOf haObjId:5d8nc8tp93 ;
+    schema:name "Archive master (dng): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@en,
+        "Maître d'archive (dng): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@fr,
+        "Archiefmaster (dng): 'Vlakbeelden Midden Rijk' (5d8nc8tp93)"@nl .
+
+haObjId:5d8nc8tp93 a premis:IntellectualEntity,
+        haDes:Image ;
+    rel:isr haObjId:3e1ea823838edd00d44610d8910a335f,
+        haObjId:58e53bcd906eadb7a6d1401522a9eec3,
+        haObjId:8da4748caa52efb51e0a92cc5fbe4d7f,
+        haObjId:aed70e4e3fde9e8948a89a3fe7bf9d3f,
+        haObjId:ef62d5bd20d358b3bc9179344521cfd7,
+        haObjId:febc45ce7155bced59150b3839fe32ec ;
+    dct:format "image" ;
+    premis:identifier haObjId:3ed817cf792deca3759586aee5e93475 ;
+    prov:wasDerivedFrom haObjId:aaa9c4d14ee644b4e6bc94629a079b12 ;
+    haObj:hasAccessCopy haObjId:8da4748caa52efb51e0a92cc5fbe4d7f,
+        haObjId:aed70e4e3fde9e8948a89a3fe7bf9d3f ;
+    haObj:hasIIIFCopy haObjId:3e1ea823838edd00d44610d8910a335f ;
+    haObj:hasMasterCopy haObjId:febc45ce7155bced59150b3839fe32ec ;
+    haObj:hasMezzanineCopy haObjId:ef62d5bd20d358b3bc9179344521cfd7 ;
+    haObj:primaryIdentifier haObjId:3ed817cf792deca3759586aee5e93475 ;
+    schema:copyrightNotice "© UGENT" ;
+    schema:dateCreated "1900/1960"^^edtf:EDTF-level0 ;
+    schema:identifier "5d8nc8tp93" ;
+    schema:isPartOf haObjId:106089becbe18fa1d5fc9dcff72e1fb6 ;
+    schema:license haLic:BEZOEKERTOOL-CONTENT,
+        haLic:BEZOEKERTOOL-METADATA-ALL,
+        haLic:IIIF-PUBLIC,
+        haLic:VIAA-INTRA_CP-CONTENT,
+        haLic:VIAA-INTRA_CP-METADATA-ALL,
+        haLic:VIAA-ONDERWIJS,
+        haLic:VIAA-ONDERZOEK,
+        haLic:VIAA-PUBLIEK-METADATA-LTD ;
+    schema:maintainer haOrgId:OR-0z70w1b ;
+    schema:name "Vlakbeelden Midden Rijk"@nl .
+
+<https://data.hetarchief.be/graph/organization>{
+    haOrgId:OR-0z70w1b a org:Organization,
+        haOrg:ContentPartner ;
+    dct:description "De UGent is een van de grootste universiteiten in België. Universiteitsbibliotheek Gent is een netwerk van de Boekentoren en de bibliotheken in de faculteiten."@nl ;
+    skos:altLabel "UGent, Boekentoren"@nl ;
+    skos:prefLabel "Universiteitsbibliotheek Gent"@nl ;
+    org:classification <https://data.hetarchief.be/id/organization-type/erfgoedbibliotheek> ;
+    org:hasPrimarySite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+    org:hasSite haOrgId:f207e47b3c51228c0f07144936918fe2 ;
+    org:identifier "OR-0z70w1b" ;
+    foaf:homepage <https://lib.ugent.be> ;
+    mh:tenantName "ugent" ;
+    haOrg:allowsBZT false ;
+    haOrg:allowsOverlay true ;
+    haOrg:hasAccountManager haOrgId:ccef9d6f3c0fdba69e8ea3cfa6d89dbc ;
+    haOrg:hasLogo <https://assets.viaa.be/images/OR-0z70w1b> ;
+    haOrg:requestForm "{local\\_cp\\_id}" ;
+    haOrg:sector "Cultuur" ;
+    schema:contactPoint haOrgId:7e8490a539ee0fdf56ae5f4ff55194c7,
+        haOrgId:e81efd9ddc733667096ba89b88275db7 .
+}
