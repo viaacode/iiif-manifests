@@ -7,7 +7,6 @@ prefix foaf: <http://xmlns.com/foaf/0.1/>
 prefix haCarId: <https://data.hetarchief.be/id/carrier-type/>
 prefix iiif_prezi: <http://iiif.io/api/presentation/3#>
 prefix iiif_image_3: <http://iiif.io/api/image/3#>
-prefix mf: <https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/>
 prefix oa: <http://www.w3.org/ns/oa#>
 prefix org: <http://www.w3.org/ns/org#> 
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -30,8 +29,8 @@ CONSTRUCT {
                iiif_prezi:behavior iiif_prezi:individualsHint ;
                dct:rights <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
                schema:provider ?cp ;
-               iiif_prezi:metadataEntries mf:type, mf:dateCreated, mf:pid ;
-               iiif_prezi:requiredStatement mf:requiredStatement ;
+               iiif_prezi:metadataEntries ?typeIri, ?dateCreatedIri, ?pidIri ;
+               iiif_prezi:requiredStatement ?requiredStatementIri ;
                iiif_prezi:thumbnail ?browseThumbnailIri ;
                as:items ?canvasIri .
 
@@ -59,17 +58,17 @@ CONSTRUCT {
 
   
 
-  mf:type rdfs:label "Type"@en, "Type"@nl ;
-          rdf:value ?typeEn .
+  ?typeIri rdfs:label "Type"@en, "Type"@nl ;
+           rdf:value ?typeEn .
 
-  mf:dateCreated  rdfs:label "Date"@en, "Datum"@nl ;
-                  rdf:value ?dateCreatedString .
+  ?dateCreatedIri  rdfs:label "Date"@en, "Datum"@nl ;
+                   rdf:value ?dateCreatedString .
 
-  mf:pid rdfs:label "PID"@en, "PID"@nl ;
-         rdf:value ?pid .
+  ?pidIri rdfs:label "PID"@en, "PID"@nl ;
+          rdf:value ?pid .
 
-  mf:requiredStatement rdfs:label "Attribution"@en, "Attributie"@nl ;
-                       rdf:value ?copyrightEn, ?copyrightNl .
+  ?requiredStatementIri rdfs:label "Attribution"@en, "Attributie"@nl ;
+                        rdf:value ?copyrightEn, ?copyrightNl .
 
   ?browseThumbnailIri a dctypes:StillImage ;
                       dc:format "image/jpeg" .
@@ -130,6 +129,10 @@ WHERE {
 
   #  IIIF structure IRIs
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/manifest.json")) AS ?manifestIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#type")) AS ?typeIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#dateCreated")) AS ?dateCreatedIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#pid")) AS ?pidIri)
+  BIND(IRI(CONCAT(STR(?manifestIri),"#requiredStatement")) AS ?requiredStatementIri)
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1")) as ?canvasIri)
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1")) as ?annotationPageIri)
   BIND(IRI(CONCAT("https://iiif.meemoo.be/presentation/3/", ?pid, "/canvas/1/page/1/annotation/1")) as ?annotationIri)

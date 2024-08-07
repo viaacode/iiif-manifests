@@ -13,7 +13,23 @@
   ],
   "metadata": [
     {
-      "id": "https://meemoo-int.triply.cc/meemoo/-/queries/iiif-newspaper-manifest/language",
+      "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/manifest.json#type",
+      "value": {
+        "none": [
+          "https://data.hetarchief.be/ns/description/NewspaperIssue"
+        ]
+      },
+      "label": {
+        "en": [
+          "type"
+        ],
+        "nl": [
+          "type"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/manifest.json#language",
       "value": {
         "none": [
           "nl"
@@ -27,27 +43,11 @@
           "language"
         ]
       }
-    },
-    {
-      "id": "https://meemoo-int.triply.cc/meemoo/-/queries/iiif-newspaper-manifest/type",
-      "value": {
-        "none": [
-          "https://data.hetarchief.be/ns/description/NewspaperIssue"
-        ]
-      },
-      "label": {
-        "nl": [
-          "type"
-        ],
-        "en": [
-          "type"
-        ]
-      }
     }
   ],
   "navDate": "1916-09-15",
   "requiredStatement": {
-    "id": "https://meemoo-int.triply.cc/meemoo/-/queries/iiif-newspaper-manifest/requiredStatement",
+    "id": "https://iiif.meemoo.be/presentation/3/0k26971d59/manifest.json#requiredStatement",
     "value": {
       "none": [
         "https://nieuwsvandegrooteoorlog.hetarchief.be/nl/gebruiksvoorwaarden"
@@ -124,11 +124,11 @@
           "format": "text/xml",
           "profile": "http://www.loc.gov/standards/alto",
           "label": {
-            "nl": [
-              "ALTO XML versie"
-            ],
             "en": [
               "ALTO XML version"
+            ],
+            "nl": [
+              "ALTO XML versie"
             ]
           }
         }
