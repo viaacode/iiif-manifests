@@ -12,23 +12,7 @@
   ],
   "metadata": [
     {
-      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/pid",
-      "value": {
-        "none": [
-          "5d8nc8tp93"
-        ]
-      },
-      "label": {
-        "nl": [
-          "PID"
-        ],
-        "en": [
-          "PID"
-        ]
-      }
-    },
-    {
-      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/type",
+      "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json#type",
       "value": {
         "en": [
           "image"
@@ -44,7 +28,23 @@
       }
     },
     {
-      "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/dateCreated",
+      "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json#pid",
+      "value": {
+        "none": [
+          "5d8nc8tp93"
+        ]
+      },
+      "label": {
+        "nl": [
+          "PID"
+        ],
+        "en": [
+          "PID"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json#dateCreated",
       "value": {
         "none": [
           "1900/1960"
@@ -61,21 +61,21 @@
     }
   ],
   "requiredStatement": {
-    "id": "https://api.meemoo-int.triply.cc/queries/meemoo/~/iiif-glassplate-manifest/requiredStatement",
+    "id": "https://iiif.meemoo.be/presentation/3/5d8nc8tp93/manifest.json#requiredStatement",
     "value": {
-      "en": [
+      "nl": [
         "© UGENT"
       ],
-      "nl": [
+      "en": [
         "© UGENT"
       ]
     },
     "label": {
-      "nl": [
-        "Attributie"
-      ],
       "en": [
         "Attribution"
+      ],
+      "nl": [
+        "Attributie"
       ]
     }
   },
