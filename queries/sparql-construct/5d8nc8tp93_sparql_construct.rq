@@ -143,19 +143,31 @@ WHERE {
   BIND(STRLANG(?type, "en") AS ?typeEn)
   BIND(STR(?dateCreated) AS ?dateCreatedString)
   BIND(
-    COALESCE(
-      IF(BOUND(?browseHeight), ?browseHeight, 1/0),
-      IF(BOUND(?masterHeight), ?masterHeight, 1/0),
-      0
+    IF(BOUND(?browseHeight), ?browseHeight, 
+      IF(BOUND(?masterHeight), ?masterHeight, 0)
     )
     AS ?fileHeight
   )
   BIND(
-    COALESCE(
-      IF(BOUND(?browseWidth), ?browseWidth, 1/0),
-      IF(BOUND(?masterWidth), ?masterWidth, 1/0),
-      0
+    IF(BOUND(?browseWidth), ?browseWidth, 
+      IF(BOUND(?masterWidth), ?masterWidth, 0)
     )
     AS ?fileWidth
   )
+  # BIND(
+  #   COALESCE(
+  #     IF(BOUND(?browseHeight), ?browseHeight, 1/0),
+  #     IF(BOUND(?masterHeight), ?masterHeight, 1/0),
+  #     0
+  #   )
+  #   AS ?fileHeight
+  # )
+  # BIND(
+  #   COALESCE(
+  #     IF(BOUND(?browseWidth), ?browseWidth, 1/0),
+  #     IF(BOUND(?masterWidth), ?masterWidth, 1/0),
+  #     0
+  #   )
+  #   AS ?fileWidth
+  # )
 }
